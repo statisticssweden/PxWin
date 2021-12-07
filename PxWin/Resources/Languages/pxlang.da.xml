@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language xmlns="PC-Axis" name="da">
+  <sentence name="and" value="og" />
+  <sentence name="by" value="efter" />
+  <sentence name="Ok" value="Ok" />
+  <sentence name="Cancel" value="Afbryd" />
+  <sentence name="Run" value="Kør" />
+  <sentence name="Open" value="Åbne" />
+  <sentence name="Change" value="Ændre" />
+  <sentence name="MainTitle" value="PxWin" />
+  <sentence name="FooterColumns" value="K:" />
+  <sentence name="FooterRows" value="R:" />
+  <sentence name="FooterCells" value="Celler:" />
+  <sentence name="TabTable" value="Tabel" />
+  <sentence name="TabFootnote" value="Fodnoter" />
+  <sentence name="TabInformation" value="Information" />
+  <sentence name="MenuAbout" value="Om" />
+  <sentence name="MenuCalculate" value="Beregne" />
+  <sentence name="MenuEdit" value="Redigere" />
+  <sentence name="MenuExit" value="Afslutte" />
+  <sentence name="MenuFile" value="Filer" />
+  <sentence name="MenuHelp" value="Hjælp" />
+  <sentence name="MenuLanguage" value="Sprog" />
+  <sentence name="MenuOpenTable" value="Åbne tabel" />
+  <sentence name="MenuSave" value="Gem" />
+  <sentence name="MenuSaveAs" value="Gem som..." />
+  <sentence name="MenuTools" value="Værktøj" />
+  <sentence name="MenuOpen" value="Åbne" />
+  <sentence name="MenuUndo" value="Fortryd" />
+  <sentence name="MenuEditPivot" value="Pivotere..." />
+  <sentence name="MenuEditPivotCW" value="Pivotere med ur" />
+  <sentence name="MenuEditPivotCCW" value="Pivotere mod ur" />
+  <sentence name="MenuEditDeleteVariable" value="Fjern variabel..." />
+  <sentence name="MenuEditDeleteValue" value="Fjern værdi..." />
+  <sentence name="MenuEditChangeValueOrder" value="Ændre værdirækkefølge..." />
+  <sentence name="MenuCalculateSum" value="Summere..." />
+  <sentence name="MenuCalculatePerMille" value="Promille..." />
+  <sentence name="MenuCalculateAdd" value="Addere..." />
+  <sentence name="MenuCalculateSubstract" value="Subtrahere..." />
+  <sentence name="MenuCalculateMultiply" value="Multiplicere..." />
+  <sentence name="MenuCalculateDivide" value="Dividere..." />
+  <sentence name="MenuCalculatePercent" value="Procent..." />
+  <sentence name="MenuStopRecording" value="Gem udtræk..." />
+  <sentence name="MenuRunSavedQuery" value="Anvend gemt udtræk..." />
+  <sentence name="MenuRunSavedQueryDialog" value="Saved retrieval" />
+  <sentence name="MenuBatch" value="Batch" />
+  <sentence name="AboutPXWin" value="Om PxWin" />
+  <sentence name="VersionText" value="Version" />
+  <sentence name="MandatoryFootnotes" value="Obligatoriske fodnoter" />
+  <sentence name="OpenTableFileSystem" value="Filsystem" />
+  <sentence name="SelectValuesTitle" value="Vælg værdier" />
+  <sentence name="SelectValuesCount" value="af" />
+  <sentence name="SelectValuesAtLeastOneValueTitle" value="Vælg værdier" />
+  <sentence name="SelectValuesAtLeastOneValue" value="Mindst en værdi skal vælges for følgende variabler:" />
+  <sentence name="SelectClassificationTitle" value="Vælg inddeling" />
+  <sentence name="SelectValuesCtrlGroupTooltip" value="Vælg inddeling" />
+  <sentence name="SelectValuesCtrlSelectAllTooltip" value="Vælg alla värden" />
+  <sentence name="SelectValuesCtrlUnselectTooltip" value="Marker alle værdier" />
+  <sentence name="SelectValuesCtrlAscendingTooltip" value="Sorter stigende" />
+  <sentence name="SelectValuesCtrlDescendingTooltip" value="Sorter faldende" />
+  <sentence name="SelectValuesCtrlSearchTooltip" value="Søg værdier" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCells" value="Antal valgte celler: {0}" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCellsMaximum" value="Antal valgte celler: {0} (max tilladt er {1})" />
+  <sentence name="SelectValuesCtrlSelectAllButton" value="Vælg alle værdier" />
+  <sentence name="AccessDeniedHeading" value="Rettighed mangler" />
+  <sentence name="AccessDeniedText" value="Du har ikke rettigheder til at se tabellen" />
+  <sentence name="Name" value="Navn" />
+  <sentence name="Category" value="Kategori" />
+  <sentence name="CategoryInternal" value=" I " />
+  <sentence name="CategoryPrivate" value=" P " />
+  <sentence name="CategoryOfficial" value=" O " />
+
+  <!--Footnote -->
+  <sentence name="FootnoteNote" value="Fodnote" />
+  <sentence name="FootnoteLatestUpdate" value="Senest opdateret" />
+  <sentence name="FootnoteSorce" value="Kilde" />
+  <sentence name="FootnoteContact" value="Kontakt" />
+  <sentence name="FootnoteUnits" value="Enhed" />
+  <sentence name="FootnoteDataType" value="Datatype" />
+  <sentence name="FootnoteReferencePeriod" value="Reference periode" />
+  <sentence name="FootnoteDatabase" value="Database" />
+  <sentence name="FootnoteInternalReferenceCode" value="Intern referencekode" />
+
+  <!--Save -->
+  <sentence name="SaveText" value="Filen er gemt" />
+  <sentence name="SaveCaption" value="Fil gemt" />
+  <sentence name="SaveAsXlsx" value="Gem som xlsx" />
+  <sentence name="SaveAsXlsxWithCodeAndText" value="Med kode oo tekst" />
+  <sentence name="SaveAsComplete" value="{0} er gemt" />
+  <sentence name="SaveAs" value="Gem som" />
+  <sentence name="SaveAsFileFormats" value="
+PX-fil (*.px)|*.px|
+Excel workbook (*.xml)|*.xml|
+Excel workbook med kod och text (*.xml)|*.xml|
+Tab separeret med overskrift (*.csv)|*.csv|
+Tab separeret uden overskrift (*.csv)|*.csv|
+Komma separeret med overskrift (*.csv)|*.csv|
+Komma separeretuden overskrift (*.csv)|*.csv|
+Blankstegs separeret med overskrift (*.csv)|*.csv|
+Blankstegs separeret uden overskrift (*.csv)|*.csv|
+Semikolon separeret med overskrift (*.csv)|*.csv|
+Semikolon separeret uden overskrift (*.csv)|*.csv|
+Html-fil (*.html)|*.html|
+Relationstabel (*.txt)|*.txt|
+Excel (*.xlsx)|*.xlsx|
+Excel med koder og tekst (*.xlsx)|*.xlsx|
+Relationstabel med koder og kolonne overskrift (*.txt)|*.txt|
+Relationstabel med koder og uden kolonne overskrift (*.txt)|*.txt" />
+  <sentence name="SaveChangesTitle" value="Gem ændringer" />
+  <sentence name="SaveChangesQuestion" value="Tabel {0} er ændret. Vil du gemme ændringer?" />
+  <sentence name="SaveChangesYes" value="Gem" />
+  <sentence name="SaveChangesNo" value="Gem ikke" />
+  <sentence name="SaveChangesCancel" value="Afbryd" />
+  
+  <!--<sentence name="FileTypePX" value="PC-Axis-fil" />
+  <sentence name="FileTypeExcel" value="Excel workbook (xml)" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook (xml) med koder og tekst" />
+  <sentence name="FileTypeExcelCompleteInfoFile" value="Excel fil som skärm" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tab separeret med overskrift" />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tab separeret uden overskrift" />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Komma separeret med overskrift" />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Komma separeret uden overskrift" />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Blanktegns separeret med overskrift" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Blanktegns separeret uden overskrift" />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semikolon separeret med overskrift" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semikolon separeret uden overskrift" />
+  <sentence name="FileTypeText" value="Tekstfil (txt)" />
+  <sentence name="FileTypeHtml" value="Html fil (htm)" />
+  <sentence name="FileTypeRelational" value="Relationstabel som tekstfil (scb)" />
+  <sentence name="FileTypeExcelX" value="Excel (xlsx)" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel (xlsx) med koder og tekst" />-->
+
+  <!-- Batch-->
+  <sentence name="Batch" value="Batch" />
+  <sentence name="BatchMissingDestination" value="Værdi mangler" />
+  <sentence name="BatchMissingDestinationText" value="Du skal angive en destinations mappe" />
+  <!--<sentence name="BatchOpenHeading" value="Åbne .pxsq eller .pxt" />-->
+  <sentence name="BatchSaveToPxtButton" value="Gem .pxt" />
+  <!--<sentence name="BatchSaveToPxtHeading" value="Gem som .pxt" />-->
+  <sentence name="BatchSaveToPxtLabel" value="Gem udtræk som .pxt-fil. Vælg destinations mappe oog ønsket filformat." />
+  <sentence name="BatchSaveToBatButton" value="Gem .bat" />
+  <!--<sentence name="BatchSaveToBatHeading" value="Gem som .bat" />-->
+  <sentence name="BatchSaveToBatLabel" value="Vælg en .pxt-fil og gem som .bat" />
+  <sentence name="BatchOpen" value="1. Åbne gemt uddtræk (.pxsq) eller batchfil (.pxt)" />
+  <sentence name="BatchFileFormat" value="2. Vælg filformat" />
+  <sentence name="BatchDestinationFolder" value="3. Vælg destinationsfolder" />
+  <sentence name="BatchAction" value="4. Anvend liste" />
+  <sentence name="BatchRun" value="Kør" />
+  <sentence name="BatchClose" value="Luk" />
+  <sentence name="BatchSavedQueries" value="Gemte udtræk" />
+  <sentence name="BatchStatus" value="Status" />
+  <sentence name="BatchNotRun" value="Ikke kørt" />
+  <sentence name="BatchWorking" value="Arbejter..." />
+  <sentence name="BatchNotOk" value="Fejl" />
+  <sentence name="BatchRemove" value="TFjern markerede rækker fra listen" />
+
+  <!--Saved Query-->
+  <sentence name="Step" value="Trin" />
+  <sentence name="Operation" value="Handling" />
+  <sentence name="PIVOT" value="Pivotere" />
+  <sentence name="PIVOT_CW" value="Pivotere med ur" />
+  <sentence name="PIVOT_CCW" value="Pivotere mod ur" />
+  <sentence name="CHANGE_VALUE_ORDER" value="Ændre værdirækkefølge" />
+  <sentence name="DELETE_VALUE" value="Fjern værdi" />
+  <sentence name="DELETE_VARIABLE" value="Fjern variabel" />
+  <sentence name="SUM" value="Summere" />
+  <sentence name="CHANGE_DECIMALS" value="Ændre antal decimaler" />
+  <sentence name="CHANGE_TEXT_CODE_PRESENTATION" value="Ændre tekst/kode-præsentation" />
+  <sentence name="Multiplication" value="Multiplicere" />
+  <sentence name="Addition" value="Addere" />
+  <sentence name="PerCent" value="Procent" />
+
+  <sentence name="FileTypePX" value="PX-fil" />
+  <sentence name="Filetypejsonstat" value="JSON-stat fil" />
+  <sentence name="FileTypeExcel" value="Excel workbook" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook med koder og tekst" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tab separeret med overskrift " />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tab separeret uden overskrift " />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Komma separeret med overskrift " />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Komma separeret uden overskrift " />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Blanktegns separeret med overskrift " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Blanktegns separeret uden overskrift " />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semikolon separeret med overskrift " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semikolon separeret uden overskrift " />
+  <sentence name="FileTypeHtml" value="Html-fil " />
+  <sentence name="FileTypeRelational" value="Relationel fil " />
+  <sentence name="FileTypeExcelX" value="Excel" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel med koder og tekst" />
+  <sentence name="FileTypeRelationalCodeWithHeading" value="Relationstabel med koder og overskrifter " />
+  <sentence name="FileTypeRelationalCodeWithoutHeading" value="Relationstabel med koder og uden overskrifter " />
+  
+  <!--<sentence name="FileFormats" value="
+PX-fil (*.px);
+Excel workbook (*.xml);
+Excel workbook med koder og tekst (*.xml);
+Tabb separeret med overskrift (*.csv);
+Tabb separeret uden overskrift (*.csv);
+Komma separeret med overskrift (*.csv);
+Komma separeret uden overskrift (*.csv);
+Blankstegs separeret med overskrift (*.csv);
+Blankstegs separeret uden overskrift (*.csv);
+Semikolon separeret med overskrift (*.csv);
+Semikolon separeret uden overskrift (*.csv);
+Html-fil (*.html);
+Relationstabel (*.txt);
+Excel (*.xlsx);
+Excel med koder og tekst (*.xlsx);
+Relationstabel med koder og overskrift (*.txt);
+Relationstabel med koder og uden overskrift (*.txt)" />-->
+
+  <sentence name="SavedQueryStop" value="Gem udtræk" />
+  <sentence name="SavedQueryIntervalFixed" value="Fast starttid: Vis samme udtræk og tilføj nye tidsperioder." />
+  <sentence name="SavedQueryIntervalRolling" value="Rullende starttid: Vis samme antal tidsperioder og opdater med nye tidsperioder." />
+  <sentence name="SavedQueryIntervalSame" value="Samme tidsperiode: Vis samme udtræk igen." />
+  <sentence name="SavedQuerySaveBat" value="Tilføj .bat-fil" />
+  <sentence name="SavedQueryBrowse" value="Gennemse" />
+  <sentence name="SavedQueryOutputDir" value="Destinationsmappe" />
+  <sentence name="SavedQueryOutputFormat" value="Filformat" />
+  <sentence name="SavedQueryFilename" value="Filnavn" />
+
+  <!--Operation dialogs-->
+  <sentence name="OperationColumnHeaderStub" value="Forspalte" />
+  <sentence name="OperationColumnHeaderHeading" value="Tabelhoved" />
+  <sentence name="OperationPivot" value="Pivotere manuelt" />
+
+  <sentence name="OperationSum" value="Summere" />
+  <sentence name="OperationSumSelectVariable" value="Vælg variabel" />
+  <sentence name="OperationSumInitialValue" value="Initial værdi" />
+  <sentence name="OperationSumInclude" value="Inklusiv" />
+  <sentence name="OperationSumExclude" value="Eksklusiv" />
+  <sentence name="OperationSumNewValue" value="Ny værdi" />
+  <sentence name="OperationSumName" value="Navn" />
+  <sentence name="OperationSumCode" value="Kode" />
+  <sentence name="OperationSumSelectValueMessage" value="Du skal vælge mindst en værdi" />
+  
+  <sentence name="OverlayTableText" value="Tabel på tabel..." />
+  <sentence name="OverlayTableDialogText" value="Vælg tabel at slå tabellen sammen med" />
+  <sentence name="OverlayTableHelpText" value="Fyld ud navn på ny variabel (dimension), værditekster og koder (før og efter redigering)" />
+  <sentence name="OverlayTableEnterVariable" value="Fyld ud navn på variabeln" />
+  <sentence name="OverlayTableEnterValue1" value="Fyld ud tekst for værdi(1)" />
+  <sentence name="OverlayTableEnterValue2" value="Fyld i tekst for værdi(2)" />
+
+  <sentence name="LinkTableText" value="Tabel ved tabel..." />
+  <sentence name="LinkTableChooseTable" value="Vælg tabel som skal linkes" />
+
+  <sentence name="ChangeTextCodeMenu" value="Ændre tekst/kode-præsentation..." />
+  <sentence name="ChangeTextCode" value="Ændre tekst/kode-præsentation" />
+  <sentence name="ChangeTextCodeHelpText" value="Vælg et alternativ til hver variabel du vil bytte præsentation for." />
+  <sentence name="ChangeText" value="Tekst" />
+  <sentence name="ChangeCode" value="Kode" />
+  <sentence name="ChangeTextAndCode" value="Tekst og kode" />
+
+  <sentence name="SelectFolderOVERLAY" value="Vælg mappe for tabel på tabel" />
+  <sentence name="SelectFolderLINK" value="Vælg mappe for tabel ved tabel" />
+  <sentence name="SelectPxFile" value="Vælg PX-fil" />
+
+  <sentence name="OperationPercent" value="Procent" />
+  <sentence name="OperationPercentBaseHeading" value="Vælg basis for beregningen" />
+  <sentence name="OperationPercentBaseVariable" value="Variabel" />
+  <sentence name="OperationPercentBaseVariableValue" value="Variabelværdi" />
+  <sentence name="OperationPercentBaseCellValue" value="Cellværdi" />
+  <sentence name="OperationPercentBaseSelectionHeading" value="Gør dette for at vælge basis:" />
+  <sentence name="OperationPercentBaseInstructionVariable" value="Vælg alle værdier til en en variabel" />
+  <sentence name="OperationPercentBaseInstructionVariableValue" value="Vælg en værdi til en variabel" />
+  <sentence name="OperationPercentBaseInstructionCellValue" value="Vælg en værdi til hver variabel" />
+  <sentence name="OperationPercentRequiredValue" value="Nødvendig værdi" />
+  <sentence name="OperationPercentValueNeededText" value="Fyld ud navn og kode på ny værdi" />
+  <sentence name="OperationPercentInitialValue" value="Initiel værdi" />
+  <sentence name="OperationPercentInclude" value="Inkluder" />
+  <sentence name="OperationPercentExclude" value="Ekskluder" />
+  <sentence name="OperationPercentNewValue" value="Navn på ny værdi" />
+  <sentence name="OperationPercentNewValueDefault" value="Procent" />
+  <sentence name="PxcSortVariable" value="sorteringsvariabel" />
+  <sentence name="OperationPercentAllowText" value="Kun følgende valg er tilladt:
+            
+En værdi
+En værdi fra hver variabel
+Alle værdier fra en variabel" />
+  
+  <sentence name="OperationCalculate" value="Beregne" />
+  <sentence name="OperationCalculateInitialValues" value="Initielle værdier" />
+  <sentence name="OperationCalculateInclusive" value="Inklusiv" />
+  <sentence name="OperationCalculateExclusive" value="Eksklusiv" />
+  <sentence name="OperationCalculateNewValue" value="Ny værdi" />
+  <sentence name="OperationCalculateName" value="Navn" />
+  <sentence name="OperationCalculateCode" value="Kode" />
+  <sentence name="OperationCalculateConstant" value="Konstant:" />
+  <sentence name="OperationCalculateSelectValueMessage" value="Udtræk kan kun gøres med 2 værdier eller en værdi og en konstant." />
+  <sentence name="OperationCalculateSelectErrorMessage" value="Fejl ved valg" />
+  <sentence name="OperationCalculateNewValueMessage" value="Ny værdi skal have tekst og kode" />
+  <sentence name="OperationCalculateNewValueErrorMessage" value="Nødvendige værdier" />
+  <sentence name="OperationCalculateTooManyValues" value="Max 2 værdier er tilladt" />
+  <sentence name="OperationCalculateAddition" value="Addition" />
+  <sentence name="OperationCalculateDivision" value="Division" />
+  <sentence name="OperationCalculateMultiplication" value="Multiplication" />
+  <sentence name="OperationCalculateSubtraction" value="Subtraction" />
+
+  <sentence name="OperationDeleteVariable" value="Fjern variabel" />
+  <sentence name="OperationDeleteSelectValueMessage" value="Vælg værdi som skal fjernes " />
+  <sentence name="OperationDeleteSelectValueHelpText" value="Vælg en værdi som skal bruges for tabel " />
+  <sentence name="OperationDeleteSelectValue" value="Vælg værdi" />
+  <sentence name="OperationDeleteVariableAddToContents" value="Tilføj værdi i overskrift" />
+  <sentence name="OperationDeleteSelectVariableMessage" value="Vælg variabel, der skal fjernes" />
+  <sentence name="OperationDeleteSelectVariableErrorMessage" value="Vælg variabel" />
+  <sentence name="OperationDeleteSelectValueErrorMessage" value="Vælg værdi" />
+  <sentence name="OperationDeleteValue" value="Fjern værdi" />
+  <sentence name="OperationDeleteValueErrorMessage" value="Fejl ved handling" />
+  <sentence name="OperationDeleteValueError" value="Fejl" />
+  <sentence name="OperationDeleteValueHelpText" value="Husk på at hver variabel skal have mindst en værdi." />
+
+
+  <sentence name="OperationChangeValueOrder" value="Ændre rækkefølge for værdier" />
+  <sentence name="OperationChangeValueOrderFromOrder" value="Fra rækkkefølge" />
+  <sentence name="OperationChangeValueOrderToOrder" value="Til rækkefølge" />
+  <sentence name="OperationChangeValueOrderSortAsce" value="Sortere faldende" />
+  <sentence name="OperationChangeValueOrderSortDesc" value="Sortere stigende" />
+  <sentence name="OperationChangeValueOrderMoveRest" value="Flyt allt" /> 
+
+  <sentence name="ValueSelectSelectAll" value="Vælg alle" />
+  <sentence name="ValueSelectDeselectAll" value="Fravælg alle" />
+
+  <sentence name="ChangeDecimal" value="Ændre antal decimaler" />
+  <sentence name="ChangeDecimalMenu" value="Ændre antal decimaler..." />
+  <sentence name="ChangeDecimalInfo" value="Skriv tal for antal decimaler du vil anvende (0-6)" />
+  <sentence name="ChangeDecimalErrorText" value="Kun tal (0-6) kan bruges" />
+  <sentence name="ChangeDecimalErrorHead" value="Ugyldigt tegn" />
+  
+  <sentence name="ExitApplicationMessage" value="Er du sikker på at du vil lukke PxWin?" />
+  <sentence name="ExitApplicationWithoutSaveMessage" value="Tabellen er ændret. Er du sikker på at du vil lukke PxWin?" />
+  <sentence name="ExitTableWithoutSaveMessage" value="Tabellen er ændret. Er du sikker på at du vil lukke den?" />
+  
+  <sentence name="PxcKeywordLastUpdated" value="Senest opdateret" />
+  <sentence name="PxcKeywordSource" value="Kilde" />
+  <sentence name="PxcKeywordContact" value="Kontaktperson" />
+  <sentence name="PxcKeywordCopyright" value="Copyright" />
+  <sentence name="PxcKeywordUnits" value="Sorter" />
+  <sentence name="PxcKeywordStockfa" value="Datatype" />
+  <sentence name="PxcKeywordStockfaValueStock" value="Stock" />
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flow" />
+  <sentence name="PxcKeywordStockfaValueAverage" value="Gennemsnit" />
+  <sentence name="PxcKeywordRefPeriod" value="Reference tid" />
+  <sentence name="PxcKeywordBasePeriod" value="Basis tid" />
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Løbende priser" />
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Faste priser" />
+  <sentence name="PxcKeywordDayAdj" value="Kalenderkorrigering" />
+  <sentence name="PxcKeywordSeasAdj" value="Sæsonafgrænsning" />
+  <sentence name="PxcKeywordDatabase" value="Database" />
+  <sentence name="PxcKeywordMatrix" value="Intern referencekode" />
+  <sentence name="PxcKeywordOfficialStatistics" value="Officiel statistik" />
+
+  <sentence name="ConfigurartionChangeExit" value="A change has been made to the configuration. Please restart the application." />
+  
+  
+
+  <!-- Error Test -->
+  <sentence name="PxcYear" value="year" />
+  <sentence name="PxcHalfyear" value="halfyear" />
+  <sentence name="PxcQuarter" value="quarter" />
+  <sentence name="PxcMonth" value="month" />
+  <sentence name="PxcWeek" value="week" />
+  <sentence name="PxcMetaTitleBy" value="by" />
+  <sentence name="PxcMetaTitleAnd" value="and" />
+  <sentence name="PxcOpSplitTimeVarYear" value="year" />
+  <sentence name="PxcOpSplitTimeVarQuarter" value="quarter" />
+  <sentence name="PxcOpSplitTimeVarMonth" value="month" />
+  <sentence name="PxcOpSplitTimeVarJanuary" value="January" />
+  <sentence name="PxcOpSplitTimeVarFebruary" value="February" />
+  <sentence name="PxcOpSplitTimeVarMarch" value="March" />
+  <sentence name="PxcOpSplitTimeVarApril" value="April" />
+  <sentence name="PxcOpSplitTimeVarMay" value="May" />
+  <sentence name="PxcOpSplitTimeVarJune" value="June" />
+  <sentence name="PxcOpSplitTimeVarJuly" value="July" />
+  <sentence name="PxcOpSplitTimeVarAugust" value="August" />
+  <sentence name="PxcOpSplitTimeVarSeptember" value="September" />
+  <sentence name="PxcOpSplitTimeVarOctober" value="October" />
+  <sentence name="PxcOpSplitTimeVarNovember" value="November" />
+  <sentence name="PxcOpSplitTimeVarDecember" value="December" />
+  <sentence name="PxcOpSplitTimeVarQuarter1" value="Quarter 1" />
+  <sentence name="PxcOpSplitTimeVarQuarter2" value="Quarter 2" />
+  <sentence name="PxcOpSplitTimeVarQuarter3" value="Quarter 3" />
+  <sentence name="PxcOpSplitTimeVarQuarter4" value="Quarter 4" />
+  <sentence name="ERROR_MISSING_TIMEVALUE" value="The TIMEVALUE is missing" />
+  <sentence name="PxcErrCellNoteValueMissing" value="The value={0} is not valid"/>
+  <sentence name="PxcErrToManyCodes" value="{0} has to many codes specified"/>
+  <sentence name="PxcGroupedValuesMissing" value="{0} grouped values are missing"/>
+  <sentence name="PxcGroupingVariableWithNoValues" value="The grouping variable {0} contains no values"/>
+  <sentence name="SqlErr" value=""/>
+  <sentence name="SqlWarn" value=""/>
+  <sentence name="PxcContactPhone" value="Phone"/>
+  <sentence name="PxcContactFax" value="Fax"/>
+  <sentence name="PxcContactEMail" value="e-mail"/>
+  <sentence name="PxcContactWebAddress" value="Web Page"/>
+  <sentence name="PxcPercent" value="per cent"/>
+  <sentence name="PxcPermil" value="per millage"/>
+  <sentence name="PxcPercentUnitVarExists" value="Cannot calculate per cent when unit variable already exists"/>
+  <sentence name="PxcPermilUnitVarExists" value="Cannot calculate per millage when unit variable already exists"/>
+  <sentence name="PxcErr103" value="UNITS error"/>
+  <sentence name="PxcErr106" value="STUB error"/>
+  <sentence name="PxcErr107" value="HEADING error"/>
+  <sentence name="PxcErr108" value="VALUES error"/>
+  <sentence name="PxcErr109" value="CODES error"/>
+  <sentence name="PxcErr111" value="NOTE or NOTEX for Variable error"/>
+  <sentence name="PxcErr112" value="VALUENOTE or VALUENOTEX error"/>
+  <sentence name="PxcErr113" value="CELLNOTE or CELLNOTEX error"/>
+  <sentence name="PxcErr115" value="ELIMINATION yes/no error"/>
+  <sentence name="PxcErr117" value="PARTITION error"/>
+  <sentence name="PxcErr121" value="KEYS error"/>
+  <sentence name="PxcErr123" value="PRECISION error"/>
+  <sentence name="PxcErr124" value="DOMAIN error"/>
+  <sentence name="PxcErr130" value="TITLE or DESCRIPTION missing"/>
+  <sentence name="PxcErr131" value="MATRIX missing"/>
+  <sentence name="PxcErr132" value="SUBJECT AREA missing"/>
+  <sentence name="PxcErr133" value="SUBJECT CODE missing"/>
+  <sentence name="PxcErr134" value="STUB and HEADING missing"/>
+  <sentence name="PxcErr135" value="UNITS missing"/>
+  <sentence name="PxcErr136" value="CONTENTS missing"/>
+  <sentence name="PxcErr137" value="DECIMALS missing"/>
+  <sentence name="PxcErr138" value="SHOWDECIMALS error"/>
+  <sentence name="PxcErr142" value="COPYRIGHT is wrong"/>
+  <sentence name="PxcErr143" value="DAYADJ is wrong"/>
+  <sentence name="PxcErr144" value="SEASADJ is wrong"/>
+  <sentence name="PxcErr146" value="CONTACT is wrong"/>
+  <sentence name="PxcErr147" value="REFPERIOD is wrong"/>
+  <sentence name="PxcErr149" value="LAST-UPDATED is wrong"/>
+  <sentence name="PxcErr151" value="STOCKFA is wrong"/>
+  <sentence name="PxcErr152" value="CFPRICES is wrong"/>
+  <sentence name="PxcErr153" value="TIMEVAL is wrong"/>
+  <sentence name="PxcErr154" value="BASEPERIOD is wrong"/>
+  <sentence name="PxcErr160" value="Keyword dependent on CONTVARIABLE found but no contents variable"/>
+  <sentence name="PxcErr161" value="CONTVARIABLE or dependent keyword error"/>
+  <sentence name="PxcErr162" value="PRESTEXT error"/>
+  <sentence name="PxcErr164" value="MAP error"/>
+  <sentence name="PxcErr166" value="AGGREGALLOWED error"/>
+  <sentence name="PxcErr167" value="AUTOPEN error"/>
+  <sentence name="PxcErr168" value="DOUBLECOLUMN error"/>
+  <sentence name="PxcErr169" value="DESCRIPTIONDEFAULT error"/>
+  <sentence name="PxcErr176" value="DATANOTE error"/>
+  <sentence name="PxcErr180" value="DATA missing"/>
+  <sentence name="PxcErr201" value="HIERARCHYLEVELSOPEN error "/>
+  <sentence name="PxcErr202" value="HIERARCHYLEVELS error "/>
+  <sentence name="PxcErr203" value="HIERARCHYNAMES error"/>
+  <sentence name="PxcErr204" value="HIERARCHIES error"/>
+  <sentence name="PxcErr205" value="OFFICIAL-STATISTICS error"/>
+  <sentence name="PxcErr300" value="VALUE-TEXT-OPTION error"/>
+  <sentence name="PxcKeywordError" value="{0} error"/>
+  <sentence name="ErrorNoAvailableFiles" value="No valid files available at" />
+  <sentence name="ErrorActionIsMissing" value="Action is missing, or is not recognized" />
+  <sentence name="OperationError" value="Operation error" />
+  <sentence name="Error" value="Error" />
+  <sentence name="Protected" value="Protected" />
+  <sentence name="ErrorInAuthorization" value="Error in authorization" />
+  <sentence name="FatalErrors" value="Fatal errors" />
+  <sentence name="Warnings" value="Warnings" />
+
+
+  <sentence name="toolAggMenuRoot" value="Classifications (BETA)" />
+  <sentence name="toolAggMenuOpenValueset" value="Open valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewValueset" value="New valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewAggregation" value="New aggregation (.agg) (BETA)" />
+
+  <sentence name="toolAggNewAggregation" value="New aggregation (.agg)" />
+  <sentence name="toolAggNewValueset" value="New valueset (.vs)" />
+
+  <sentence name="toolAggAggregationBox" value="Aggregation" />
+  <sentence name="toolAggAggregationName" value="Name:" />
+  <sentence name="toolAggAggregationMap" value="Map:" />
+  <sentence name="toolAggAllowOverlappingValues" value="Allow overlapping values" />
+  
+  <sentence name="toolAggGroupsBox" value="Groups" />
+  <sentence name="toolAggGroupsListCode" value="Code" />
+  <sentence name="toolAggGroupsListText" value="Text" />
+  <sentence name="toolAggGroupsListIncludedValues" value="Included values" />
+  <sentence name="toolAggGroupUp" value="Move up" />
+  <sentence name="toolAggGroupDown" value="Move down" />
+  <sentence name="toolAggGroupDelete" value="Delete" />
+  <sentence name="toolAggGroupNew" value="New group" />
+  
+  <sentence name="toolAggGroupInfoBox" value="Group information" />
+  <sentence name="toolAggGroupSave" value="Save group" />
+  <sentence name="toolAggGroupCancelEdit" value="Cancel" />
+  <sentence name="toolAggGroupEdit" value="Edit group" />
+  <sentence name="toolAggGroupCode" value="Code:" />
+  <sentence name="toolAggGroupText" value="Text:" />
+  <sentence name="toolAggGroupValueListCode" value="Code" />
+  <sentence name="toolAggGroupValueListText" value="Text" />
+
+  <sentence name="toolAggAggregationValuesetBox" value="Valueset" />
+  <sentence name="toolAggAggregationValuesetName" value="Name:" />
+  <sentence name="toolAggAggregationValuesetDomain" value="Domain:" />
+  <sentence name="toolAggAggregationValuesetFile" value="Valuset file:" />
+  <sentence name="toolAggAggregationValuesetFileBrowse" value="Browse" />
+
+  <sentence name="toolAggAggregationAvailableBox" value="Available values" />
+  <sentence name="toolAggAggregationAvailableCode" value="Code" />
+  <sentence name="toolAggAggregationAvailableText" value="Text" />
+
+  <sentence name="toolAggAggregationSaveFile" value="Save aggregation file (.agg)" />
+
+  <sentence name="toolAggDeleteGroupQuestion" value="Do you want to delete the selected group?" />
+  <sentence name="toolAggDeleteGroupCaption" value="Delete group" />
+  <sentence name="toolAggIllegalFileMessage" value="The file has illegal file format:" />
+  <sentence name="toolAggIllegalFileCaption" value="Error reading file" />
+  <sentence name="toolAggEnterGroupCodeMessage" value="You must enter the group code" />
+  <sentence name="toolAggEnterGroupCodeCaption" value="Enter value" />
+  <sentence name="toolAggEnterGroupNameMessage" value="You must enter the group text" />
+  <sentence name="toolAggEnterGroupNameCaption" value="Enter value" />
+  <sentence name="toolAggExistingGroupMessage" value="A group with this code already exists, please enter another code" />
+  <sentence name="toolAggExistingGroupCaption" value="Existing group" />
+  <sentence name="toolAggEnterAggregationNameMessage" value="You must enter the name of the aggregation" />
+  <sentence name="toolAggEnterAggregationNameCaption" value="Enter value" />
+  <sentence name="toolAggIllegalVsAssociationMessage" value="The aggregation (.agg) file is not associated with the valueset (.vs) file. The value of 'Valueset' in the .agg file must be the same as the value of 'Name' in the .vs file. Do you want to remove this aggregation file from the list of aggregations in the valueset (.vs) file?" />
+  <sentence name="toolAggIllegalVsAssociationCaption" value="Illegal valueset association" />
+  <sentence name="toolAggFileChangedMessage" value="The file '{0}' has been changed. Do you want to reload the file in PxWin?" />
+  <sentence name="toolAggAggFileChangedMessage" value="The file '{0}' or its .vs file has been changed. Do you want to reload the file in PxWin?" />
+  <sentence name="toolAggFileChangedCaption" value="File has been changed" />
+
+  <sentence name="toolAggIllegalValue" value="Illegal value. This value is not part of the valueset." />
+  <sentence name="toolAggMessOverlappingOrIllegalValues" value="Contains overlapping or illegal values." />
+
+  <sentence name="toolAggSaveChangesTitle" value="Save changes" />
+  <sentence name="toolAggSaveChangesQuestion" value="The file {0} has been changed. Do you want to save changes?" />
+  <sentence name="toolAggSaveChangesYes" value="Save" />
+  <sentence name="toolAggSaveChangesNo" value="Do not save" />
+  <sentence name="toolAggSaveChangesCancel" value="Cancel" />
+
+  <!--Valuset .vs fil-->
+  <sentence name="toolValueSetImportFile" value="Import to valueset file (.vs)" />
+  <sentence name="toolValueSetSaveFile" value="Save valuset file (.vs)" />
+  <sentence name="toolValueSetName" value="Name" />
+  <sentence name="toolValueSetPrestext" value="Prestext" />
+  <sentence name="toolValueSetDomain" value="Domain" />
+  <sentence name="toolValueSetType" value="Type" />
+  <sentence name="toolValueSetTabValues" value="Values" />
+  <sentence name="toolValueSetTabAggFiles" value="Aggregation files" />
+  <sentence name="toolValueSetColumnCode" value="Code" />
+  <sentence name="toolValueSetColumnText" value="Text" />
+  <sentence name="toolValueSetCreateNewAggregationFile" value="Create new aggregation file" />
+  <!-- Warning and error meddage Valuset -->
+  <sentence name="toolValueSetMessDublicateCodes" value="The valuset contains duplicates" />
+  <sentence name="toolValueSetDublicateCodesMessage" value="The file contains duplicates." />
+  <sentence name="toolValueSetDublicateCodesCaption" value="Duplicates" />
+  <sentence name="toolValueSetFileNameAndNameMessage" value="File name and name in valuset file do not match. The name of the valueset should be the sam as the file name. Would you still save the value set file?" />
+  <sentence name="toolValueSetFileNameCaption" value="File name" />
+  <sentence name="toolValueSetEnterValueSetNameMessage" value="Enter the name for the value set" />
+  <sentence name="toolValueSetEnterValueSetCaption" value="Enter value" />
+  <sentence name="toolValueSetEnterValueSetPrestextMessage" value="Enter the prestext for the value set" />
+  <sentence name="toolValueSetEnterValueSetDomainMessage" value="Enter the domain for the value set" />
+  <sentence name="toolValueSetErrorCaption" value="Error" />
+  <sentence name="toolValueSetErrorDublicateCodesMessage" value="An error occurred when checking for dublicates" />
+  <sentence name="toolValueSetCodesMissingMessage" value="The section Value code [Valuecode] is missing in the .vs file" />
+
+  <!--Error message import code and text-->
+  <sentence name="toolValueSetIllegalFileCaption" value="Error reading file" />
+  <sentence name="toolValueSetIllegalFileMessage" value="The file has illegal file format" />
+  <sentence name="toolValueSetErrorReadingCSVfileMessage" value="Error while reading value code and value text from .csv file. Please check if you choosed the right delimiter." />
+  <!--Save valueset file-->
+  <sentence name="toolValueSetSaveFileCaption" value="Error saving" />
+  <sentence name="toolValueSetSaveFileMessage" value="Error when saving value set (.vs) file." />
+  <!-- Delimiter dialog-->
+  <sentence name="formDelimiterCaption" value="Delimiter in .csv file" />
+  <sentence name="formDelimiterQuestion" value="Which delimiter is use in the file?" />
+  <sentence name="formDelimiterTabulator" value="Tabulator" />
+  <sentence name="formDelimiterComma" value="Comma" />
+  <sentence name="formDelimiterSpace" value="Space" />
+  <!--Import from .px dialog -->
+  <sentence name="formPxFileValuesCaption" value="Import values codes" />
+  <sentence name="formPxFileValuesQuestion" value="On which language and which variable do you want to import from?" />
+  <sentence name="formPxFileValuesLanguage" value="Language" />
+  <sentence name="formPxFileValuesVariables" value="Variables" />            
+</language>

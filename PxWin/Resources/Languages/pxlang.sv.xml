@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="PC-Axis" name="sv">
+  <sentence name="and" value="och" />
+  <sentence name="by" value="efter" />
+  <sentence name="Ok" value="Ok" />
+  <sentence name="Cancel" value="Avbryt" />
+  <sentence name="Run" value="Kör" />
+  <sentence name="Open" value="Öppna" />
+  <sentence name="Change" value="Ändra" />
+  <sentence name="MainTitle" value="PxWin" />
+  <sentence name="PxFile" value="PX-fil" />
+  <sentence name="FooterColumns" value="K:" />
+  <sentence name="FooterRows" value="R:" />
+  <sentence name="FooterCells" value="Celler:" />
+  <sentence name="TabTable" value="Tabell" />
+  <sentence name="TabFootnote" value="Fotnoter" />
+  <sentence name="TabInformation" value="Information" />
+  <sentence name="MenuAbout" value="Om" />
+  <sentence name="MenuCalculate" value="Beräkna" />
+  <sentence name="MenuEdit" value="Redigera" />
+  <sentence name="MenuExit" value="Avsluta" />
+  <sentence name="MenuFile" value="Arkiv" />
+  <sentence name="MenuHelp" value="Hjälp" />
+  <sentence name="MenuLanguage" value="Språk" />
+  <sentence name="MenuOpenTable" value="Öppna tabell" />
+  <sentence name="MenuSave" value="Spara" />
+  <sentence name="MenuSaveAs" value="Spara som..." />
+  <sentence name="MenuTools" value="Verktyg" />
+  <sentence name="MenuOpen" value="Öppna" />
+  <sentence name="MenuUndo" value="Ångra" />
+  <sentence name="MenuEditPivot" value="Pivotera..." />
+  <sentence name="MenuEditPivotCW" value="Pivotera medurs" />
+  <sentence name="MenuEditPivotCCW" value="Pivotera moturs" />
+  <sentence name="MenuEditDeleteVariable" value="Ta bort variabel..." />
+  <sentence name="MenuEditDeleteValue" value="Ta bort värde..." />
+  <sentence name="MenuEditChangeValueOrder" value="Ändra värdeordning..." />
+  <sentence name="MenuCalculateSum" value="Summera..." />
+  <sentence name="MenuCalculatePerMille" value="Promille..." />
+  <sentence name="MenuCalculateAdd" value="Addera..." />
+  <sentence name="MenuCalculateSubstract" value="Subtrahera..." />
+  <sentence name="MenuCalculateMultiply" value="Multiplicera..." />
+  <sentence name="MenuCalculateDivide" value="Dividera..." />
+  <sentence name="MenuCalculatePercent" value="Procent..." />
+  <sentence name="MenuStopRecording" value="Spara sökningen..." />
+  <sentence name="MenuRunSavedQuery" value="Kör sparad sökning..." />
+  <sentence name="MenuRunSavedQueryDialog" value="Sparad sökning" />  
+  <sentence name="MenuBatch" value="Batch" />
+  <sentence name="AboutPXWin" value="Om PxWin" />
+  <sentence name="VersionText" value="Version" />
+  <sentence name="MandatoryFootnotes" value="Obligatoriska fotnoter" />
+  <sentence name="OpenTableFileSystem" value="Filsystem" />
+  <sentence name="OpenTableRefrehDatabaseCache" value="Uppdatera" />
+  <sentence name="SelectValuesTitle" value="Välj värden" />
+  <sentence name="SelectValuesCount" value="av" />
+  <sentence name="SelectValuesAtLeastOneValueTitle" value="Välj värden" />
+  <sentence name="SelectValuesAtLeastOneValue" value="Minst ett värde måste väljas för följande variabler:" />
+  <sentence name="SelectClassificationTitle" value="Välj indelning" />
+
+  <sentence name="FilterDialogTitle" value="Filter" />
+  <sentence name="FilterDialogCancel" value="Avbryt" />
+  <sentence name="FilterDialogTabSelect" value="Välj filter" />
+  <sentence name="FilterDialogTabSelectDescription" value="Välj filter från listan nedan som du vill applicera på variabeln" />
+  <sentence name="FilterDialogTabSelectFilternameColumn" value="Filter" />
+  <sentence name="FilterDialogTabSelectFiltertypeColumn" value="Typ" />
+  <sentence name="FilterDialogTabSelectSharedFilter" value="Delat" />
+  <sentence name="FilterDialogTabSelectPersonalFilter" value="Personligt" />
+  <sentence name="FilterDialogTabSelectDeleteFilter" value="Ta bort filter" />
+  <sentence name="FilterDialogTabSelectDeleteFilterCaption" value="Ta bort filter" />
+  <sentence name="FilterDialogTabSelectDeleteFilterText" value="Vill du ta bort det markerade filtret?" />
+  <sentence name="FilterDialogTabSelectUseFilter" value="Använd markerat filter" />
+  <sentence name="FilterDialogTabCreate" value="Skapa filter" />
+  <sentence name="FilterDialogTabCreateValues" value="Värden:" />
+  <sentence name="FilterDialogTabCreateDescription" value="Markera de värden som ska ingå i filtret. Vilka värden som ska ingå i filtret kan även importeras från fil (semikolonseparerad textfil)" />
+  <sentence name="FilterDialogTabCreateSave" value="Spara filter" />
+  <sentence name="FilterDialogTabCreateImport" value="Importera" />
+  <sentence name="FilterDialogTabCreateName" value="Namn på filtret:" />
+  <sentence name="FilterDialogTabCreateErrorNoValues" value="Välj värden. Filtret måste bestå av minst ett värde." />
+  <sentence name="FilterDialogTabCreateErrorNoName" value="Ange filtrets namn" />
+  <sentence name="FilterDialogTabCreateFilterExistsCaption" value="Filtret finnns redan" />
+  <sentence name="FilterDialogTabCreateFilterExistsText" value="Vill du skriva över befintligt filter?" />
+
+  <sentence name="SelectValuesCtrlGroupTooltip" value="Välj indelning" />
+  <sentence name="SelectValuesCtrlFilterTooltip" value="Använd filter" />
+  <sentence name="SelectValuesCtrlSelectAllTooltip" value="Välj alla värden" />
+  <sentence name="SelectValuesCtrlUnselectTooltip" value="Avmarkera alla värden" />
+  <sentence name="SelectValuesCtrlAscendingTooltip" value="Sortera stigande" />
+  <sentence name="SelectValuesCtrlDescendingTooltip" value="Sortera fallande" />
+  <sentence name="SelectValuesCtrlSearchTooltip" value="Sök värden" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCells" value="Antal valda celler: {0}" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCellsMaximum" value="Antal valda celler: {0} (max tillåtna är {1})" />
+  <sentence name="SelectValuesCtrlSelectAllButton" value="Välj alla värden" />
+  <sentence name="AccessDeniedHeading" value="Behörighet saknas" />
+  <sentence name="AccessDeniedText" value="Du saknar behörighet att se tabellen" />
+  <sentence name="Name" value="Namn" />
+  <sentence name="OpenTablePeriodColumn" value="Tidsperiod" />
+  <sentence name="Category" value="Kategori" />
+  <sentence name="CategoryInternal" value=" I " />
+  <sentence name="CategoryPrivate" value=" P " />
+  <sentence name="CategoryOfficial" value=" O " />
+   
+            <!--Footnote -->
+  <sentence name="FootnoteNote" value="Fotnot" />
+  <sentence name="FootnoteLatestUpdate" value="Senast uppdaterad" />
+  <sentence name="FootnoteSorce" value="Källa" />
+  <sentence name="FootnoteContact" value="Kontakt" />
+  <sentence name="FootnoteUnits" value="Enhet" />
+  <sentence name="FootnoteDataType" value="Datatyp" />
+  <sentence name="FootnoteReferencePeriod" value="Referensperiod" />
+  <sentence name="FootnoteDatabase" value="Databas" />
+  <sentence name="FootnoteInternalReferenceCode" value="Intern referenskod" />
+  
+  <!--Save-->
+  <sentence name="SaveText" value="Filen har sparats" />
+  <sentence name="SaveCaption" value="Fil sparad" />
+  <sentence name="SaveAsXlsx" value="Spara som xlsx" />
+  <sentence name="SaveAsXlsxWithCodeAndText" value="Med kod och text" />
+  <sentence name="SaveAsComplete" value="{0} har sparats" />
+  <sentence name="SaveAs" value="Spara som" />
+  <sentence name="SaveAsFileFormats" value="
+PX-fil (*.px)|*.px|
+Excel workbook (*.xml)|*.xml|
+Excel workbook med kod och text (*.xml)|*.xml|
+Tabbavgränsad med rubrik (*.csv)|*.csv|
+Tabbavgränsad utan rubrik (*.csv)|*.csv|
+Kommaavgränsad med rubrik (*.csv)|*.csv|
+Kommaavgränsad utan rubrik (*.csv)|*.csv|
+Blankstegsavgränsad med rubrik (*.csv)|*.csv|
+Blankstegsavgränsad utan rubrik (*.csv)|*.csv|
+Semikolonavgränsad med rubrik (*.csv)|*.csv|
+Semikolonavgränsad utan rubrik (*.csv)|*.csv|
+Html-fil (*.html)|*.html|
+Relationstabell (*.txt)|*.txt|
+Excel (*.xlsx)|*.xlsx|
+Excel med kod och text (*.xlsx)|*.xlsx|
+Relationstabell med kod och kolumnrubrik (*.txt)|*.txt|
+Relationstabell med kod och utan kolumnrubrik (*.txt)|*.txt" />
+  <sentence name="SaveChangesTitle" value="Spara ändringar" />
+  <sentence name="SaveChangesQuestion" value="Tabell {0} har ändrats. Vill du spara ändringar?" />
+  <sentence name="SaveChangesYes" value="Spara" />
+  <sentence name="SaveChangesNo" value="Spara inte" />
+  <sentence name="SaveChangesCancel" value="Avbryt" />
+
+  <!--<sentence name="FileTypePX" value="PC-Axis-fil" />
+  <sentence name="FileTypeExcel" value="Excel workbook (xml)" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook (xml) med kod och text" />
+  <sentence name="FileTypeExcelCompleteInfoFile" value="Excel fil som skärm" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tabbavgränsad med rubrik" />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tabbavgränsad utan rubrik" />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Kommaavgränsad med rubrik" />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Kommaavgränsad utan rubrik" />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Blankstegsavgränsad med rubrik" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Blankstegsavgränsad utan rubrik" />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semikolonavgränsad med rubrik" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semikolonavgränsad utan rubrik" />
+  <sentence name="FileTypeText" value="Textfil (txt)" />
+  <sentence name="FileTypeHtml" value="Html fil (htm)" />
+  <sentence name="FileTypeRelational" value="Relationstabell som textfil (scb)" />
+  <sentence name="FileTypeExcelX" value="Excel (xlsx)" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel (xlsx) med kod och text" />-->
+
+  <!-- Batch-->
+  <sentence name="Batch" value="Batch" />
+  <sentence name="BatchMissingDestination" value="Värde saknas" />
+  <sentence name="BatchMissingDestinationText" value="Du måste ange en destinationsfolder" />
+  <!--<sentence name="BatchOpenHeading" value="Öppna .pxsq eller .pxt" />-->
+  <sentence name="BatchSaveToPxtButton" value="Spara .pxt" />
+  <!--<sentence name="BatchSaveToPxtHeading" value="Spara som .pxt" />-->
+  <sentence name="BatchSaveToPxtLabel" value="Spara frågor som .pxt-fil. Välj destinationsmapp och önskat filformat." />
+  <sentence name="BatchSaveToBatButton" value="Spara .bat" />
+  <!--<sentence name="BatchSaveToBatHeading" value="Spara som .bat" />-->
+  <sentence name="BatchSaveToBatLabel" value="Välj en .pxt-fil och spara som .bat" />
+  <sentence name="BatchOpen" value="1. Öppna sparad sökning (.pxsq) eller batchfil (.pxt)" />
+  <sentence name="BatchFileFormat" value="2. Välj filformat" />
+  <sentence name="BatchDestinationFolder" value="3. Välj destinationsfolder" />
+  <sentence name="BatchAction" value="4. Använd lista" />
+  <sentence name="BatchRun" value="Kör" />
+  <sentence name="BatchClose" value="Stäng" />
+  <sentence name="BatchSavedQueries" value="Sparade sökningar" />
+  <sentence name="BatchStatus" value="Status" />
+  <sentence name="BatchNotRun" value="Ej körd" />
+  <sentence name="BatchWorking" value="Arbetar..." />
+  <sentence name="BatchNotOk" value="Fel" />
+  <sentence name="BatchRemove" value="Ta bort markerade rader från listan" />
+  <sentence name="BatchSavedQueryList" value="Sparad fråga sökningar" />
+  <sentence name="BatchBatFile" value="*Bat fil" />
+  <sentence name="BatchTabCreateBatFile" value="Skapa BAT fil" />
+  <sentence name="BatchTabBatch" value="Batch" />
+  <sentence name="BatchSavedQueryDialog" value="Sparad sökning" />
+
+  <!--Saved Query-->
+  <sentence name="Step" value="Steg" />
+  <sentence name="Operation" value="Operation" />
+  <sentence name="PIVOT" value="Pivotera" />
+  <sentence name="PIVOT_CW" value="Pivotera medurs" />
+  <sentence name="PIVOT_CCW" value="Pivotera moturs" />
+  <sentence name="CHANGE_VALUE_ORDER" value="Ändra värdeordning" />
+  <sentence name="DELETE_VALUE" value="Ta bort värde" />
+  <sentence name="DELETE_VARIABLE" value="Ta bort variabel" />
+  <sentence name="SUM" value="Summera" />
+  <sentence name="CHANGE_DECIMALS" value="Ändra decimaler" />
+  <sentence name="CHANGE_TEXT_CODE_PRESENTATION" value="Ändra text/kod-presentation" />
+  <sentence name="Multiplication" value="Multiplicering" />
+  <sentence name="Addition" value="Addering" />
+  <sentence name="PerCent" value="Procent" />
+
+  <sentence name="FileTypePX" value="PX-fil" />
+  <sentence name="Filetypejsonstat" value="JSON-stat fil" />
+  <sentence name="FileTypeExcel" value="Excel workbook" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook med kod och text" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tabbavgränsad med rubrik " />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tabbavgränsad utan rubrik " />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Kommaavgränsad med rubrik " />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Kommaavgränsad utan rubrik " />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Blankstegsavgränsad med rubrik " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Blankstegsavgränsad utan rubrik " />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semikolonavgränsad med rubrik " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semikolonavgränsad utan rubrik " />
+  <sentence name="FileTypeHtml" value="Html-fil " />
+  <sentence name="FileTypeRelational" value="Relational file " />
+  <sentence name="FileTypeExcelX" value="Excel" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel med kod och text" />
+  <sentence name="FileTypeRelationalCodeWithHeading" value="Relationstabell med kod och kolumnrubrik " />
+  <sentence name="FileTypeRelationalCodeWithoutHeading" value="Relationstabell med kod och utan kolumnrubrik " />
+  
+  <!--<sentence name="FileFormats" value="
+PX-fil (*.px);
+Excel workbook (*.xml);
+Excel workbook med kod och text (*.xml);
+Tabbavgränsad med rubrik (*.csv);
+Tabbavgränsad utan rubrik (*.csv);
+Kommaavgränsad med rubrik (*.csv);
+Kommaavgränsad utan rubrik (*.csv);
+Blankstegsavgränsad med rubrik (*.csv);
+Blankstegsavgränsad utan rubrik (*.csv);
+Semikolonavgränsad med rubrik (*.csv);
+Semikolonavgränsad utan rubrik (*.csv);
+Html-fil (*.html);
+Relationstabell (*.txt);
+Excel (*.xlsx);
+Excel med kod och text (*.xlsx);
+Relationstabell med kod och kolumnrubrik (*.txt);
+Relationstabell med kod och utan kolumnrubrik (*.txt)" />-->
+
+  <sentence name="SavedQueryStop" value="Spara sökning" />
+  <sentence name="SavedQueryIntervalFixed" value="Fast starttid: Visa samma sökning och lägg till nya tidsperioder." />
+  <sentence name="SavedQueryIntervalRolling" value="Rullande starttid: Visa samma antal tidsperioder och uppdatera med nya tidsperioder." />
+  <sentence name="SavedQueryIntervalSame" value="Samma tidsperiod: Visa samma sökning igen." />
+  <sentence name="SavedQueryTimeDependentAlert" value="Det går inte att välja att uppdatera sökningen eftersom operationer har utförts på tidsvariabeln" />
+  <sentence name="SavedQuerySaveBat" value="Lägg till .bat-fil" />
+  <sentence name="SavedQueryBrowse" value="Bläddra" />
+  <sentence name="SavedQueryOutputDir" value="Destinationsmapp" />
+  <sentence name="SavedQueryOutputFormat" value="Utformat" />
+  <sentence name="SavedQueryFilename" value="Filnamn" />
+
+  
+  <!--Operation dialogs-->
+  <sentence name="OperationColumnHeaderStub" value="Förspalt" />
+  <sentence name="OperationColumnHeaderHeading" value="Överspalt" />
+  <sentence name="OperationPivot" value="Pivotera manuellt" />
+
+  <sentence name="OperationSum" value="Summera" />
+  <sentence name="OperationSumSelectVariable" value="Välj variabel" />
+  <sentence name="OperationSumInitialValue" value="Initialt värde" />
+  <sentence name="OperationSumInclude" value="Inklusive" />
+  <sentence name="OperationSumExclude" value="Exklusive" />
+  <sentence name="OperationSumNewValue" value="Nytt värde" />
+  <sentence name="OperationSumName" value="Namn" />
+  <sentence name="OperationSumCode" value="Kod" />
+  <sentence name="OperationSumSelectValueMessage" value="Du måste välja minst ett värde" />
+  
+  <sentence name="OverlayTableText" value="Tabell på tabell..." />
+  <sentence name="OverlayTableDialogText" value="Välj tabell att slå ihop tabellen med" />
+  <sentence name="OverlayTableHelpText" value="Fyll i namn på ny variabel (dimension), värdetexter och koder (före och efter redigering)" />
+  <sentence name="OverlayTableEnterVariable" value="Fyll i namn på variabeln" />
+  <sentence name="OverlayTableEnterValue1" value="Fyll i text för värde(1)" />
+  <sentence name="OverlayTableEnterValue2" value="Fyll i text för värde(2)" />
+
+  <sentence name="LinkTableText" value="Tabell vid tabell..." />
+  <sentence name="LinkTableChooseTable" value="Välj tabell att länka med" />
+
+  <sentence name="ChangeTextCodeMenu" value="Ändra text/kod-presentation..." />
+  <sentence name="ChangeTextCode" value="Ändra text/kod-presentation" />
+  <sentence name="ChangeTextCodeHelpText" value="Välj ett alternativ för varje variabel du vill byta presentation för." />
+  <sentence name="ChangeText" value="Text" />
+  <sentence name="ChangeCode" value="Kod" />
+  <sentence name="ChangeTextAndCode" value="Text och kod" />
+
+  <sentence name="SelectFolderOVERLAY" value="Välj mapp för tabell på tabell" />
+  <sentence name="SelectFolderLINK" value="Välj mapp för tabell vid tabell" />
+  <sentence name="SelectPxFile" value="Välj PX-fil" />
+
+  <sentence name="OperationPercent" value="Procent" />
+  <sentence name="OperationPercentBaseHeading" value="Välj bas för beräkningen" />
+  <sentence name="OperationPercentBaseVariable" value="Variabel" />
+  <sentence name="OperationPercentBaseVariableValue" value="Variabelvärde" />
+  <sentence name="OperationPercentBaseCellValue" value="Cellvärde" />
+  <sentence name="OperationPercentBaseSelectionHeading" value="Gör så här för att välja basen:" />
+  <sentence name="OperationPercentBaseInstructionVariable" value="Välj alla värden för en variabel" />
+  <sentence name="OperationPercentBaseInstructionVariableValue" value="Välj ett värde för en variabel" />
+  <sentence name="OperationPercentBaseInstructionCellValue" value="Välj ett värde för varje variabel" />
+  <sentence name="OperationPercentRequiredValue" value="Nödvändigt värde" />
+  <sentence name="OperationPercentValueNeededText" value="Fyll i namnet och koden på nya värdet" />
+  <sentence name="OperationPercentInitialValue" value="Initialt värde" />
+  <sentence name="OperationPercentInclude" value="Inkludera" />
+  <sentence name="OperationPercentExclude" value="Exkludera" />
+  <sentence name="OperationPercentNewValue" value="Namn på nytt värde" />
+  <sentence name="OperationPercentNewValueDefault" value="Procent" />
+  <sentence name="PxcSortVariable" value="sortvariabel" />
+  <sentence name="OperationPercentAllowText" value="Endast något av följande val är tillåtna:
+            
+Ett värde
+Ett värde från varje variabel
+Alla värden från en variabel" />
+  
+  <sentence name="OperationCalculate" value="Kalkylera" />
+  <sentence name="OperationCalculateInitialValues" value="Initiella värden" />
+  <sentence name="OperationCalculateInclusive" value="Inklusive" />
+  <sentence name="OperationCalculateExclusive" value="Exklusive" />
+  <sentence name="OperationCalculateNewValue" value="Nytt värde" />
+  <sentence name="OperationCalculateName" value="Namn" />
+  <sentence name="OperationCalculateCode" value="Kod" />
+  <sentence name="OperationCalculateConstant" value="Konstant:" />
+  <sentence name="OperationCalculateSelectValueMessage" value="Uträkningar går endast att göra med två värden eller ett värde och en konstant." />
+  <sentence name="OperationCalculateSelectErrorMessage" value="Fel vid val" />
+  <sentence name="OperationCalculateNewValueMessage" value="Nytt värde måste ha text och kod" />
+  <sentence name="OperationCalculateNewValueErrorMessage" value="Nödvändiga värden" />
+  <sentence name="OperationCalculateTooManyValues" value="Max två värden är tillåtna" />
+  <sentence name="OperationCalculateAddition" value="Addition" />
+  <sentence name="OperationCalculateDivision" value="Division" />
+  <sentence name="OperationCalculateMultiplication" value="Multiplikation" />
+  <sentence name="OperationCalculateSubtraction" value="Subtrahera" />
+
+  <sentence name="OperationDeleteVariable" value="Ta bort variabel" />
+  <sentence name="OperationDeleteSelectValueMessage" value="Välj ett värde att ta bort" />
+  <sentence name="OperationDeleteSelectValueHelpText" value="Välj ett värde att använda för tabellen" />
+  <sentence name="OperationDeleteSelectValue" value="Välj värde" />
+  <sentence name="OperationDeleteVariableAddToContents" value="Lägg till värdet i tabellrubriken" />
+  <sentence name="OperationDeleteSelectVariableMessage" value="Välj variabel att ta bort" />
+  <sentence name="OperationDeleteSelectVariableErrorMessage" value="Välj variabel" />
+  <sentence name="OperationDeleteSelectValueErrorMessage" value="Välj värde" />
+  <sentence name="OperationDeleteValue" value="Ta bort värde" />
+  <sentence name="OperationDeleteValueErrorMessage" value="Fel vid operationen" />
+  <sentence name="OperationDeleteValueError" value="Fel" />
+  <sentence name="OperationDeleteValueHelpText" value="Tänk på att varje variabel måste ha åtminstone ett värde kvar." />
+
+
+  <sentence name="OperationChangeValueOrder" value="Ändra värdeordning" />
+  <sentence name="OperationChangeValueOrderFromOrder" value="Från ordning" />
+  <sentence name="OperationChangeValueOrderToOrder" value="Till ordning" />
+  <sentence name="OperationChangeValueOrderSortAsce" value="Sortera sjunkande" />
+  <sentence name="OperationChangeValueOrderSortDesc" value="Sortera stigande" />
+  <sentence name="OperationChangeValueOrderMoveRest" value="Flytta allt" /> 
+
+  <sentence name="ValueSelectSelectAll" value="Välj alla" />
+  <sentence name="ValueSelectDeselectAll" value="Rensa alla" />
+
+  <sentence name="ChangeDecimal" value="Ändra decimaler" />
+  <sentence name="ChangeDecimalMenu" value="Ändra decimaler..." />
+  <sentence name="ChangeDecimalInfo" value="Skriv in antalet decimaler du vill använda (0-6)" />
+  <sentence name="ChangeDecimalErrorText" value="Endast siffror (0-6) är tillåtna" />
+  <sentence name="ChangeDecimalErrorHead" value="Otillåtna tecken" />
+  
+  <sentence name="ExitApplicationMessage" value="Är du säker på att du vill avsluta PxWin?" />
+  <sentence name="ExitApplicationWithoutSaveMessage" value="Tabellen har ändrats. Är du säker på att du vill avsluta PxWin?" />
+  <sentence name="ExitTableWithoutSaveMessage" value="Tabellen har ändrats. Är du säker på att du vill stänga den?" />
+  
+  <sentence name="PxcKeywordLastUpdated" value="Senaste uppdatering" />
+  <sentence name="PxcKeywordSource" value="Källa" />
+  <sentence name="PxcKeywordContact" value="Kontaktperson" />
+  <sentence name="PxcKeywordCopyright" value="Copyright" />
+  <sentence name="PxcKeywordUnits" value="Sort" />
+  <sentence name="PxcKeywordStockfa" value="Datatyp" />
+  <sentence name="PxcKeywordStockfaValueStock" value="Stock" />
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flöde" />
+  <sentence name="PxcKeywordStockfaValueAverage" value="Genomsnitt" />
+  <sentence name="PxcKeywordRefPeriod" value="Referenstid" />
+  <sentence name="PxcKeywordBasePeriod" value="Bastid" />
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Löpande priser" />
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Fasta priser" />
+  <sentence name="PxcKeywordDayAdj" value="Kalenderkorrigering" />
+  <sentence name="PxcKeywordSeasAdj" value="Säsongrensning" />
+  <sentence name="PxcKeywordDatabase" value="Databas" />
+  <sentence name="PxcKeywordMatrix" value="Intern referenskod" />
+  <sentence name="PxcKeywordOfficialStatistics" value="Officiell statistik" />
+
+  <!-- Error Test -->
+
+  <sentence name="PxcYear" value="år" />
+  <sentence name="PxcHalfyear" value="halvår" />
+  <sentence name="PxcQuarter" value="kvartal" />
+  <sentence name="PxcMonth" value="månad" />
+  <sentence name="PxcWeek" value="vecka" />
+  <sentence name="PxcMetaTitleBy" value="efter" />
+  <sentence name="PxcMetaTitleAnd" value="och" />
+  <sentence name="PxcOpSplitTimeVarYear" value="år" />
+  <sentence name="PxcOpSplitTimeVarQuarter" value="kvartal" />
+  <sentence name="PxcOpSplitTimeVarMonth" value="månad" />
+  <sentence name="PxcOpSplitTimeVarJanuary" value="januari" />
+  <sentence name="PxcOpSplitTimeVarFebruary" value="februari" />
+  <sentence name="PxcOpSplitTimeVarMarch" value="mars" />
+  <sentence name="PxcOpSplitTimeVarApril" value="april" />
+  <sentence name="PxcOpSplitTimeVarMay" value="maj" />
+  <sentence name="PxcOpSplitTimeVarJune" value="juni" />
+  <sentence name="PxcOpSplitTimeVarJuly" value="juli" />
+  <sentence name="PxcOpSplitTimeVarAugust" value="augusti" />
+  <sentence name="PxcOpSplitTimeVarSeptember" value="september" />
+  <sentence name="PxcOpSplitTimeVarOctober" value="oktober" />
+  <sentence name="PxcOpSplitTimeVarNovember" value="november" />
+  <sentence name="PxcOpSplitTimeVarDecember" value="december" />
+  <sentence name="PxcOpSplitTimeVarQuarter1" value="kvartal 1" />
+  <sentence name="PxcOpSplitTimeVarQuarter2" value="kvartal 2" />
+  <sentence name="PxcOpSplitTimeVarQuarter3" value="kvartal 3" />
+  <sentence name="PxcOpSplitTimeVarQuarter4" value="kvartal 4" />
+  <sentence name="ERROR_MISSING_TIMEVALUE" value="Nyckelordet TIMEVALUE saknas" />
+  <sentence name="PxcErrCellNoteValueMissing" value="Värdet={0} är ogiltigt"/>
+  <sentence name="PxcErrToManyCodes" value="{0} har för många koder"/>
+  <sentence name="PxcGroupedValuesMissing" value="{0} grupperade värden saknas"/>
+  <sentence name="PxcGroupingVariableWithNoValues" value="Grupperingsvariabeln {0} innehåller inga värden"/>
+  <sentence name="SqlErr" value=""/>
+  <sentence name="SqlWarn" value=""/>
+  <sentence name="PxcContactPhone" value="Telefon"/>
+  <sentence name="PxcContactFax" value="Fax"/>
+  <sentence name="PxcContactEMail" value="e-post"/>
+  <sentence name="PxcContactWebAddress" value="Hemsida"/>
+  <sentence name="PxcPercent" value="procent"/>
+  <sentence name="PxcPermil" value="promille"/>
+  <sentence name="PxcPercentUnitVarExists" value="Kan inte beräkna procent när enhetsvariabel redan finns"/>
+  <sentence name="PxcPermilUnitVarExists" value="Kan inte beräkna promille när enhetsvariabel redan finns"/>
+  
+  <sentence name="PxcErr103" value="Fel i nyckelordet UNITS"/>
+  <sentence name="PxcErr106" value="Fel i nyckelordet STUB"/>
+  <sentence name="PxcErr107" value="Fel i nyckelordet HEADING"/>
+  <sentence name="PxcErr108" value="Fel i nyckelord VALUES"/>
+  <sentence name="PxcErr109" value="Fel i nyckelordet CODES"/>
+  <sentence name="PxcErr111" value="Fel i nyckelord NOTE eller NOTEX för variabel"/>
+  <sentence name="PxcErr112" value="Fel i nyckelord VALUENOTE eller VALUENOTEX"/>
+  <sentence name="PxcErr113" value="Fel i nyckelord CELLNOTE eller CELLNOTEX"/>
+  <sentence name="PxcErr115" value="ELIMINATION yes/no fel"/>
+  <sentence name="PxcErr117" value="Fel i nyckelordet PARTITION"/>
+  <sentence name="PxcErr121" value="Fel i nyckelordet KEYS"/>
+  <sentence name="PxcErr123" value="Fel i nyckelordet PRECISION"/>
+  <sentence name="PxcErr124" value="Fel i nyckelordet DOMAIN"/>
+  <sentence name="PxcErr130" value="Nyckelord TITLE eller DESCRIPTION saknas"/>
+  <sentence name="PxcErr131" value="Nyckelordet MATRIX saknas"/>
+  <sentence name="PxcErr132" value="Nyckelordet SUBJECT-AREA saknas"/>
+  <sentence name="PxcErr133" value="Nyckelordet SUBJECT-CODE saknas"/>
+  <sentence name="PxcErr134" value="Nyckelorden STUB och HEADING saknas"/>
+  <sentence name="PxcErr135" value="Nyckelordet UNITS saknas"/>
+  <sentence name="PxcErr136" value="Nyckelordet CONTENTS saknas"/>
+  <sentence name="PxcErr137" value="Nyckelordet DECIMALS saknas"/>
+  <sentence name="PxcErr138" value="Fel i nyckelordet SHOWDECIMALS"/>
+  <sentence name="PxcErr142" value="COPYRIGHT är fel"/>
+  <sentence name="PxcErr143" value="DAYADJ är fel"/>
+  <sentence name="PxcErr144" value="SEASADJ är fel"/>
+  <sentence name="PxcErr146" value="CONTACT är fel"/>
+  <sentence name="PxcErr147" value="REFPERIOD är fel"/>
+  <sentence name="PxcErr149" value="LAST-UPDATED är fel"/>
+  <sentence name="PxcErr151" value="STOCKFA är fel"/>
+  <sentence name="PxcErr152" value="CFPRICES är fel"/>
+  <sentence name="PxcErr153" value="TIMEVAL är fel"/>
+  <sentence name="PxcErr154" value="BASEPERIOD är fel"/>
+  <sentence name="PxcErr160" value="Keyword dependent on CONTVARIABLE found but no contents variable"/>
+  <sentence name="PxcErr161" value="Variabel satt som CONTVARIABLE finns inte"/>
+  <sentence name="PxcErr162" value="Fel i nyckelordet PRESTEXT"/>
+  <sentence name="PxcErr164" value="Fel i nyckelordet MAP"/>
+  <sentence name="PxcErr166" value="Fel i nyckelordet AGGREGALLOWED"/>
+  <sentence name="PxcErr167" value="Fel i nyckelordet AUTOPEN"/>
+  <sentence name="PxcErr168" value="Fel i nyckelordet DOUBLECOLUMN"/>
+  <sentence name="PxcErr169" value="Fel i nyckelordet DESCRIPTIONDEFAULT"/>
+  <sentence name="PxcErr176" value="Fel i nyckelordet DATANOTE"/>
+  <sentence name="PxcErr180" value="Nyckelordet DATA saknas"/>
+  <sentence name="PxcErr201" value="Fel i nyckelordet HIERARCHYLEVELSOPEN "/>
+  <sentence name="PxcErr202" value="Fel i nyckelordet HIERARCHYLEVELS "/>
+  <sentence name="PxcErr203" value="Fel i nyckelordet HIERARCHYNAMES"/>
+  <sentence name="PxcErr204" value="Fel i nyckelordet HIERARCHIES"/>
+  <sentence name="PxcErr205" value="Fel i nyckelordet OFFICIAL-STATISTICS"/>
+  <sentence name="PxcErr300" value="Fel i nyckelordet VALUE-TEXT-OPTION"/>
+  <sentence name="PxcKeywordError" value="Fel i nyckelordet {0}"/>
+
+  <sentence name="ErrorNoAvailableFiles" value="Inga giltiga filer finns på " />
+  <sentence name="ErrorActionIsMissing" value="Funktion saknas eller känns inte igen" />
+  <sentence name="OperationError" value="Fel i operation" />
+  <sentence name="Error" value="Fel" />
+  <sentence name="Protected" value="Skyddad" />
+  <sentence name="ErrorInAuthorization" value="Error in authorization" />
+  <sentence name="FatalErrors" value="Allvarliga fel" />
+  <sentence name="Warnings" value="Varningar" />
+
+  <sentence name="toolAggMenuRoot" value="Indelningar (BETA)" />
+  <sentence name="toolAggMenuOpenValueset" value="Öppna värdemängd (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewValueset" value="Ny värdemängd (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewAggregation" value="Ny aggregering (.agg) (BETA)" />
+  
+  <sentence name="toolAggNewAggregation" value="Ny aggregering (.agg)" />
+  <sentence name="toolAggNewValueset" value="Ny värdemängd (.vs)" />
+
+  <sentence name="toolAggAggregationBox" value="Aggregering" />
+  <sentence name="toolAggAggregationName" value="Namn:" />
+  <sentence name="toolAggAggregationMap" value="Karta:" />
+  <sentence name="toolAggAllowOverlappingValues" value="Tillåt överlappande värden" />
+
+  <sentence name="toolAggGroupsBox" value="Grupper" />
+  <sentence name="toolAggGroupsListCode" value="Kod" />
+  <sentence name="toolAggGroupsListText" value="Text" />
+  <sentence name="toolAggGroupsListIncludedValues" value="Inkluderade värden" />
+  <sentence name="toolAggGroupUp" value="Flytta upp" />
+  <sentence name="toolAggGroupDown" value="Flytta ner" />
+  <sentence name="toolAggGroupDelete" value="Ta bort" />
+  <sentence name="toolAggGroupNew" value="Ny grupp" />
+
+  <sentence name="toolAggGroupInfoBox" value="Grupp information" />
+  <sentence name="toolAggGroupSave" value="Spara grupp" />
+  <sentence name="toolAggGroupCancelEdit" value="Avbryt" />
+  <sentence name="toolAggGroupEdit" value="Ändra" />
+  <sentence name="toolAggGroupCode" value="Kod:" />
+  <sentence name="toolAggGroupText" value="Text:" />
+  <sentence name="toolAggGroupValueListCode" value="Kod" />
+  <sentence name="toolAggGroupValueListText" value="Text" />
+
+  <sentence name="toolAggAggregationValuesetBox" value="Värdemängd" />
+  <sentence name="toolAggAggregationValuesetName" value="Namn:" />
+  <sentence name="toolAggAggregationValuesetDomain" value="Domän:" />
+  <sentence name="toolAggAggregationValuesetFile" value="Värdemängdsfil:" />
+  <sentence name="toolAggAggregationValuesetFileBrowse" value="Bläddra" />
+
+  <sentence name="toolAggAggregationAvailableBox" value="Tillgängliga värden" />
+  <sentence name="toolAggAggregationAvailableCode" value="Kod" />
+  <sentence name="toolAggAggregationAvailableText" value="Text" />
+
+  <sentence name="toolAggAggregationSaveFile" value="Spara aggregationsfil (.agg)" />
+
+  <sentence name="toolAggDeleteGroupQuestion" value="Vill du ta bort den markerade gruppen?" />
+  <sentence name="toolAggDeleteGroupCaption" value="Ta bort grupp" />
+  <sentence name="toolAggIllegalFileMessage" value="Filen har felaktigt format:" />
+  <sentence name="toolAggIllegalFileCaption" value="Fel vid läsning av fil" />
+  <sentence name="toolAggEnterGroupCodeMessage" value="Ange kod för gruppen" />
+  <sentence name="toolAggEnterGroupCodeCaption" value="Ange värde" />
+  <sentence name="toolAggEnterGroupNameMessage" value="Ange text för gruppen" />
+  <sentence name="toolAggEnterGroupNameCaption" value="Ange värde" />
+  <sentence name="toolAggExistingGroupMessage" value="Det finns redan en grupp med denna kod, ange ny kod för gruppen" />
+  <sentence name="toolAggExistingGroupCaption" value="Existerande grupp" />
+  <sentence name="toolAggEnterAggregationNameMessage" value="Ange aggregeringens namn" />
+  <sentence name="toolAggEnterAggregationNameCaption" value="Ange värde" />
+  <sentence name="toolAggIllegalVsAssociationMessage" value="Aggregeringsfilen (.agg) är inte associerad med värdemängdsfilen (.vs). Värdet av 'Valueset' i .agg-filen måste överrensstämma med värdet på 'Name' i .vs-filen. Vill du ta bort den här aggregeringsfilen från listan med aggregeringar i värdemängdsfilen (.vs)?" />
+  <sentence name="toolAggIllegalVsAssociationCaption" value="Ogiltigt värdemängdsassociering" />
+  <sentence name="toolAggFileChangedMessage" value="Filen '{0}' har blivit ändrad. Vill du ladda om filen i PxWin?" />
+  <sentence name="toolAggAggFileChangedMessage" value="Filen '{0}' eller dess .vs-fil har blivit ändrad. Vill du ladda om filen i PxWin?" />
+  <sentence name="toolAggFileChangedCaption" value="Filen har blivit ändrad" />
+
+  <sentence name="toolAggIllegalValue" value="Ogiltigt värde. Detta värde finns inte med i värdemängden." />
+  <sentence name="toolAggMessOverlappingOrIllegalValues" value="Innehåller överlappande eller ogiltig värde." />
+  <sentence name="toolAggSaveChangesTitle" value="Spara ändringar" />
+  <sentence name="toolAggSaveChangesQuestion" value="Filen {0} har ändrats. Vill du spara ändringar?" />
+  <sentence name="toolAggSaveChangesYes" value="Spara" />
+  <sentence name="toolAggSaveChangesNo" value="Spara inte" />
+  <sentence name="toolAggSaveChangesCancel" value="Avbryt" />
+
+  <!--Valuset .vs fil-->
+  <sentence name="toolValueSetImportFile" value="Importera till värdemängdsfil (.vs)" />
+  <sentence name="toolValueSetSaveFile" value="Spara värdemängdsfil (.vs)" />
+  <sentence name="toolValueSetName" value="Namn" />
+  <sentence name="toolValueSetPrestext" value="Prestext" />
+  <sentence name="toolValueSetDomain" value="Domän" />
+  <sentence name="toolValueSetType" value="Typ" />
+  <sentence name="toolValueSetTabValues" value="Värden" />
+  <sentence name="toolValueSetTabAggFiles" value="Aggregeringsfiler" />
+  <sentence name="toolValueSetColumnCode" value="Kod" />
+  <sentence name="toolValueSetColumnText" value="Text" />
+  <sentence name="toolValueSetCreateNewAggregationFile" value="Skapa en ny aggregeringsfil" />
+  <!-- Warning and error message Valuset -->
+  <sentence name="toolValueSetMessDublicateCodes" value="Värdemängden innehåller dubbletter" />
+  <sentence name="toolValueSetDublicateCodesMessage" value="Filen går inte att spara för den innehåller dubbletter. " />
+  <sentence name="toolValueSetDublicateCodesCaption" value="Dubbletter" />
+  <sentence name="toolValueSetFileNameAndNameMessage" value="Filnamn och namn stämmer inte överens. Värdemängdens namn bör vara det samma som filens namn. Vill du ändå spara värdemängden?" />
+  <sentence name="toolValueSetFileNameCaption" value="Filnamn" />
+  <sentence name="toolValueSetEnterValueSetNameMessage" value="Ange värdemängdens namn" />
+  <sentence name="toolValueSetEnterValueSetCaption" value="Ange värde" />
+  <sentence name="toolValueSetEnterValueSetPrestextMessage" value="Ange värdemängdens presstext" />
+  <sentence name="toolValueSetEnterValueSetDomainMessage" value="Ange värdemängdens domain" />
+  <sentence name="toolValueSetErrorCaption" value="Fel" />
+  <sentence name="toolValueSetErrorDublicateCodesMessage" value="Ett fel uppstod vid kontroll av dubletter" />
+  <sentence name="toolValueSetCodesMissingMessage" value="Sektionen värdekod [Valuecode] saknas i .vs filen" />
+  <!--Error message import code and text-->
+  <sentence name="toolValueSetIllegalFileCaption" value="Fel vid läsning av fil"  />
+  <sentence name="toolValueSetIllegalFileMessage" value="Filen har felaktigt format" />
+  <sentence name="toolValueSetErrorReadingCSVfileMessage" value="Fel vid läsning av kod och text från .csv fil. Kontrollera att du angett korrekt avgränsare." />
+<!--Save valueset file-->
+  <sentence name="toolValueSetSaveFileCaption" value="Fel vid spara" />
+  <sentence name="toolValueSetSaveFileMessage" value="Fel vid spara till värdemängdsfil." />
+<!-- Delimiter dialog-->
+  <sentence name="formDelimiterCaption" value="Avgränsare .csv fil" />
+  <sentence name="formDelimiterQuestion" value="Vilken avgränsare används i filen?" />
+  <sentence name="formDelimiterTabulator" value="Tabb" />
+  <sentence name="formDelimiterComma" value="Komma" />
+  <sentence name="formDelimiterSpace" value="Mellanslag" />
+  <!--Import from .px dialog -->
+  <sentence name="formPxFileValuesCaption" value="Importera värdemängd" />
+  <sentence name="formPxFileValuesQuestion" value="På vilket språk och vilken variabler vill du hämta värdemängden" />
+  <sentence name="formPxFileValuesLanguage" value="Språk" />
+  <sentence name="formPxFileValuesVariables" value="Variabler" />
+</language>

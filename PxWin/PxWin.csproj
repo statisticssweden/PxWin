@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A0CDBEE0-EDEB-400C-BDE9-499AE4F0A398}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PCAxis.Desktop</RootNamespace>
+    <AssemblyName>PCAxis.Desktop</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>px_win_32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.95.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.95.4\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandLine, Version=1.9.71.2, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommandLineParser.1.9.71\lib\net40\CommandLine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.10.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.10\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.12.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.12\lib\net45\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient, Version=1.13.20136.2, Culture=neutral, PublicKeyToken=23ec7fc2d6eaa4a5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.SqlClient.1.1.3\lib\net46\Microsoft.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client, Version=3.0.8.0, Culture=neutral, PublicKeyToken=0a613f4dd989e8ae, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Identity.Client.3.0.8\lib\net45\Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.JsonWebTokens.5.5.0\lib\net461\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.5.5.0\lib\net461\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocols.5.5.0\lib\net461\Microsoft.IdentityModel.Protocols.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Protocols.OpenIdConnect, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Protocols.OpenIdConnect.5.5.0\lib\net461\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.5.0\lib\net461\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=2.0.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.Core.2.19.110\lib\netstandard2.0\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PcAxis.Common.1.0.2\lib\netstandard2.0\PCAxis.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PcAxis.Core.1.0.3\lib\netstandard2.0\PCAxis.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Encryption, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Encryption.1.0.0\lib\netstandard2.0\PCAxis.Encryption.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Excel, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Excel.1.0.1\lib\netstandard2.0\PCAxis.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Menu, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Menu.1.0.1\lib\netstandard2.0\PCAxis.Menu.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Menu.ConfigDatamodelMenu, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Menu.ConfigDatamodelMenu.1.0.3\lib\netstandard2.0\PCAxis.Menu.ConfigDatamodelMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Menu.MsSqlDatamodelMenu, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Menu.MsSqlDatamodelMenu.1.0.1\lib\netstandard2.0\PCAxis.Menu.MsSqlDatamodelMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Menu.OracleDatamodelMenu, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Menu.OracleDatamodelMenu.1.0.1\lib\netstandard2.0\PCAxis.Menu.OracleDatamodelMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Metadata, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Metadata.1.0.1\lib\netstandard2.0\PCAxis.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.PX.Core, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.PX.Core.1.0.2\lib\netstandard2.0\PCAxis.PX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Query, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PcAxis.Query.1.0.2\lib\netstandard2.0\PCAxis.Query.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Serializers.JsonStat, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCAxis.Serializers.JsonStat.1.0.3\lib\netstandard2.0\PCAxis.Serializers.JsonStat.dll</HintPath>
+    </Reference>
+    <Reference Include="PCAxis.Sql, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PcAxis.Sql.1.1.3\lib\netstandard2.0\PCAxis.Sql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.5.0.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IdentityModel" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.5.0\lib\net461\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.0.1\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Packaging.4.0.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.4.7.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.5.0.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ude.NetStandard, Version=1.0.2.0, Culture=neutral, PublicKeyToken=103cb45fc06c90e4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ude.NetStandard.1.2.0\lib\net45\Ude.NetStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=2.9.0.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.2.9.0.0\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizationUtil.cs" />
+    <Compile Include="BatchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatchForm.Designer.cs">
+      <DependentUpon>BatchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cache\DatabaseCache.cs" />
+    <Compile Include="Configuration\DatabaseInfo.cs" />
+    <Compile Include="Configuration\DatabaseRepository.cs" />
+    <Compile Include="DataSources\CnmmDataSource.cs" />
+    <Compile Include="DataSources\PxFileDataSource.cs" />
+    <Compile Include="FilterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilterDialog.Designer.cs">
+      <DependentUpon>FilterDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VariableFilter\VariableFilter.cs" />
+    <Compile Include="VariableFilter\VariableFilterHelper.cs" />
+    <Compile Include="Grid\Cache.cs" />
+    <Compile Include="Grid\ColumnAndRowMeta.cs" />
+    <Compile Include="Grid\DataGridViewCellExHelper.cs" />
+    <Compile Include="Grid\DataGridViewTextBoxCellExHelper.cs" />
+    <Compile Include="Grid\DataGridViewTextBoxCellEx.cs" />
+    <Compile Include="Grid\DataRetriever.cs" />
+    <Compile Include="Grid\GridHelper.cs" />
+    <Compile Include="Grid\ISpannedCell.cs" />
+    <Compile Include="GroupDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupDialog.Designer.cs">
+      <DependentUpon>GroupDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lang.cs" />
+    <Compile Include="LangService.cs" />
+    <Compile Include="Language\LanguageHelper.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GridModelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GridModelForm.Designer.cs">
+      <DependentUpon>GridModelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MEFBooter.cs" />
+    <Compile Include="MEFPlumber.cs" />
+    <Compile Include="OpenTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenTableForm.Designer.cs">
+      <DependentUpon>OpenTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\CalculateDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\CalculateDialog.Designer.cs">
+      <DependentUpon>CalculateDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeDecimalDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeDecimalDialog.Designer.cs">
+      <DependentUpon>ChangeDecimalDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeTextCodeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeTextCodeDialog.Designer.cs">
+      <DependentUpon>ChangeTextCodeDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeValueOrderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\ChangeValueOrderDialog.Designer.cs">
+      <DependentUpon>ChangeValueOrderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteValueDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteValueDialog.Designer.cs">
+      <DependentUpon>DeleteValueDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteVariableDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteVariableDialog.Designer.cs">
+      <DependentUpon>DeleteVariableDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteVariableSelectValueDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\DeleteVariableSelectValueDialog.Designer.cs">
+      <DependentUpon>DeleteVariableSelectValueDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\OverlayWithTableDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\OverlayWithTableDialog.Designer.cs">
+      <DependentUpon>OverlayWithTableDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\PercentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\PercentDialog.Designer.cs">
+      <DependentUpon>PercentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\PivotDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\PivotDialog.Designer.cs">
+      <DependentUpon>PivotDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectFolderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectFolderDialog.Designer.cs">
+      <DependentUpon>SelectFolderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectPxFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectPxFileDialog.Designer.cs">
+      <DependentUpon>SelectPxFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectVariableDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectVariableDialog.Designer.cs">
+      <DependentUpon>SelectVariableDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\SumDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\SumDialog.Designer.cs">
+      <DependentUpon>SumDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectGroupingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationDialogs\SelectGroupingDialog.Designer.cs">
+      <DependentUpon>SelectGroupingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsCsvDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsCsvDialog.Designer.cs">
+      <DependentUpon>SaveAsCsvDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsExcelDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsExcelDialog.Designer.cs">
+      <DependentUpon>SaveAsExcelDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsPrnDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsPrnDialog.Designer.cs">
+      <DependentUpon>SaveAsPrnDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsXlsxDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveAsDialogs\SaveAsXlsxDialog.Designer.cs">
+      <DependentUpon>SaveAsXlsxDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveChangesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveChangesDialog.Designer.cs">
+      <DependentUpon>SaveChangesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SavedQuery\BatchQuery.cs" />
+    <Compile Include="SavedQuery\SavedQueryResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SelectValuesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectValuesDialog.Designer.cs">
+      <DependentUpon>SelectValuesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SerializerFactory.cs" />
+    <Compile Include="Serializers\RelationTableCodeFileSerializer.cs" />
+    <Compile Include="StartOptions.cs" />
+    <Compile Include="StopRecordingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StopRecordingDialog.Designer.cs">
+      <DependentUpon>StopRecordingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToolWindowContent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolWindowContent.Designer.cs">
+      <DependentUpon>ToolWindowContent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SelectVariableValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SelectVariableValuesControl.Designer.cs">
+      <DependentUpon>SelectVariableValuesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TextCodeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TextCodeControl.Designer.cs">
+      <DependentUpon>TextCodeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ValueSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ValueSelectControl.Designer.cs">
+      <DependentUpon>ValueSelectControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatchForm.resx">
+      <DependentUpon>BatchForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilterDialog.resx">
+      <DependentUpon>FilterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupDialog.resx">
+      <DependentUpon>GroupDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GridModelForm.resx">
+      <DependentUpon>GridModelForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenTableForm.resx">
+      <DependentUpon>OpenTableForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\CalculateDialog.resx">
+      <DependentUpon>CalculateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\ChangeDecimalDialog.resx">
+      <DependentUpon>ChangeDecimalDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\ChangeTextCodeDialog.resx">
+      <DependentUpon>ChangeTextCodeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\ChangeValueOrderDialog.resx">
+      <DependentUpon>ChangeValueOrderDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\DeleteValueDialog.resx">
+      <DependentUpon>DeleteValueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\DeleteVariableDialog.resx">
+      <DependentUpon>DeleteVariableDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\DeleteVariableSelectValueDialog.resx">
+      <DependentUpon>DeleteVariableSelectValueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\OverlayWithTableDialog.resx">
+      <DependentUpon>OverlayWithTableDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\PercentDialog.resx">
+      <DependentUpon>PercentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\PivotDialog.resx">
+      <DependentUpon>PivotDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\SelectFolderDialog.resx">
+      <DependentUpon>SelectFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\SelectPxFileDialog.resx">
+      <DependentUpon>SelectPxFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\SelectVariableDialog.resx">
+      <DependentUpon>SelectVariableDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\SumDialog.resx">
+      <DependentUpon>SumDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationDialogs\SelectGroupingDialog.resx">
+      <DependentUpon>SelectGroupingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAsDialogs\SaveAsCsvDialog.resx">
+      <DependentUpon>SaveAsCsvDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAsDialogs\SaveAsExcelDialog.resx">
+      <DependentUpon>SaveAsExcelDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAsDialogs\SaveAsPrnDialog.resx">
+      <DependentUpon>SaveAsPrnDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveAsDialogs\SaveAsXlsxDialog.resx">
+      <DependentUpon>SaveAsXlsxDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveChangesDialog.resx">
+      <DependentUpon>SaveChangesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectValuesDialog.resx">
+      <DependentUpon>SelectValuesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StopRecordingDialog.resx">
+      <DependentUpon>StopRecordingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindowContent.resx">
+      <DependentUpon>ToolWindowContent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SelectVariableValuesControl.resx">
+      <DependentUpon>SelectVariableValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TextCodeControl.resx">
+      <DependentUpon>TextCodeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ValueSelectControl.resx">
+      <DependentUpon>ValueSelectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
+    <Content Include="px_win_32.ico" />
+    <None Include="Resources\DbConfig\databases.config" />
+    <None Include="Resources\DbConfig\SqlDb.config" />
+    <None Include="Resources\trash.png" />
+    <None Include="Resources\save_query.png" />
+    <None Include="Resources\alert-16.png" />
+    <None Include="Resources\import.png" />
+    <None Include="Resources\API-cloud.png" />
+    <Content Include="Resources\api.png" />
+    <Content Include="Resources\filter.png" />
+    <Content Include="Resources\Languages\pxlang.da.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Languages\pxlang.is.xml" />
+    <Content Include="Resources\Languages\pxlang.no.xml" />
+    <Content Include="Resources\px-win.png" />
+    <None Include="Resources\pxwin_big.png" />
+    <Content Include="Resources\px_win_16.ico" />
+    <Content Include="Resources\px_win_32.ico" />
+    <Content Include="Resources\refresh.png" />
+    <None Include="Resources\sql.png" />
+    <None Include="Resources\x_mark.png" />
+    <Content Include="Namnlös.ico" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\arrow_down.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\check_mark.png" />
+    <None Include="Resources\database.png" />
+    <None Include="Resources\divide.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\multiply.png" />
+    <None Include="Resources\percentage.png" />
+    <Content Include="Resources\explorer.png" />
+    <Content Include="Resources\pivotoption.png" />
+    <None Include="Resources\pivot_clockwise.png" />
+    <None Include="Resources\pivot_counterclockwise.png" />
+    <None Include="Resources\redo.png" />
+    <None Include="Resources\plus.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\search.jpg" />
+    <None Include="Resources\subtract.png" />
+    <None Include="Resources\sum.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\resize.jpg" />
+    <Content Include="Resources\Languages\pxlang.fi.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Languages\pxlang.sv.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\Languages\pxlang.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PX.Desktop.Interfaces\PX.Desktop.Interfaces.csproj">
+      <Project>{a9b4b909-1bf5-4b62-b1d1-379af79b849f}</Project>
+      <Name>PX.Desktop.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PX.Plugin.Interfaces\PX.Plugin.Interfaces.csproj">
+      <Project>{ef3d74a6-8ca3-4c80-97c4-975d34ab697e}</Project>
+      <Name>PX.Plugin.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PXWeb.Security\PX.Security.csproj">
+      <Project>{dcb50c42-c3d0-48f9-9c1f-8d5af99ddb95}</Project>
+      <Name>PX.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Aggregations\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if not exist "$(TargetDir)plugins" (mkdir "$(TargetDir)plugins")</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

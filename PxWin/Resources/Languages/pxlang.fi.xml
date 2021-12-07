@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language xmlns="PX-Win" name="fi">
+  <sentence name="and" value="ja"/>
+  <sentence name="by" value="muuttujina"/>
+  <sentence name="Ok" value="OK"/>
+  <sentence name="Cancel" value="Kumoa"/>
+  <sentence name="MainTitle" value="PxWin" />
+  <sentence name="Run" value="Aja"/>
+  <sentence name="Open" value="Avaa"/>
+  <sentence name="Change" value="Muuta"/>
+  <sentence name="FooterColumns" value="Sarakkeita:"/>
+  <sentence name="FooterRows" value="Rivejä:"/>
+  <sentence name="FooterCells" value="Soluja:"/>
+  <sentence name="TabTable" value="Taulukko"/>
+  <sentence name="TabFootnote" value="Alaviitteet"/>
+  <sentence name="TabInformation" value="Tietoja"/>
+  <sentence name="MenuAbout" value="Tietoja ohjelmasta"/>
+  <sentence name="MenuCalculate" value="Laske"/>
+  <sentence name="MenuEdit" value="Muokkaa"/>
+  <sentence name="MenuExit" value="Sulje"/>
+  <sentence name="MenuFile" value="Tiedosto"/>
+  <sentence name="MenuHelp" value="Ohje"/>
+  <sentence name="MenuLanguage" value="Kieli"/>
+  <sentence name="MenuOpenTable" value="Avaa taulukko"/>
+  <sentence name="MenuSave" value="Tallenna"/>
+  <sentence name="MenuSaveAs" value="Tallenna nimellä..."/>
+  <sentence name="MenuTools" value="Työkalut"/>
+  <sentence name="MenuOpen" value="Avaa"/>
+  <sentence name="MenuUndo" value="Peru"/>
+  <sentence name="MenuEditPivot" value="Käännä..."/>
+  <sentence name="MenuEditPivotCW" value="Käännä myötäpäivään"/>
+  <sentence name="MenuEditPivotCCW" value="Käännä vastapäivään"/>
+  <sentence name="MenuEditDeleteVariable" value="Poista muuttuja..."/>
+  <sentence name="MenuEditDeleteValue" value="Poista arvo..."/>
+  <sentence name="MenuEditChangeValueOrder" value="Muuta arvojärjestystä..."/>
+  <sentence name="MenuCalculateSum" value="Summaa..."/>
+  <sentence name="MenuCalculatePerMille" value="Promillelasku..."/>
+  <sentence name="MenuCalculateAdd" value="Lisää..."/>
+  <sentence name="MenuCalculateSubstract" value="Vähennä..."/>
+  <sentence name="MenuCalculateMultiply" value="Kerro..."/>
+  <sentence name="MenuCalculateDivide" value="Jaa..."/>
+  <sentence name="MenuCalculatePercent" value="Prosenttilasku..."/>
+  <sentence name="MenuStopRecording" value="Tallenna haku..."/>
+  <sentence name="MenuRunSavedQuery" value="Aja tallennettu haku..."/>
+  <sentence name="MenuRunSavedQueryDialog" value="Saved retrieval" />
+  <sentence name="MenuBatch" value="Eräajo"/>
+  <sentence name="AboutPXWin" value="Tietoja ohjelmasta"/>
+  <sentence name="VersionText" value="Versio"/>
+  <sentence name="MandatoryFootnotes" value="Pakolliset alaviitteet"/>
+  <sentence name="OpenTableFileSystem" value="Tietokone"/>
+  <sentence name="SelectValuesTitle" value="Arvojen valinta"/>
+  <sentence name="SelectValuesCount" value="/"/>
+  <sentence name="SelectValuesAtLeastOneValueTitle" value="Arvojen valinta"/>
+  <sentence name="SelectValuesAtLeastOneValue" value="Seuraavista muuttujista tulee valita ainakin yksi arvo:"/>
+  <sentence name="SelectClassificationTitle" value="Luokitusvalinta"/>
+  <sentence name="SelectValuesCtrlGroupTooltip" value="Luokitusvalinta"/>
+  <sentence name="SelectValuesCtrlSelectAllTooltip" value="Valitse kaikki"/>
+  <sentence name="SelectValuesCtrlUnselectTooltip" value="Poista valinnat"/>
+  <sentence name="SelectValuesCtrlAscendingTooltip" value="Nouseva järjestys"/>
+  <sentence name="SelectValuesCtrlDescendingTooltip" value="Laskeva järjestys"/>
+  <sentence name="SelectValuesCtrlSearchTooltip" value="Etsi arvoja"/>
+  <sentence name="SelectValuesCtrlNumberOfSelectedCells" value="Valittuja soluja: {0}"/>
+  <sentence name="SelectValuesCtrlNumberOfSelectedCellsMaximum" value="Valittuja soluja: {0} (enimmäismäärä on {1})"/>
+  <sentence name="SelectValuesCtrlSelectAllButton" value="Valitse kaikki" />
+  <sentence name="AccessDeniedHeading" value="Pääsy kielletty"/>
+  <sentence name="AccessDeniedText" value="Oikeudet eivät riitä taulukon muokkaukseen"/>
+  <sentence name="Name" value="Nimi"/>
+  <sentence name="Category" value="Luokitus"/>
+  <sentence name="CategoryInternal" value=" I "/>
+  <sentence name="CategoryPrivate" value=" P "/>
+  <sentence name="CategoryOfficial" value=" O "/>
+
+<!-- Footnote -->
+  <sentence name="FootnoteNote" value="Viite"/>
+  <sentence name="FootnoteLatestUpdate" value="Päivitetty"/>
+  <sentence name="FootnoteSorce" value="Lähde"/>
+  <sentence name="FootnoteContact" value="Yhteystiedot"/>
+  <sentence name="FootnoteUnits" value="Yksiköt"/>
+  <sentence name="FootnoteDataType" value="Tietotyyppi"/>
+  <sentence name="FootnoteReferencePeriod" value="Viiteajankohta"/>
+  <sentence name="FootnoteDatabase" value="Tietokanta"/>
+  <sentence name="FootnoteInternalReferenceCode" value="Sisäinen viitetunnus"/>
+
+<!-- Save -->
+  <sentence name="SaveText" value="Tiedosto on tallennettu"/>
+  <sentence name="SaveCaption" value="Tallennettu"/>
+  <sentence name="SaveAsXlsx" value="Tallenna xlsx-muotoisena"/>
+  <sentence name="SaveAsXlsxWithCodeAndText" value="Koodein ja arvotekstein"/>
+  <sentence name="SaveAsComplete" value="{0} on tallennettu"/>
+  <sentence name="SaveAs" value="Tallenna nimellä" />
+  <sentence name="SaveAsFileFormats" value="
+Px-tiedosto (*.px)|*.px|
+Excel-työkirja (*.xml)|*.xml|
+Excel-työkirja koodein ja arvotekstein (*.xml)|*.xml|
+Sarkaineroteltu (*.csv)|*.csv|
+Sarkaineroteltu, otsikoton (*.csv)|*.csv|
+Pilkkueroteltu (*.csv)|*.csv|
+Pilkkueroteltu, otsikoton (*.csv)|*.csv|
+Välieroteltu (*.csv)|*.csv|
+Välieroteltu, otsikoton (*.csv)|*.csv|
+Puolipiste-eroteltu (*.csv)|*.csv|
+Puolipiste-eroteltu, otsikoton (*.csv)|*.csv|
+Html-tiedosto (*.html)|*.html|
+Relaatiotaulukko (*.txt)|*.txt|
+Excel-tiedosto (*.xlsx)|*.xlsx|
+Excel-tiedosto koodein ja arvotekstein (*.xlsx)|*.xlsx|
+Relaatiokooditaulukko (*.txt)|*.txt|
+Relaatiokooditaulukko, otsikoton (*.txt)|*.txt"/>
+
+  <sentence name="SaveChangesTitle" value="Tallenna muutokset"/>
+  <sentence name="SaveChangesQuestion" value="Taulukko {0} on muuttunut. Haluatko tallentaa muutokset?"/>
+  <sentence name="SaveChangesYes" value="Tallenna"/>
+  <sentence name="SaveChangesNo" value="Älä tallenna"/>
+  <sentence name="SaveChangesCancel" value="Kumoa"/>
+
+<!-- Batch -->
+  <sentence name="Batch" value="Eräajo"/>
+  <sentence name="BatchMissingDestination" value="Kohde puuttuu"/>
+  <sentence name="BatchMissingDestinationText" value="Kohdehakemisto tulee määrittää"/>
+<!-- <sentence name="BatchOpenHeading" value="Avaa pxsq- tai pxt-tiedosto" /> -->
+  <sentence name="BatchSaveToPxtButton" value="Tallenna pxt-tiedostoksi"/>
+<!-- <sentence name="BatchSaveToPxtHeading" value="Tallenna pxt-tiedostoksi" /> -->
+  <sentence name="BatchSaveToPxtLabel" value="Tallenna kysely pxt-tiedostoksi. Valitse kohdehakemisto ja tiedostomuoto." />
+  <sentence name="BatchSaveToBatButton" value="Tallenna bat-tiedostoksi" />
+  <sentence name="BatchSaveToBatHeading" value="Tallenna bat-tiedostoksi nimellä" />
+  <sentence name="BatchSaveToBatLabel" value="Selaa pxt-tiedostoa ja tallenna bat-tiedostoksi"/>
+  <sentence name="BatchOpen" value="1. Avaa tallennettu haku (.pxsq) tai listatiedosto (.pxt)"/>
+  <sentence name="BatchFileFormat" value="2. Valitse tiedostomuoto"/>
+  <sentence name="BatchDestinationFolder" value="3. Valitse kohdehakemisto"/>
+  <sentence name="BatchAction" value="4. Suorita toiminto"/>
+  <sentence name="BatchRun" value="Aja"/>
+  <sentence name="BatchClose" value="Sulje"/>
+  <sentence name="BatchSavedQueries" value="Tallennetut kyselyt"/>
+  <sentence name="BatchStatus" value="Tila"/>
+  <sentence name="BatchNotRun" value="Ei ajettu"/>
+  <sentence name="BatchWorking" value="Ajetaan..."/>
+  <sentence name="BatchNotOk" value="Ei kunnossa"/>
+  <sentence name="BatchRemove" value="Poista valitut rivit listalta"/>
+  <sentence name="BatchSavedQueryList" value="Saved query list" />
+  <sentence name="BatchBatFile" value="Bat file" />
+  <sentence name="BatchTabCreateBatFile" value="Create batch file" />
+  <sentence name="BatchTabBatch" value="Eräajo" />
+  <sentence name="BatchSavedQueryDialog" value="Saved queries" />
+  
+<!-- Saved Query -->
+  <sentence name="Step" value="Askel"/>
+  <sentence name="Operation" value="Toiminto"/>
+  <sentence name="PIVOT" value="Käännä"/>
+  <sentence name="PIVOT_CW" value="Käännä myötäpäivään"/>
+  <sentence name="PIVOT_CCW" value="Käännä vastapäivään"/>
+  <sentence name="CHANGE_VALUE_ORDER" value="Muuta järjestystä"/>
+  <sentence name="DELETE_VALUE" value="Poista arvo"/>
+  <sentence name="DELETE_VARIABLE" value="Poista muuttuja"/>
+  <sentence name="SUM" value="Summaa"/>
+  <sentence name="CHANGE_DECIMALS" value="Muuta desimaaleja"/>
+  <sentence name="CHANGE_TEXT_CODE_PRESENTATION" value="Muuta teksti/koodi-esitystä"/>
+  <sentence name="Multiplication" value="Kertolasku"/>
+  <sentence name="Addition" value="Yhteenlasku"/>
+  <sentence name="PerCent" value="Prosenttilasku"/>
+
+  <sentence name="FileTypePX" value="Px-tiedosto"/>
+  <sentence name="Filetypejsonstat" value="JSON-stat-tiedosto" />
+  <sentence name="FileTypeExcel" value="Excel-työkirja"/>
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel-työkirja koodein ja arvotekstein"/>
+  <sentence name="FileTypeExcelCompleteInfoFile" value="Excel-tiedosto ruudulta" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Sarkaineroteltu"/>
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Sarkaineroteltu, otsikoton"/>
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Pilkkueroteltu"/>
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Pilkkueroteltu, otsikoton"/>
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Välieroteltu"/>
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Välieroteltu, otsikoton"/>
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Puolipiste-eroteltu"/>
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Puolipiste-eroteltu, otsikoton"/>
+  <sentence name="FileTypeHtml" value="Html-tiedosto"/>
+  <sentence name="FileTypeRelational" value="Relaatiotaulukko"/>
+  <sentence name="FileTypeExcelX" value="Excel-tiedosto"/>
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel-tiedosto koodein ja arvotekstein"/>
+  <sentence name="FileTypeRelationalCodeWithHeading" value="Relaatiokooditaulukko"/>
+  <sentence name="FileTypeRelationalCodeWithoutHeading" value="Relaatiokooditaulukko, otsikoton"/>
+
+  <sentence name="FileFormats" value="
+Px-tiedosto (*.px);
+Excel-työkirja (*.xml);
+Excel-työkirja koodein ja arvotekstein (*.xml);
+Sarkaineroteltu (*.csv);
+Sarkaineroteltu, otsikoton (*.csv);
+Pilkkueroteltu (*.csv);
+Pilkkueroteltu, otsikoton (*.csv);
+Välieroteltu (*.csv);
+Välieroteltu, otsikoton (*.csv);
+Puolipiste-eroteltu (*.csv);
+Puolipiste-eroteltu, otsikoton (*.csv);
+Html-tiedosto (*.html);
+Relaatiotaulukko (*.txt);
+Excel-tiedosto (*.xlsx);
+Excel-tiedosto koodein ja arvotekstein (*.xlsx);
+Relaatiokooditaulukko (.txt);
+Relaatiokooditaulukko, otsikoton (.txt)"/>
+
+  <sentence name="SavedQueryStop" value="Tallenna haku"/>
+  <sentence name="SavedQueryIntervalFixed" value="Kiinteä alkuhetki: näytä sama haku ja lisää uudet aikajaksot."/>
+  <sentence name="SavedQueryIntervalRolling" value="Liukuva alkuhetki: näytä aikajaksojen määrä ja päivitä uudet aikajaksot."/>
+  <sentence name="SavedQueryIntervalSame" value="Sama aikajakso: näytä sama haku uudestaan."/>
+  <sentence name="SavedQuerySaveBat" value="Lisää bat-tiedosto"/>
+  <sentence name="SavedQueryBrowse" value="Selaa"/>
+  <sentence name="SavedQueryOutputDir" value="Tulostehakemisto"/>
+  <sentence name="SavedQueryOutputFormat" value="Tulostemuoto"/>
+  <sentence name="SavedQueryFilename" value="Tiedosto"/>
+
+<!-- Operation dialogs -->
+  <sentence name="OperationColumnHeaderStub" value="Rivit"/>
+  <sentence name="OperationColumnHeaderHeading" value="Sarakkeet"/>
+  <sentence name="OperationPivot" value="Käännä"/>
+
+  <sentence name="OperationSum" value="Summaa"/>
+  <sentence name="OperationSumSelectVariable" value="Valitse muuttuja"/>
+  <sentence name="OperationSumInitialValue" value="Alkuarvo"/>
+  <sentence name="OperationSumInclude" value="Mukaanlukien"/>
+  <sentence name="OperationSumExclude" value="Poissulkien"/>
+  <sentence name="OperationSumNewValue" value="Uusi arvo"/>
+  <sentence name="OperationSumName" value="Nimi"/>
+  <sentence name="OperationSumCode" value="Koodi"/>
+  <sentence name="OperationSumSelectValueMessage" value="Ainakin yksi arvo tulee valita"/>
+
+  <sentence name="OverlayTableText" value="Taulukkopeitto..."/>
+  <sentence name="OverlayTableDialogText" value="Taulukkopeitto"/>
+  <sentence name="OverlayTableHelpText" value="Anna uuden muuttujan (suunnan) nimi, arvotekstit ja -koodit (ennen ja jälkeen muokkauksen)"/>
+  <sentence name="OverlayTableEnterVariable" value="Anna muuttujan teksti"/>
+  <sentence name="OverlayTableEnterValue1" value="Anna ensimmäisen arvon teksti"/>
+  <sentence name="OverlayTableEnterValue2" value="Anna toisen arvon teksti"/>
+
+  <sentence name="ChangeTextCodeMenu" value="Vaihda teksti-koodi-esitys..."/>
+  <sentence name="ChangeTextCode" value="Vaihda teksti-koodi-esitys"/>
+  <sentence name="ChangeTextCodeHelpText" value="Valitse esitysmuoto muuttujittain."/>
+  <sentence name="ChangeText" value="Teksti"/>
+  <sentence name="ChangeCode" value="Koodi"/>
+  <sentence name="ChangeTextAndCode" value="Teksti ja koodi"/>
+
+  <sentence name="LinkTableText" value="Taulukkolinkki..."/>
+  <sentence name="LinkTableChooseTable" value="Taulukkolinkki"/>
+
+  <sentence name="SelectFolderOVERLAY" value="Valitse taulukkopeittohakemisto"/>
+  <sentence name="SelectFolderLINK" value="Valitse taulukkolinkkihakemisto"/>
+  <sentence name="SelectPxFile" value="Valitse px-tiedosto"/>
+
+  <sentence name="OperationPercent" value="Prosenttilasku"/>
+  <sentence name="OperationPercentBaseHeading" value="Anna pohja-arvo"/>
+  <sentence name="OperationPercentBaseVariable" value="Muuttuja"/>
+  <sentence name="OperationPercentBaseVariableValue" value="Muuttujan arvo"/>
+  <sentence name="OperationPercentBaseCellValue" value="Solun arvo"/>
+  <sentence name="OperationPercentBaseSelectionHeading" value="Valitse pohja seuraavasti:"/>
+  <sentence name="OperationPercentBaseInstructionVariable" value="Valitse kaikki yhden muuttujan arvot"/>
+  <sentence name="OperationPercentBaseInstructionVariableValue" value="Valitse yhdestä muuttujasta yksi arvo"/>
+  <sentence name="OperationPercentBaseInstructionCellValue" value="Valitse kaikista muuttujista yksi arvo"/>
+  <sentence name="OperationPercentRequiredValue" value="Vaadittu arvo"/>
+  <sentence name="OperationPercentValueNeededText" value="Anna uudelle arvolle sekä teksti että koodi."/>
+  <sentence name="OperationPercentInitialValue" value="Alkuarvo"/>
+  <sentence name="OperationPercentInclude" value="Mukaanlukien"/>
+  <sentence name="OperationPercentExclude" value="Poissulkien"/>
+  <sentence name="OperationPercentNewValue" value="Uusi arvo"/>
+  <sentence name="OperationPercentNewValueDefault" value="Prosenttia"/>
+
+  <sentence name="OperationPercentAllowText" value="Vain seuraavat valinnat ovat mahdollisia:
+
+Yksi arvo
+Yksi arvo jokaisesta muuttujasta
+Kaikki arvot yhdestä muuttujasta"/>
+
+  <sentence name="OperationCalculate" value="Laske"/>
+  <sentence name="OperationCalculateInitialValues" value="Alkuarvot"/>
+  <sentence name="OperationCalculateInclusive" value="Mukaanlukien"/>
+  <sentence name="OperationCalculateExclusive" value="Poissulkien"/>
+  <sentence name="OperationCalculateNewValue" value="Uusi arvo"/>
+  <sentence name="OperationCalculateName" value="Nimi"/>
+  <sentence name="OperationCalculateCode" value="Koodi"/>
+  <sentence name="OperationCalculateConstant" value="Vakio:"/>
+  <sentence name="OperationCalculateSelectValueMessage" value="Voit laskea joko kahdella eri arvolla tai arvolla ja vakiolla."/>
+  <sentence name="OperationCalculateSelectErrorMessage" value="Valintavirhe"/>
+  <sentence name="OperationCalculateNewValueMessage" value="Uudelle arvolle tulee antaa sekä arvoteksti että koodi"/>
+  <sentence name="OperationCalculateNewValueErrorMessage" value="Vaaditut arvot"/>
+  <sentence name="OperationCalculateTooManyValues" value="Voit valita enintään kaksi arvoa"/>
+  <sentence name="OperationCalculateAddition" value="Addition" />
+  <sentence name="OperationCalculateDivision" value="Division" />
+  <sentence name="OperationCalculateMultiplication" value="Multiplication" />
+  <sentence name="OperationCalculateSubtraction" value="Subtraction" />
+
+  <sentence name="OperationDeleteVariable" value="Poista muuttuja"/>
+  <sentence name="OperationDeleteSelectValue" value="Valitse arvo"/>
+  <sentence name="OperationDeleteSelectValueMessage" value="Valitse poistettava arvo"/>
+  <sentence name="OperationDeleteSelectValueHelpText" value="Valitse taulukossa käytettävä arvo"/>
+  <sentence name="OperationDeleteVariableAddToContents" value="Lisää arvo otsikkoon"/>
+  <sentence name="OperationDeleteSelectVariableMessage" value="Valitse poistettava muuttuja"/>
+  <sentence name="OperationDeleteSelectVariableErrorMessage" value="Valitse muuttuja"/>
+  <sentence name="OperationDeleteSelectValueErrorMessage" value="Valitse arvo"/>
+  <sentence name="OperationDeleteValue" value="Poista arvo"/>
+  <sentence name="OperationDeleteValueErrorMessage" value="Toimintovirhe"/>
+  <sentence name="OperationDeleteValueError" value="Virhe"/>
+  <sentence name="OperationDeleteValueHelpText" value="Muista että kullakin muuttujalla tulee olla ainakin yksi arvo"/>
+
+  <sentence name="OperationChangeValueOrder" value="Muuta arvojärjestystä"/>
+  <sentence name="OperationChangeValueOrderFromOrder" value="Alkuperäinen"/>
+  <sentence name="OperationChangeValueOrderToOrder" value="Uusi järjestys"/>
+  <sentence name="OperationChangeValueOrderSortAsce" value="Järjestä nousevasti"/>
+  <sentence name="OperationChangeValueOrderSortDesc" value="Järjestä laskevasti"/>
+  <sentence name="OperationChangeValueOrderMoveRest" value="Siirrä loput"/>
+
+  <sentence name="ValueSelectSelectAll" value="Valitse kaikki"/>
+  <sentence name="ValueSelectDeselectAll" value="Tyhjää valinnat"/>
+
+  <sentence name="ChangeDecimal" value="Muuta desimaaleja"/>
+  <sentence name="ChangeDecimalMenu" value="Muuta desimaaleja..."/>
+  <sentence name="ChangeDecimalInfo" value="Anna desimaalien määrä (0-6)"/>
+  <sentence name="ChangeDecimalErrorText" value="Vain numerot 0-6 kelpaavat"/>
+  <sentence name="ChangeDecimalErrorHead" value="Epäkelpo syöte"/>
+
+  <sentence name="ExitApplicationMessage" value="Haluatko poistua PxWinistä?"/>
+  <sentence name="ExitApplicationWithoutSaveMessage" value="Taulukkoa on muokattu, haluatko todella poistua PxWinistä?"/>
+  <sentence name="ExitTableWithoutSaveMessage" value="Taulukkoa on muokattu, haluatko todella sulkea sen?"/>
+  <sentence name="ConfigurationChangeExit" value="Ole hyvä ja käynnistä sovellus uudestaan muuttuneiden määritysten takia."/>
+  <sentence name="ConfigurartionChangeExit" value="Ole hyvä ja käynnistä sovellus uudestaan muuttuneiden määritysten takia."/>
+
+<!-- Error Test -->
+  <sentence name="PxcYear" value="vuosi"/>
+  <sentence name="PxcHalfyear" value="puolivuosi"/>
+  <sentence name="PxcQuarter" value="neljännes"/>
+  <sentence name="PxcMonth" value="kuukausi"/>
+  <sentence name="PxcWeek" value="viikko"/>
+  <sentence name="PxcMetaTitleBy" value="muuttujina"/>
+  <sentence name="PxcMetaTitleAnd" value="ja"/>
+  <sentence name="PxcOpSplitTimeVarYear" value="vuosi"/>
+  <sentence name="PxcOpSplitTimeVarQuarter" value="neljännes"/>
+  <sentence name="PxcOpSplitTimeVarMonth" value="kuukausi"/>
+  <sentence name="PxcOpSplitTimeVarJanuary" value="tammikuu"/>
+  <sentence name="PxcOpSplitTimeVarFebruary" value="helmikuu"/>
+  <sentence name="PxcOpSplitTimeVarMarch" value="maaliskuu"/>
+  <sentence name="PxcOpSplitTimeVarApril" value="huhtikuu"/>
+  <sentence name="PxcOpSplitTimeVarMay" value="toukokuu"/>
+  <sentence name="PxcOpSplitTimeVarJune" value="kesäkuu"/>
+  <sentence name="PxcOpSplitTimeVarJuly" value="heinäkuu"/>
+  <sentence name="PxcOpSplitTimeVarAugust" value="elokuu"/>
+  <sentence name="PxcOpSplitTimeVarSeptember" value="syyskuu"/>
+  <sentence name="PxcOpSplitTimeVarOctober" value="lokakuu"/>
+  <sentence name="PxcOpSplitTimeVarNovember" value="marraskuu"/>
+  <sentence name="PxcOpSplitTimeVarDecember" value="joulukuu"/>
+  <sentence name="PxcOpSplitTimeVarQuarter1" value="1. neljännes"/>
+  <sentence name="PxcOpSplitTimeVarQuarter2" value="2. neljännes"/>
+  <sentence name="PxcOpSplitTimeVarQuarter3" value="3. neljännes"/>
+  <sentence name="PxcOpSplitTimeVarQuarter4" value="4. neljännes"/>
+  <sentence name="ERROR_MISSING_TIMEVALUE" value="TIMEVALUE puuttuu"/>
+  <sentence name="PxcErrCellNoteValueMissing" value="{0} on epäkelpo"/>
+  <sentence name="PxcErrToManyCodes" value="{0}-muuttujalla on liikaa koodeja"/>
+  <sentence name="PxcGroupedValuesMissing" value="{0} ryhmäarvoja puuttuu"/>
+  <sentence name="PxcGroupingVariableWithNoValues" value="Ryhmitysmuuuttujalla {0} ei ole arvoja"/>
+  <sentence name="PxcSortVariable" value="yksikkömuuttuja"/>
+  <sentence name="SqlErr" value=""/>
+  <sentence name="SqlWarn" value=""/>
+  <sentence name="PxcContactPhone" value="puhelin"/>
+  <sentence name="PxcContactFax" value="faksi"/>
+  <sentence name="PxcContactEMail" value="sähköposti"/>
+  <sentence name="PxcContactWebAddress" value="kotisivu"/>
+  <sentence name="PxcPercent" value="prosenttia"/>
+  <sentence name="PxcPermil" value="promillea"/>
+  <sentence name="PxcPercentUnitVarExists" value="Prosentteja ei voi laskea yksikkömuuttujan takia"/>
+  <sentence name="PxcPermilUnitVarExists" value="Promilleja ei voi laskea yksikkömuuttujan takia"/>
+  <sentence name="PxcErr103" value="UNITS-virhe"/>
+  <sentence name="PxcErr106" value="STUB-virhe"/>
+  <sentence name="PxcErr107" value="HEADING-virhe"/>
+  <sentence name="PxcErr108" value="VALUES-virhe"/>
+  <sentence name="PxcErr109" value="CODES-virhe"/>
+  <sentence name="PxcErr111" value="Muuttujakohtainen NOTE- tai NOTEX-virhe"/>
+  <sentence name="PxcErr112" value="VALUENOTE- tai VALUENOTEX-virhe"/>
+  <sentence name="PxcErr113" value="CELLNOTE- tai CELLNOTEX-virhe"/>
+  <sentence name="PxcErr115" value="ELIMINATION yes/no -virhe"/>
+  <sentence name="PxcErr117" value="PARTITION-virhe"/>
+  <sentence name="PxcErr121" value="KEYS-virhe"/>
+  <sentence name="PxcErr123" value="PRECISION-virhe"/>
+  <sentence name="PxcErr124" value="DOMAIN-virhe"/>
+  <sentence name="PxcErr130" value="TITLE tai DESCRIPTION puuttuu"/>
+  <sentence name="PxcErr131" value="MATRIX puuttuu"/>
+  <sentence name="PxcErr132" value="SUBJECT-AREA puuttuu"/>
+  <sentence name="PxcErr133" value="SUBJECT-CODE puuttuu"/>
+  <sentence name="PxcErr134" value="STUB jan HEADING puuttuvat"/>
+  <sentence name="PxcErr135" value="UNITS puuttuu"/>
+  <sentence name="PxcErr136" value="CONTENTS puuttuu"/>
+  <sentence name="PxcErr137" value="DECIMALS puuttuu"/>
+  <sentence name="PxcErr138" value="SHOWDECIMALS-virhe"/>
+  <sentence name="PxcErr142" value="COPYRIGHT on viallinen"/>
+  <sentence name="PxcErr143" value="DAYADJ on viallinen"/>
+  <sentence name="PxcErr144" value="SEASADJ on viallinen"/>
+  <sentence name="PxcErr146" value="CONTACT on viallinen"/>
+  <sentence name="PxcErr147" value="REFPERIOD on viallinen"/>
+  <sentence name="PxcErr149" value="LAST-UPDATED on viallinen"/>
+  <sentence name="PxcErr151" value="STOCKFA on viallinen"/>
+  <sentence name="PxcErr152" value="CFPRICES on viallinen"/>
+  <sentence name="PxcErr153" value="TIMEVAL on viallinen"/>
+  <sentence name="PxcErr154" value="BASEPERIOD on viallinen"/>
+  <sentence name="PxcErr160" value="CONTVARIABLE-riipuva avainsana on käytössä, mutta sisältömuuttujamääritys puuttuu"/>
+  <sentence name="PxcErr161" value="CONTVARIABLE- tai siitä riippuvan avainsanan virhe"/>
+  <sentence name="PxcErr162" value="PRESTEXT-virhe"/>
+  <sentence name="PxcErr164" value="MAP-virhe"/>
+  <sentence name="PxcErr166" value="AGGREGALLOWED-virhe"/>
+  <sentence name="PxcErr167" value="AUTOPEN-virhe"/>
+  <sentence name="PxcErr168" value="DOUBLECOLUMN-virhe"/>
+  <sentence name="PxcErr169" value="DESCRIPTIONDEFAULT-virhe"/>
+  <sentence name="PxcErr176" value="DATANOTE-virhe"/>
+  <sentence name="PxcErr180" value="DATA puuttuu"/>
+  <sentence name="PxcErr201" value="HIERARCHYLEVELSOPEN-virhe"/>
+  <sentence name="PxcErr202" value="HIERARCHYLEVELS-virhe"/>
+  <sentence name="PxcErr203" value="HIERARCHYNAMES-virhe"/>
+  <sentence name="PxcErr204" value="HIERARCHIES-virhe"/>
+  <sentence name="PxcErr205" value="OFFICIAL-STATISTICS-virhe"/>
+  <sentence name="PxcErr300" value="VALUE-TEXT-OPTION-virhe"/>
+  <sentence name="PxcKeywordError" value="{0}-virhe"/>
+  <sentence name="PxcKeywordLastUpdated" value="Päivitetty"/>
+  <sentence name="PxcKeywordSource" value="Lähde"/>
+  <sentence name="PxcKeywordContact" value="Yhteystiedot"/>
+  <sentence name="PxcKeywordCopyright" value="Tekijänoikeus"/>
+  <sentence name="PxcKeywordUnits" value="Yksiköt"/>
+  <sentence name="PxcKeywordStockfa" value="Tietotyyppi"/>
+  <sentence name="PxcKeywordStockfaValueStock" value="Varasto"/>
+  <sentence name="PxcKeywordStockfaValueFlow" value="Virta"/>
+  <sentence name="PxcKeywordStockfaValueAverage" value="Keskimääräinen"/>
+  <sentence name="PxcKeywordRefPeriod" value="Viiteajankohta"/>
+  <sentence name="PxcKeywordBasePeriod" value="Perusajankohta"/>
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Käyvät hinnat"/>
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Kiinteät hinnat"/>
+  <sentence name="PxcKeywordDayAdj" value="Työpäiväkorjattu"/>
+  <sentence name="PxcKeywordSeasAdj" value="Kausitasoitettu"/>
+  <sentence name="PxcKeywordDatabase" value="Tietokanta"/>
+  <sentence name="PxcKeywordMatrix" value="Sisäinen viitetunnus"/>
+  <sentence name="PxcKeywordOfficialStatistics" value="Virallinen tilasto" />
+
+  <sentence name="ErrorNoAvailableFiles" value="Kelvollisia tiedostoja ei ole sijainnissa"/>
+  <sentence name="ErrorActionIsMissing" value="Toiminto puuttuu tai sitä ei tunnistettu"/>
+  <sentence name="OperationError" value="Suoritusvirhe"/>
+  <sentence name="Error" value="Virhe"/>
+  <sentence name="Protected" value="Suojattu"/>
+  <sentence name="ErrorInAuthorization" value="Valtuutusvirhe"/>
+  <sentence name="FatalErrors" value="Vakava virhe"/>
+  <sentence name="Warnings" value="Varoitukset"/>
+
+  <sentence name="toolAggMenuRoot" value="Luokitukset" />
+  <sentence name="toolAggMenuOpenValueset" value="Avaa arvojoukko (.vs)" />
+  <sentence name="toolAggMenuNewValueset" value="Uusi arvojoukko (.vs)" />
+  <sentence name="toolAggMenuNewAggregation" value="Uusi ryhmittely (.agg)" />
+  <sentence name="toolAggNewAggregation" value="Uusi ryhmittely (.agg)" />
+  <sentence name="toolAggNewValueset" value="Uusi arvojoukko (.vs)" />
+  <sentence name="toolAggAggregationBox" value="Ryhmittely" />
+  <sentence name="toolAggAggregationName" value="Nimi:" />
+  <sentence name="toolAggAggregationMap" value="Kartta:" />
+  <sentence name="toolAggAllowOverlappingValues" value="Salli päällekkäiset arvot" />
+
+  <sentence name="toolAggGroupsBox" value="Ryhmät" />
+  <sentence name="toolAggGroupsListCode" value="Koodi" />
+  <sentence name="toolAggGroupsListText" value="Teksti" />
+  <sentence name="toolAggGroupsListIncludedValues" value="Sisältää arvot" />
+  <sentence name="toolAggGroupUp" value="Siirrä ylös" />
+  <sentence name="toolAggGroupDown" value="Siirrä alas" />
+  <sentence name="toolAggGroupDelete" value="Poista" />
+  <sentence name="toolAggGroupNew" value="Uusi ryhmä" />
+  <sentence name="toolAggGroupInfoBox" value="Ryhmätietoja" />
+  <sentence name="toolAggGroupSave" value="Tallenna ryhmä" />
+  <sentence name="toolAggGroupCancelEdit" value="Kumoa" />
+  <sentence name="toolAggGroupEdit" value="Muokkaa ryhmää" />
+  <sentence name="toolAggGroupCode" value="Koodi:" />
+  <sentence name="toolAggGroupText" value="Teksti:" />
+  <sentence name="toolAggGroupValueListCode" value="Koodi" />
+  <sentence name="toolAggGroupValueListText" value="Teksti" />
+
+  <sentence name="toolAggAggregationValuesetBox" value="Arvojoukko" />
+  <sentence name="toolAggAggregationValuesetName" value="Nimi:" />
+  <sentence name="toolAggAggregationValuesetDomain" value="Arvoalue:" />
+  <sentence name="toolAggAggregationValuesetFile" value="Arvojoukkotiedosto:" />
+  <sentence name="toolAggAggregationValuesetFileBrowse" value="Selaa" />
+  <sentence name="toolAggAggregationAvailableBox" value="Käytössä olevat arvot" />
+  <sentence name="toolAggAggregationAvailableCode" value="Koodi" />
+  <sentence name="toolAggAggregationAvailableText" value="Teksti" />
+  <sentence name="toolAggAggregationSaveFile" value="Tallenna ryhmittelytiedosto (.agg)" />
+
+  <sentence name="toolAggDeleteGroupQuestion" value="Haluatko todella poistaa valitun ryhmän?" />
+  <sentence name="toolAggDeleteGroupCaption" value="Poista ryhmä" />
+  <sentence name="toolAggIllegalFileMessage" value="Tiedosto on väärän muotoinen:" />
+  <sentence name="toolAggIllegalFileCaption" value="Tiedoston luku ei onnistu" />
+  <sentence name="toolAggEnterGroupCodeMessage" value="Ryhmäkoodi tarvitaan" />
+  <sentence name="toolAggEnterGroupCodeCaption" value="Syötä arvo" />
+  <sentence name="toolAggEnterGroupNameMessage" value="Ryhmäteksti tarvitaan" />
+  <sentence name="toolAggEnterGroupNameCaption" value="Syötä arvo" />
+  <sentence name="toolAggExistingGroupMessage" value="Samankoodinen ryhmä on jo olemassa, syötä joku toinen koodi" />
+  <sentence name="toolAggExistingGroupCaption" value="Olemassa oleva ryhmä" />
+  <sentence name="toolAggEnterAggregationNameMessage" value="Ryhmittelyn nimi tarvitaan" />
+  <sentence name="toolAggEnterAggregationNameCaption" value="Syötä arvo" />
+  <sentence name="toolAggIllegalVsAssociationMessage" value="Ryhmittelytiedostoa (.agg) ei ole liitetty arvojoukkotiedostoon (.vs). Ryhmittelytiedoston Valueset-asetuksen tulee vastata arvojoukkotiedoston (.vs) Name-asetusta. Poistetaanko tämä ryhmittelytiedosto arvojoukkotiedoston listalta?" />
+  <sentence name="toolAggIllegalVsAssociationCaption" value="Arvojoukon liitos ei ole kunnossa" />
+  <sentence name="toolAggFileChangedMessage" value="Tiedosto '{0}' on muuttunut. Ladataanko tiedosto uudestaan PxWiniin?" />
+  <sentence name="toolAggAggFileChangedMessage" value="Tiedosto '{0}' tai sitä vastaava arvojoukkotiedosto on muuttunut. Ladataanko tiedosto uudestaan PxWiniin?" />
+  <sentence name="toolAggFileChangedCaption" value="Tiedosto on muuttunut" />
+
+  <sentence name="toolAggIllegalValue" value="Epäkelpo arvo. Tämä arvo ei esiinny arvojoukossa." />
+  <sentence name="toolAggMessOverlappingOrIllegalValues" value="Sisältää päällekkäisiä tai epäkelpoja arvoja." />
+
+  <sentence name="toolAggSaveChangesTitle" value="Tallenna muutokset" />
+  <sentence name="toolAggSaveChangesQuestion" value="Tiedosto {0} on muuttunut. Tallennetaanko muutokset?" />
+  <sentence name="toolAggSaveChangesYes" value="Tallenna" />
+  <sentence name="toolAggSaveChangesNo" value="Älä tallenna" />
+  <sentence name="toolAggSaveChangesCancel" value="Kumoa" />
+
+<!-- Valueset .vs file -->
+  <sentence name="toolValueSetImportFile" value="Nouda arvojoukkotiedostoon (.vs)" />
+  <sentence name="toolValueSetSaveFile" value="Tallenna arvojoukkotiedosto (.vs)" />
+  <sentence name="toolValueSetName" value="Nimi" />
+  <sentence name="toolValueSetPrestext" value="Selite" />
+  <sentence name="toolValueSetDomain" value="Arvojoukko" />
+  <sentence name="toolValueSetType" value="Tyyppi" />
+  <sentence name="toolValueSetTabValues" value="Arvot" />
+  <sentence name="toolValueSetTabAggFiles" value="Ryhmittelytiedostot" />
+  <sentence name="toolValueSetColumnCode" value="Koodi" />
+  <sentence name="toolValueSetColumnText" value="Teksti" />
+  <sentence name="toolValueSetCreateNewAggregationFile" value="Luo uusi ryhmittelytiedosto" />
+
+<!-- Warning and error message Valueset -->
+  <sentence name="toolValueSetMessDublicateCodes" value="Arvojoukossa on toisteisia arvoja" />
+  <sentence name="toolValueSetDublicateCodesMessage" value="Tiedostossa on toisteisia arvoja." />
+  <sentence name="toolValueSetDublicateCodesCaption" value="Toisteiset arvot" />
+  <sentence name="toolValueSetMessDuplicateCodes" value="Arvojoukossa on toisteisia arvoja" />
+  <sentence name="toolValueSetDuplicateCodesMessage" value="Tiedostossa on toisteisia arvoja." />
+  <sentence name="toolValueSetDuplicateCodesCaption" value="Toisteiset arvot" />
+  <sentence name="toolValueSetFileNameAndNameMessage" value="Tiedoston nimi ja arvojoukkotiedostossa oleva nimi eivät täsmää. Arvojoukkotiedostossa olevan nimen tulee olla sama kuin tiedoston nimi. Haluatko kuitenkin tallentaa arvojoukkotiedoston?" />
+  <sentence name="toolValueSetFileNameCaption" value="Tiedoston nimi" />
+  <sentence name="toolValueSetEnterValueSetNameMessage" value="Syötä arvojoukon nimi" />
+  <sentence name="toolValueSetEnterValueSetCaption" value="Syötä arvo" />
+  <sentence name="toolValueSetEnterValueSetPrestextMessage" value="Syötä arvojoukon selite" />
+  <sentence name="toolValueSetEnterValueSetDomainMessage" value="Syötä arvojoukon arvoalue" />
+  <sentence name="toolValueSetErrorCaption" value="Virhe" />
+  <sentence name="toolValueSetErrorDublicateCodesMessage" value="Toisteisten tietojen tarkistuksessa sattui virhe" />
+  <sentence name="toolValueSetCodesMissingMessage" value="Arvokoodilohko [Valuecode] puuttuu arvojoukkotiedostosta" />
+
+<!-- Error message import code and text -->
+  <sentence name="toolValueSetIllegalFileCaption" value="Tiedoston luku ei onnistu" />
+  <sentence name="toolValueSetIllegalFileMessage" value="Tiedoston muoto on virheellinen" />
+  <sentence name="toolValueSetErrorReadingCSVfileMessage" value="Arvokoodien ja -tekstien luku csv-tiedostosta epäonnistui. Tarkista, onko annettu kenttäerotin oikea." />
+
+<!-- Save valueset file -->
+  <sentence name="toolValueSetSaveFileCaption" value="Tallennusvirhe" />
+  <sentence name="toolValueSetSaveFileMessage" value="Arvojoukkotiedoston (.vs) tallennus ei onnistunut." />
+
+<!-- Delimiter dialog -->
+  <sentence name="formDelimiterCaption" value="csv-tiedoston kenttäerotin" />
+  <sentence name="formDelimiterQuestion" value="Mikä on tiedoston kenttäerotin?" />
+  <sentence name="formDelimiterTabulator" value="Sarkain" />
+  <sentence name="formDelimiterComma" value="Pilkku" />
+  <sentence name="formDelimiterSpace" value="Väli" />
+
+<!-- Import from .px dialog -->
+  <sentence name="formPxFileValuesCaption" value="Nouda arvoja ja koodeja" />
+  <sentence name="formPxFileValuesQuestion" value="Mille kielelle ja mille muuttujalle tietoja noudetaan?" />
+  <sentence name="formPxFileValuesLanguage" value="Kieli" />
+  <sentence name="formPxFileValuesVariables" value="Muuttujat" />
+</language>

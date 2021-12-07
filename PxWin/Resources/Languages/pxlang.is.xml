@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language xmlns="PC-Axis" name="Default">
+  <sentence name="and" value="og" />
+  <sentence name="by" value="eftir" />
+  <sentence name="Ok" value="Í lagi" />
+  <sentence name="Cancel" value="Hætta við" />
+  <sentence name="MainTitle" value="PxWin" />
+  <sentence name="Run" value="Keyra" />
+  <sentence name="Open" value="Opna" />
+  <sentence name="Change" value="Breyta" />
+  <sentence name="FooterColumns" value="D:" />
+  <sentence name="FooterRows" value="R:" />
+  <sentence name="FooterCells" value="Sellur:" />
+  <sentence name="TabTable" value="Tafla" />
+  <sentence name="TabFootnote" value="Skýringar" />
+  <sentence name="TabInformation" value="Upplýsingar" />
+  <sentence name="MenuAbout" value="Um" />
+  <sentence name="MenuCalculate" value="Reikna" />
+  <sentence name="MenuEdit" value="Breyta" />
+  <sentence name="MenuExit" value="Hætta" />
+  <sentence name="MenuFile" value="Skrá" />
+  <sentence name="MenuHelp" value="Hjálp" />
+  <sentence name="MenuLanguage" value="Tungumál" />
+  <sentence name="MenuOpenTable" value="Opna töflu" />
+  <sentence name="MenuSave" value="Vista" />
+  <sentence name="MenuSaveAs" value="vista sem..." />
+  <sentence name="MenuTools" value="Tól" />
+  <sentence name="MenuOpen" value="Opna" />
+  <sentence name="MenuUndo" value="Hætta við" />
+  <sentence name="MenuEditPivot" value="Pivot..." />
+  <sentence name="MenuEditPivotCW" value="Pivot réttsælis" />
+  <sentence name="MenuEditPivotCCW" value="Pivot rangsælis" />
+  <sentence name="MenuEditDeleteVariable" value="Eyða breytu..." />
+  <sentence name="MenuEditDeleteValue" value="Eyða gildi..." />
+  <sentence name="MenuEditChangeValueOrder" value="Breyta röðun gilda..." />
+  <sentence name="MenuCalculateSum" value="Summa..." />
+  <sentence name="MenuCalculatePerMille" value="Prómill..." />
+  <sentence name="MenuCalculateAdd" value="Bæta við..." />
+  <sentence name="MenuCalculateSubstract" value="Draga frá..." />
+  <sentence name="MenuCalculateMultiply" value="Margfalda..." />
+  <sentence name="MenuCalculateDivide" value="Deila..." />
+  <sentence name="MenuCalculatePercent" value="Prósent..." />
+  <sentence name="MenuStopRecording" value="Vista fyrirspurn..." />
+  <sentence name="MenuRunSavedQuery" value="Keyra vistaða fyrirspurn..." />
+  <sentence name="MenuBatch" value="Lota" />
+  <sentence name="AboutPXWin" value="Um PxWin" />
+  <sentence name="VersionText" value="Útgáfa" />
+  <sentence name="MandatoryFootnotes" value="Nauðsynlegar skýringar" />
+  <sentence name="OpenTableFileSystem" value="Skráarkerfi" />
+  <sentence name="SelectValuesTitle" value="Veldu gildi" />
+  <sentence name="SelectValuesCount" value="af" />
+  <sentence name="SelectValuesAtLeastOneValueTitle" value="Veldu gildi" />
+  <sentence name="SelectValuesAtLeastOneValue" value="Það þarf að velja minnst eitt gildi fyrir eftirfarandi breytur:" />
+  <sentence name="SelectClassificationTitle" value="Veldu flokkun" />
+  <sentence name="SelectValuesCtrlGroupTooltip" value="Veldu flokkun" />
+  <sentence name="SelectValuesCtrlSelectAllTooltip" value="Velja öll gildi" />
+  <sentence name="SelectValuesCtrlUnselectTooltip" value="Afvelja öll gildi" />
+  <sentence name="SelectValuesCtrlAscendingTooltip" value="Stighækkandi" />
+  <sentence name="SelectValuesCtrlDescendingTooltip" value="Stiglækkandi" />
+  <sentence name="SelectValuesCtrlSearchTooltip" value="Search values" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCells" value="Fjöldi valinna sella: {0}" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCellsMaximum" value="Fjöldi valinna sella: {0} (að hámarki {1})" />
+  <sentence name="SelectValuesCtrlSelectAllButton" value="Velja öll gildi" />  
+  <sentence name="AccessDeniedHeading" value="Aðgangur óheimill" />
+  <sentence name="AccessDeniedText" value="Þú hefur ekki aðgangsheimildir að töflunni" />
+  <sentence name="Name" value="Nafn" />
+  <sentence name="Category" value="Flokkur" />
+  <sentence name="CategoryInternal" value=" I " />
+  <sentence name="CategoryPrivate" value=" P " />
+  <sentence name="CategoryOfficial" value=" O " />
+
+  <!--Footnote -->
+  <sentence name="FootnoteNote" value="Skýring" />
+  <sentence name="FootnoteLatestUpdate" value="Síðast uppfært" />
+  <sentence name="FootnoteSorce" value="Uppruni" />
+  <sentence name="FootnoteContact" value="Tengiliður" />
+  <sentence name="FootnoteUnits" value="Einingar" />
+  <sentence name="FootnoteDataType" value="Gagnagerð" />
+  <sentence name="FootnoteReferencePeriod" value="Viðmiðunartímabil" />
+  <sentence name="FootnoteDatabase" value="Gagnagrunnur" />
+  <sentence name="FootnoteInternalReferenceCode" value="Kóði fyrir innri tilvísun" />
+
+  
+
+  <!--Save -->
+  <sentence name="SaveText" value="Skráin var vistuð" />
+  <sentence name="SaveCaption" value="Skrá vistuð" />
+  <sentence name="SaveAsXlsx" value="Vista sem xlsx" />
+  <sentence name="SaveAsXlsxWithCodeAndText" value="Með kóða og texta dálkum" />
+  <sentence name="SaveAsComplete" value="{0} var vistuð" />
+  <sentence name="SaveAs" value="Vista sem" />
+  <sentence name="SaveAsFileFormats" value="
+PX-skrá (*.px)|*.px|
+Excel skrá (*.xml)|*.xml|
+Excel skrá með kóða og texta (*.xml)|*.xml|
+Tab delimited með dálkaheitum (*.csv)|*.csv|
+Tab delimited án dálkaheita (*.csv)|*.csv|
+Kommuskipt með dálkaheitum (*.csv)|*.csv|
+Kommuskipt án dálkaheita (*.csv)|*.csv|
+Stafabilsskipt með dálkaheitum (*.csv)|*.csv|
+Stafabilsskipt án dálkaheita (*.csv)|*.csv|
+Semíkommuskipt með dálkaheitum (*.csv)|*.csv|
+Semíkommuskipt án dálkaheita (*.csv)|*.csv|
+Html-skrá (*.html)|*.html|
+Vensluð skrá (*.txt)|*.txt|
+Excel (*.xlsx)|*.xlsx|
+Excel með kóða og textadálkum (*.xlsx)|*.xlsx|
+Vensluð kóða skrá með dálkaheitum (*.txt)|*.txt|
+Vensluð kóða skrá án dálkaheita (*.txt)|*.txt" />
+  
+  <!--<sentence name="FileTypePX" value="PC-Axis file" />
+  <sentence name="FileTypeExcel" value="Excel workbook (xml)" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook (xml) with code and text" />
+  <sentence name="FileTypeExcelCompleteInfoFile" value="Excel file from screen" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tab delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tab delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Comma delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Comma delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Space delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Space delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semicolon delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semicolon delimited without heading" />
+  <sentence name="FileTypeHtml" value="Html file (htm)" />
+  <sentence name="FileTypeRelational" value="Relational file (scb)" />
+  <sentence name="FileTypeExcelX" value="Excel (xlsx)" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel (xlsx) with code and text column" />-->
+  
+<!-- Batch-->
+  <sentence name="Batch" value="Lota" />
+  <sentence name="BatchMissingDestination" value="Gildi vantar" />
+  <sentence name="BatchMissingDestinationText" value="Þú þarft að velja möppu sem á að vista í" />
+  <sentence name="BatchSaveToPxtButton" value="Vista .pxt" />
+  <sentence name="BatchSaveToBatButton" value="Vista .bat" />
+  <sentence name="BatchSaveToBatHeading" value="Vista sem .bat" />
+  <sentence name="BatchSaveToBatLabel" value="Velja .pxt-skrá og vista sem .bat" />
+  <sentence name="BatchOpen" value="1. Opna skrá með vistaðri fyrirspurn (.pxsq) eða lista skrá (.pxt)" />
+  <sentence name="BatchFileFormat" value="2. Velja snið skráar" />
+  <sentence name="BatchDestinationFolder" value="3. Velja vistunarmöppu" />
+  <sentence name="BatchAction" value="4. Framkvæma aðgerð" />
+  <sentence name="BatchRun" value="Keyra" />
+  <sentence name="BatchClose" value="Loka" />
+  <sentence name="BatchSavedQueries" value="Vistaðar fyrirspurnir" />
+  <sentence name="BatchStatus" value="Staða" />
+  <sentence name="BatchNotRun" value="Ekki keyrt" />
+  <sentence name="BatchWorking" value="Framkvæmi..." />
+  <sentence name="BatchNotOk" value="Ekki í lagi" />
+  <sentence name="BatchRemove" value="Fjarlægja valdar skrár úr lista" />
+
+
+
+  <!--Saved Query-->
+  <sentence name="Step" value="Þrep" />
+  <sentence name="Operation" value="Aðgerð" />
+  <sentence name="PIVOT" value="Pivot" />
+  <sentence name="PIVOT_CW" value="Pivot réttsælis" />
+  <sentence name="PIVOT_CCW" value="Pivot rangslæis" />
+  <sentence name="CHANGE_VALUE_ORDER" value="Breyta röðun gilda" />
+  <sentence name="DELETE_VALUE" value="Eyða gildi" />
+  <sentence name="DELETE_VARIABLE" value="Eyða breytu" />
+  <sentence name="SUM" value="Summa" />
+  <sentence name="CHANGE_DECIMALS" value="Breyta aukastöfum" />
+  <sentence name="CHANGE_TEXT_CODE_PRESENTATION" value="Breyta texta/kóða framsetningu" />
+  <sentence name="Multiplication" value="Margföldun" />
+  <sentence name="Addition" value="Samlagning" />
+  <sentence name="PerCent" value="Prósent" />
+
+
+  <sentence name="FileTypePX" value="PX-skrá " />
+  <sentence name="Filetypejsonstat" value="JSON-stat skrá" />
+  <sentence name="FileTypeExcel" value="Excel skrá" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel skrá með kóða og texta " />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tab delimited með dálkaheitum " />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tab delimited án dálkaheita " />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Kommuskipt með dálkaheitum " />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Kommuskipt án dálkaheita " />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Stafabilsskipt með dálkaheitum " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Stafabilsskipt án dálkaheita " />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semíkommuskipt með dálkaheitum " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semíkommuskipt án dálkaheita " />
+  <sentence name="FileTypeHtml" value="Html-skrá " />
+  <sentence name="FileTypeRelational" value="Vensluð skrá " />
+  <sentence name="FileTypeExcelX" value="Excel" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel skrá með kóða og texta" />
+  <sentence name="FileTypeRelationalCodeWithHeading" value="Vensluð kóðaskrá með dálkaheitum " />
+  <sentence name="FileTypeRelationalCodeWithoutHeading" value="Vensluð kóðaskrá án dálkaheita " />
+
+  <!--<sentence name="FileFormats" value="
+PX-file (*.px);
+Excel workbook (*.xml);
+Excel workbook with code and text (*.xml);
+Tab delimited with heading (*.csv);
+Tab delimited without heading (*.csv);
+Comma delimited with heading (*.csv);
+Comma delimited without heading (*.csv);
+Space delimited with heading (*.csv);
+Space delimited without heading (*.csv);
+Semicolon delimited with heading (*.csv);
+Semicolon delimited without heading (*.csv);
+Html-file (*.html);
+Relational file (*.txt);
+Excel (*.xlsx);
+Excel with code and text column (*.xlsx);
+Relational code file with heading (*.txt);
+Relational code file without heading (*.txt)" /-->>
+  <sentence name="SavedQueryStop" value="Vista fyrirspurn" />
+  <sentence name="SavedQueryIntervalFixed" value="Fastur upphafstími: Show the same search and add new time periods." />
+  <sentence name="SavedQueryIntervalRolling" value="Hlaupandi upphafstími: Show the number of time periods and update with new time periods." />
+  <sentence name="SavedQueryIntervalSame" value="Sama tímabil: Show the same search again." />
+  <sentence name="SavedQuerySaveBat" value="Bæta við .bat-skrá" />
+  <sentence name="SavedQueryBrowse" value="Velja" />
+  <sentence name="SavedQueryOutputDir" value="Niðurstöðu mappa" />
+  <sentence name="SavedQueryOutputFormat" value="Snið niðurstöðu" />
+  <sentence name="SavedQueryFilename" value="Skráarnafn" />
+ 
+  <sentence name="SaveChangesTitle" value="Vista breytingar" />
+  <sentence name="SaveChangesQuestion" value="Tafla {0} hefur breyst. Viltu vista breytingarnar?" />
+  <sentence name="SaveChangesYes" value="Vista" />
+  <sentence name="SaveChangesNo" value="Ekki vista" />
+  <sentence name="SaveChangesCancel" value="Hætta við" />
+
+  <!--Operation dialogs-->
+  <sentence name="OperationColumnHeaderStub" value="Stub" />
+  <sentence name="OperationColumnHeaderHeading" value="Haus" />
+  <sentence name="OperationPivot" value="Pivot" />
+
+  <sentence name="OperationSum" value="Summa" />
+  <sentence name="OperationSumSelectVariable" value="Veldu breytu" />
+  <sentence name="OperationSumInitialValue" value="Upphaflegt gildi" />
+  <sentence name="OperationSumInclude" value="Innifalið" />
+  <sentence name="OperationSumExclude" value="Útilokað" />
+  <sentence name="OperationSumNewValue" value="Nýtt gildi" />
+  <sentence name="OperationSumName" value="Nafn" />
+  <sentence name="OperationSumCode" value="Kóði" />
+  <sentence name="OperationSumSelectValueMessage" value="Þú þarft að velja að lágmarki eitt gildi" />
+
+  <sentence name="OverlayTableText" value="Yfirlag með töflu..." />
+  <sentence name="OverlayTableDialogText" value="Yfirlag með töflu" />
+  <sentence name="OverlayTableHelpText" value="Veldu nafn á nýja breytu (vídd), textagildi og kóða (tafla fyrir og eftir breytingu)" />
+  <sentence name="OverlayTableEnterVariable" value="Settu inn texta fyrir breytu" />
+  <sentence name="OverlayTableEnterValue1" value="Settu texta fyrir Gildi(1)" />
+  <sentence name="OverlayTableEnterValue2" value="Settu texta fyrir Gildi(2)" />
+
+  <sentence name="ChangeTextCodeMenu" value="Breyta framsetningu texta/kóða..." />
+  <sentence name="ChangeTextCode" value="Breyta framsetningu texta/kóða" />
+  <sentence name="ChangeTextCodeHelpText" value="Veldu valmöguleika fyrir hverja breytu þar sem á að breyta framsetningu." />
+  <sentence name="ChangeText" value="Texti" />
+  <sentence name="ChangeCode" value="Kóði" />
+  <sentence name="ChangeTextAndCode" value="Texti og kóði" />
+
+  <sentence name="LinkTableText" value="Tengja við töflu..." />
+  <sentence name="LinkTableChooseTable" value="Tengja við töflu" />
+
+  <sentence name="SelectFolderOVERLAY" value="Veldu möppu fyrir yfirlag með töflu" />
+  <sentence name="SelectFolderLINK" value="Veldu möppu fyrir tengingu við töflu" />
+  <sentence name="SelectPxFile" value="Veldu PX-skrá" />
+
+  <sentence name="OperationPercent" value="Prósent" />
+  <sentence name="OperationPercentBaseHeading" value="Veldu grunn fyrir útreikning" />
+  <sentence name="OperationPercentBaseVariable" value="Breyta" />
+  <sentence name="OperationPercentBaseVariableValue" value="Gildi breytu" />
+  <sentence name="OperationPercentBaseCellValue" value="Sellugildi" />
+  <sentence name="OperationPercentBaseSelectionHeading" value="Veldu grunninn svona:" />
+  <sentence name="OperationPercentBaseInstructionVariable" value="Veldu öll gildi fyrir eina breytu" />
+  <sentence name="OperationPercentBaseInstructionVariableValue" value="Veldu eitt gildi fyrir eina breytu" />
+  <sentence name="OperationPercentBaseInstructionCellValue" value="Veldu eitt gildi fyrir allar breytur" />
+  <sentence name="OperationPercentRequiredValue" value="Nauðsynlegt gildi" />
+  <sentence name="OperationPercentValueNeededText" value="Settu inn texta og kóða fyrir nýtt gildi." />
+  <sentence name="OperationPercentInitialValue" value="Upphaflegt gildi" />
+  <sentence name="OperationPercentInclude" value="Innifalið" />
+  <sentence name="OperationPercentExclude" value="Útilokað" />
+  <sentence name="OperationPercentNewValue" value="Nafn á nýju gildi" />
+  <sentence name="OperationPercentNewValueDefault" value="Prósent" />
+
+  <sentence name="OperationPercentAllowText" value="Eitt af eftirfarandi vali er leyft:
+            
+Eitt gildi
+Eitt gildi fyrir hverja breytu
+Öll gildi fyrir eina breytu" />
+
+  <sentence name="OperationCalculate" value="Reikna" />
+  <sentence name="OperationCalculateInitialValues" value="Upphafleg gildi" />
+  <sentence name="OperationCalculateInclusive" value="Innifalið" />
+  <sentence name="OperationCalculateExclusive" value="Útilokað" />
+  <sentence name="OperationCalculateNewValue" value="Nýtt gildi" />
+  <sentence name="OperationCalculateName" value="Nafn" />
+  <sentence name="OperationCalculateCode" value="Kóði" />
+  <sentence name="OperationCalculateConstant" value="Fasti:" />
+  <sentence name="OperationCalculateSelectValueMessage" value="Útreikningur er aðeins leyfður milli tveggja gilda eða milli einnar breytu og eins fasta." />
+  <sentence name="OperationCalculateSelectErrorMessage" value="Villa í vali" />
+  <sentence name="OperationCalculateNewValueMessage" value="Nýtt gildi þarf að hafa texta og kóða." />
+  <sentence name="OperationCalculateNewValueErrorMessage" value="Nauðsynleg gildi" />
+  <sentence name="OperationCalculateTooManyValues" value="Þú getur valið að hámarki tvö gildi" />
+
+  <sentence name="OperationDeleteVariable" value="Eyða breytu" />
+  <sentence name="OperationDeleteSelectValue" value="Veldu breytu" />
+  <sentence name="OperationDeleteSelectValueMessage" value="Veldu breytu til að eyða" />
+  <sentence name="OperationDeleteSelectValueHelpText" value="Veldu breytu til að nota fyrir töfluna" />
+  <sentence name="OperationDeleteVariableAddToContents" value="Bættu við gildi fyrir yfirskrift töflu" />
+  <sentence name="OperationDeleteSelectVariableMessage" value="Veldu breytu til að eyða" />
+  <sentence name="OperationDeleteSelectVariableErrorMessage" value="Veldu breytu" />
+  <sentence name="OperationDeleteSelectValueErrorMessage" value="Veldu gildi" />
+  <sentence name="OperationDeleteValue" value="Eyða gildi" />
+  <sentence name="OperationDeleteValueErrorMessage" value="Villa við að framkvæma aðgerð" />
+  <sentence name="OperationDeleteValueError" value="Villa" />
+  <sentence name="OperationDeleteValueHelpText" value="Mundu að hver breyta þarf að hafa að lágmarki eitt gildi" />  
+
+  <sentence name="OperationChangeValueOrder" value="Breyta röðun gilda" />
+  <sentence name="OperationChangeValueOrderFromOrder" value="Frá röðun" />
+  <sentence name="OperationChangeValueOrderToOrder" value="Til röðunar" />
+  <sentence name="OperationChangeValueOrderSortAsce" value="Raða stígandi" />
+  <sentence name="OperationChangeValueOrderSortDesc" value="Raða hnígandi" />
+  <sentence name="OperationChangeValueOrderMoveRest" value="Færa afgang" />
+
+  <sentence name="ValueSelectSelectAll" value="Velja öll" />
+  <sentence name="ValueSelectDeselectAll" value="Afvelja öll" />
+
+  <sentence name="ChangeDecimal" value="Breyta aukastöfum" />
+  <sentence name="ChangeDecimalMenu" value="Breyta aukastöfum..." />
+  <sentence name="ChangeDecimalInfo" value="Skrifaðu fjölda aukastafa (0-6)" />
+  <sentence name="ChangeDecimalErrorText" value="Einungis tölur (0-6) leyfðar" />
+  <sentence name="ChangeDecimalErrorHead" value="Rangt útfyllt" />
+
+  <sentence name="ExitApplicationMessage" value="Ertu viss um að þú viljir loka PxWin?" />
+  <sentence name="ExitApplicationWithoutSaveMessage" value="Taflan hefur breyst. Ertu viss um að þú viljir loka PxWin?" />
+  <sentence name="ExitTableWithoutSaveMessage" value="Taflan hefur breyst. Ertu viss um að þú viljir loka henni?" />
+  
+  <!--<sentence name="PxcKeywordError" value="{0} error"/>
+  <sentence name="PxcKeywordLastUpdated" value="Latest update"/>
+  <sentence name="PxcKeywordSource" value="Source"/>
+  <sentence name="PxcKeywordContact" value="Contact"/>
+  <sentence name="PxcKeywordCopyright" value="Copyright"/>
+  <sentence name="PxcKeywordUnits" value="Units"/>
+  <sentence name="PxcKeywordStockfa" value="Data type"/>
+  <sentence name="PxcKeywordStockfaValueStock" value="Stock"/>
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flow"/>
+  <sentence name="PxcKeywordStockfaValueAverage" value="Average"/>
+  <sentence name="PxcKeywordRefPeriod" value="Reference period"/>
+  <sentence name="PxcKeywordBasePeriod" value="Base period"/>
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Current prices"/>
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Fixed prices"/>
+  <sentence name="PxcKeywordDayAdj" value="Day adjusted"/>
+  <sentence name="PxcKeywordSeasAdj" value="Seasonal adjusted"/>
+  <sentence name="PxcKeywordDatabase" value="Database"/>
+  <sentence name="PxcKeywordMatrix" value="Internal reference code"/>-->
+
+  <sentence name="ConfigurartionChangeExit" value="Breytingar hafa verið gerðar á stillingum. Vinsamlegast endurræstu forritið." />
+  
+  
+
+  <!-- Error Test -->
+  <sentence name="PxcYear" value="ár" />
+  <sentence name="PxcHalfyear" value="árshelmingur" />
+  <sentence name="PxcQuarter" value="ársfjórðungur" />
+  <sentence name="PxcMonth" value="mánuður" />
+  <sentence name="PxcWeek" value="vika" />
+  <sentence name="PxcMetaTitleBy" value="eftir" />
+  <sentence name="PxcMetaTitleAnd" value="og" />
+  <sentence name="PxcOpSplitTimeVarYear" value="ári" />
+  <sentence name="PxcOpSplitTimeVarQuarter" value="ársfjórðungi" />
+  <sentence name="PxcOpSplitTimeVarMonth" value="mánuði" />
+  <sentence name="PxcOpSplitTimeVarJanuary" value="Janúar" />
+  <sentence name="PxcOpSplitTimeVarFebruary" value="Febrúar" />
+  <sentence name="PxcOpSplitTimeVarMarch" value="Mars" />
+  <sentence name="PxcOpSplitTimeVarApril" value="Apríl" />
+  <sentence name="PxcOpSplitTimeVarMay" value="Maí" />
+  <sentence name="PxcOpSplitTimeVarJune" value="Júní" />
+  <sentence name="PxcOpSplitTimeVarJuly" value="Júlí" />
+  <sentence name="PxcOpSplitTimeVarAugust" value="Ágúst" />
+  <sentence name="PxcOpSplitTimeVarSeptember" value="September" />
+  <sentence name="PxcOpSplitTimeVarOctober" value="Október" />
+  <sentence name="PxcOpSplitTimeVarNovember" value="Nóvember" />
+  <sentence name="PxcOpSplitTimeVarDecember" value="Desember" />
+  <sentence name="PxcOpSplitTimeVarQuarter1" value="1. ársfjórðungur" />
+  <sentence name="PxcOpSplitTimeVarQuarter2" value="2. ársfjórðungur" />
+  <sentence name="PxcOpSplitTimeVarQuarter3" value="3. ársfjórðungur" />
+  <sentence name="PxcOpSplitTimeVarQuarter4" value="4. ársfjórðungur" />
+  <sentence name="ERROR_MISSING_TIMEVALUE" value="Það vantar TIMEVALUE" />
+  <sentence name="PxcErrCellNoteValueMissing" value="Gildið={0} er ótækt"/>
+  <sentence name="PxcErrToManyCodes" value="{0} hefur of marga kóða skilgreinda"/>
+  <sentence name="PxcGroupedValuesMissing" value="{0} flokkuð gildi vantar"/>
+  <sentence name="PxcGroupingVariableWithNoValues" value="Flokkunarbreyta {0} inniheldur engin gildi"/>
+  <sentence name="PxcSortVariable" value="einingar breyta"/>
+  <sentence name="SqlErr" value=""/>
+  <sentence name="SqlWarn" value=""/>
+  <sentence name="PxcContactPhone" value="Sími"/>
+  <sentence name="PxcContactFax" value="Fax"/>
+  <sentence name="PxcContactEMail" value="e-mail"/>
+  <sentence name="PxcContactWebAddress" value="Vefsíða"/>
+  <sentence name="PxcPercent" value="prósent"/>
+  <sentence name="PxcPermil" value="prómill"/>
+  <sentence name="PxcPercentUnitVarExists" value="Get ekki reiknað út prósent þegar einingar breyta er þegar til"/>
+  <sentence name="PxcPermilUnitVarExists" value="Get ekki reiknað út prómill þegar einingar breyta er þegar til"/>
+  <sentence name="PxcErr103" value="UNITS villa"/>
+  <sentence name="PxcErr106" value="STUB villa"/>
+  <sentence name="PxcErr107" value="HEADING villa"/>
+  <sentence name="PxcErr108" value="VALUES villa"/>
+  <sentence name="PxcErr109" value="CODES villa"/>
+  <sentence name="PxcErr111" value="NOTE eða NOTEX fyrir breytu villa"/>
+  <sentence name="PxcErr112" value="VALUENOTE eða VALUENOTEX villa"/>
+  <sentence name="PxcErr113" value="CELLNOTE eða CELLNOTEX villa"/>
+  <sentence name="PxcErr115" value="ELIMINATION já/nei villa"/>
+  <sentence name="PxcErr117" value="PARTITION villa"/>
+  <sentence name="PxcErr121" value="KEYS villa"/>
+  <sentence name="PxcErr123" value="PRECISION villa"/>
+  <sentence name="PxcErr124" value="DOMAIN villa"/>
+  <sentence name="PxcErr130" value="TITLE eða DESCRIPTION vantar"/>
+  <sentence name="PxcErr131" value="MATRIX vantar"/>
+  <sentence name="PxcErr132" value="SUBJECT AREA vantar"/>
+  <sentence name="PxcErr133" value="SUBJECT CODE vantar"/>
+  <sentence name="PxcErr134" value="STUB and HEADING vantar"/>
+  <sentence name="PxcErr135" value="UNITS vantar"/>
+  <sentence name="PxcErr136" value="CONTENTS vantar"/>
+  <sentence name="PxcErr137" value="DECIMALS vantar"/>
+  <sentence name="PxcErr138" value="SHOWDECIMALS villa"/>
+  <sentence name="PxcErr142" value="COPYRIGHT er rangt"/>
+  <sentence name="PxcErr143" value="DAYADJ er rangt"/>
+  <sentence name="PxcErr144" value="SEASADJ er rangt"/>
+  <sentence name="PxcErr146" value="CONTACT er rangt"/>
+  <sentence name="PxcErr147" value="REFPERIOD er rangt"/>
+  <sentence name="PxcErr149" value="LAST-UPDATED er rangt"/>
+  <sentence name="PxcErr151" value="STOCKFA er rangt"/>
+  <sentence name="PxcErr152" value="CFPRICES er rangt"/>
+  <sentence name="PxcErr153" value="TIMEVAL er rangt"/>
+  <sentence name="PxcErr154" value="BASEPERIOD er rangt"/>
+  <sentence name="PxcErr160" value="Leitarorð háð CONTVARIABLE finnst en engin innihalds breyta"/>
+  <sentence name="PxcErr161" value="CONTVARIABLE eða háð leitarorð villa"/>
+  <sentence name="PxcErr162" value="PRESTEXT villa"/>
+  <sentence name="PxcErr164" value="MAP villa"/>
+  <sentence name="PxcErr166" value="AGGREGALLOWED villa"/>
+  <sentence name="PxcErr167" value="AUTOPEN villa"/>
+  <sentence name="PxcErr168" value="DOUBLECOLUMN villa"/>
+  <sentence name="PxcErr169" value="DESCRIPTIONDEFAULT villa"/>
+  <sentence name="PxcErr176" value="DATANOTE villa"/>
+  <sentence name="PxcErr180" value="DATA vantar"/>
+  <sentence name="PxcErr201" value="HIERARCHYLEVELSOPEN villa "/>
+  <sentence name="PxcErr202" value="HIERARCHYLEVELS villa "/>
+  <sentence name="PxcErr203" value="HIERARCHYNAMES villa"/>
+  <sentence name="PxcErr204" value="HIERARCHIES villa"/>
+  <sentence name="PxcErr205" value="OFFICIAL-STATISTICS villa"/>
+  <sentence name="PxcErr300" value="VALUE-TEXT-OPTION villa"/>
+  <sentence name="PxcKeywordError" value="{0} villa"/>
+  <sentence name="PxcKeywordLastUpdated" value="Nýjasta uppfærsla"/>
+  <sentence name="PxcKeywordSource" value="Uppruni"/>
+  <sentence name="PxcKeywordContact" value="Tengiliður"/>
+  <sentence name="PxcKeywordCopyright" value="Höfundarréttur"/>
+  <sentence name="PxcKeywordUnits" value="Einingar"/>
+  <sentence name="PxcKeywordStockfa" value="Gagnagerð"/>
+  <sentence name="PxcKeywordStockfaValueStock" value="Stólpa"/>
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flæði"/>
+  <sentence name="PxcKeywordStockfaValueAverage" value="Meðaltal"/>
+  <sentence name="PxcKeywordRefPeriod" value="Viðmiðunartímabil"/>
+  <sentence name="PxcKeywordBasePeriod" value="Grunntímabil"/>
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Núverandi verðlag"/>
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Fast verðlag"/>
+  <sentence name="PxcKeywordDayAdj" value="Day adjusted"/>
+  <sentence name="PxcKeywordSeasAdj" value="Seasonal adjusted"/>
+  <sentence name="PxcKeywordDatabase" value="Database"/>
+  <sentence name="PxcKeywordMatrix" value="Internal reference code"/>
+  <sentence name="PxcKeywordOfficialStatistics" value="Opinber tölfræði" />
+  
+  <sentence name="ErrorNoAvailableFiles" value="Engar gildar skrár í boði á slóð" />
+  <sentence name="ErrorActionIsMissing" value="Aðgerð vantar, eða er ekki þekkt" />
+  <sentence name="OperationError" value="Aðgerðarvilla" />
+  <sentence name="Error" value="Villa" />
+  <sentence name="Protected" value="Verndað" />
+  <sentence name="ErrorInAuthorization" value="Auðkenningarvilla" />
+  <sentence name="FatalErrors" value="Alvarlegar villur" />
+  <sentence name="Warnings" value="Viðvaranir" />
+
+
+  <sentence name="toolAggMenuRoot" value="Flokkanir (BETA)" />
+  <sentence name="toolAggMenuOpenValueset" value="Opna valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewValueset" value="Nýtt valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewAggregation" value="Ný samloðun (.agg) (BETA)" />
+
+  <sentence name="toolAggNewAggregation" value="Ný samloðun (.agg)" />
+  <sentence name="toolAggNewValueset" value="Nýtt valueset (.vs)" />
+
+  <sentence name="toolAggAggregationBox" value="Samloðun" />
+  <sentence name="toolAggAggregationName" value="Nafn:" />
+  <sentence name="toolAggAggregationMap" value="Möppun:" />
+  <sentence name="toolAggAllowOverlappingValues" value="Leyfa gildum að skarast" />
+  
+  <sentence name="toolAggGroupsBox" value="Flokkar" />
+  <sentence name="toolAggGroupsListCode" value="Kóðar" />
+  <sentence name="toolAggGroupsListText" value="Texti" />
+  <sentence name="toolAggGroupsListIncludedValues" value="Innifalin gildi" />
+  <sentence name="toolAggGroupUp" value="Færa upp" />
+  <sentence name="toolAggGroupDown" value="Færa niður" />
+  <sentence name="toolAggGroupDelete" value="Eyða" />
+  <sentence name="toolAggGroupNew" value="Ný flokkun" />
+  
+  <sentence name="toolAggGroupInfoBox" value="Upplýsingar um flokk" />
+  <sentence name="toolAggGroupSave" value="Vista flokk " />
+  <sentence name="toolAggGroupCancelEdit" value="Hætta við" />
+  <sentence name="toolAggGroupEdit" value="Breyta flokk" />
+  <sentence name="toolAggGroupCode" value="Kóði:" />
+  <sentence name="toolAggGroupText" value="Texti:" />
+  <sentence name="toolAggGroupValueListCode" value="Kóði" />
+  <sentence name="toolAggGroupValueListText" value="Texti" />
+
+  <sentence name="toolAggAggregationValuesetBox" value="Gildasett" />
+  <sentence name="toolAggAggregationValuesetName" value="Nafn:" />
+  <sentence name="toolAggAggregationValuesetDomain" value="Domain:" />
+  <sentence name="toolAggAggregationValuesetFile" value="Gildasett skrá:" />
+  <sentence name="toolAggAggregationValuesetFileBrowse" value="Finna" />
+
+  <sentence name="toolAggAggregationAvailableBox" value="Gildi í boði" />
+  <sentence name="toolAggAggregationAvailableCode" value="Kóði" />
+  <sentence name="toolAggAggregationAvailableText" value="Texti" />
+
+  <sentence name="toolAggAggregationSaveFile" value="Vista samloðunarskrá (.agg)" />
+
+  <sentence name="toolAggDeleteGroupQuestion" value="Viltu eyða völdum flokki?" />
+  <sentence name="toolAggDeleteGroupCaption" value="Eyða flokki" />
+  <sentence name="toolAggIllegalFileMessage" value="Skrá hefur ótækt snið:" />
+  <sentence name="toolAggIllegalFileCaption" value="Villa við að lesa inn skrá" />
+  <sentence name="toolAggEnterGroupCodeMessage" value="Þú þarft að setja inn flokkunarkóða" />
+  <sentence name="toolAggEnterGroupCodeCaption" value="Settu inn gildi" />
+  <sentence name="toolAggEnterGroupNameMessage" value="Þú þarft að setja flokkunartexta" />
+  <sentence name="toolAggEnterGroupNameCaption" value="Settu inn gildi" />
+  <sentence name="toolAggExistingGroupMessage" value="Flokkur með þessum kóða er þegar til. Vinsamlegast notaðu annan kóða" />
+  <sentence name="toolAggExistingGroupCaption" value="Flokkur til" />
+  <sentence name="toolAggEnterAggregationNameMessage" value="Þú þarft að setja inn nafn samlöðunar" />
+  <sentence name="toolAggEnterAggregationNameCaption" value="Settu inn gildi" />
+  <sentence name="toolAggIllegalVsAssociationMessage" value="Samloðunarskrá (.agg) er ekki tengd gildasett (.vs) skrá. Gildi 'Valueset' í .agg skrá þarf að vera eins og gildi 'Name' í .vs skrá. Viltu fjarlægja þessa samloðunarskrá úr lista yfir samloðanir í gildasett (.vs) skrá?" />
+  <sentence name="toolAggIllegalVsAssociationCaption" value="Ótæk gildasett tenging" />
+  <sentence name="toolAggFileChangedMessage" value="Skráin '{0}' hefur breyst. Viltu endurhlaða skrá inn í PxWin?" />
+  <sentence name="toolAggAggFileChangedMessage" value="Skráin '{0}' .vs skrá hennar hefur breyst. Viltu endurhlaða skrá inn í PxWin?" />
+  <sentence name="toolAggFileChangedCaption" value="Skrá hefur verið breytt" />
+
+  <sentence name="toolAggIllegalValue" value="Ótækt gildi. Þetta gildi er ekki hluti af gildasetti." />
+  <sentence name="toolAggMessOverlappingOrIllegalValues" value="Inniheldur skörun eða ótæk gildi." />
+
+  <sentence name="toolAggSaveChangesTitle" value="Vista breytingar" />
+  <sentence name="toolAggSaveChangesQuestion" value="Skráin {0} hefur breyst. Viltu vista breytingarnar?" />
+  <sentence name="toolAggSaveChangesYes" value="Vista" />
+  <sentence name="toolAggSaveChangesNo" value="Ekki vista" />
+  <sentence name="toolAggSaveChangesCancel" value="Hætta við" />
+
+  <!--Valuset .vs fil-->
+  <sentence name="toolValueSetImportFile" value="Flytja inn í gildasett skrá (.vs)" />
+  <sentence name="toolValueSetSaveFile" value="Vista gildasett skrá (.vs)" />
+  <sentence name="toolValueSetName" value="Nafn" />
+  <sentence name="toolValueSetPrestext" value="Prestext" />
+  <sentence name="toolValueSetDomain" value="Domain" />
+  <sentence name="toolValueSetType" value="Gerð" />
+  <sentence name="toolValueSetTabValues" value="Gildi" />
+  <sentence name="toolValueSetTabAggFiles" value="Samloðunar skrár" />
+  <sentence name="toolValueSetColumnCode" value="Kóði" />
+  <sentence name="toolValueSetColumnText" value="Texti" />
+  <sentence name="toolValueSetCreateNewAggregationFile" value="Búa til nýja samloðunar skrá" />
+  <!-- Warning and error meddage Valuset -->
+  <sentence name="toolValueSetMessDublicateCodes" value="Gildasettið inniheldur tvítekningar" />
+  <sentence name="toolValueSetDublicateCodesMessage" value="Skráin inniheldur tvítekningar." />
+  <sentence name="toolValueSetDublicateCodesCaption" value="Tvítekningar" />
+  <sentence name="toolValueSetFileNameAndNameMessage" value="Skráarnafn og nafn í gildasett skrá eru ekki eins. Nafn gildasettsins ætti að vera það sama og skráarnafn. Viltu samt vista gildasett skrána?" />
+  <sentence name="toolValueSetFileNameCaption" value="Skráarnafn" />
+  <sentence name="toolValueSetEnterValueSetNameMessage" value="Settu inn nafn gildasettsins" />
+  <sentence name="toolValueSetEnterValueSetCaption" value="Settu inn gildi" />
+  <sentence name="toolValueSetEnterValueSetPrestextMessage" value="Settu inn prestext fyrir gildasettið" />
+  <sentence name="toolValueSetEnterValueSetDomainMessage" value="Settu domain fyrir gildasettið" />
+  <sentence name="toolValueSetErrorCaption" value="Villa" />
+  <sentence name="toolValueSetErrorDublicateCodesMessage" value="Villa kom upp þegar leitað var að tvítekningum" />
+  <sentence name="toolValueSetCodesMissingMessage" value="Value code hlutann [Valuecode] vantar í .vs skrána" />
+
+  <!--Error message import code and text-->
+  <sentence name="toolValueSetIllegalFileCaption" value="Villa við innlestur á skrá" />
+  <sentence name="toolValueSetIllegalFileMessage" value="Skráin er með ótæku sniði" />
+  <sentence name="toolValueSetErrorReadingCSVskráMessage" value="Villa við innlestur á gildakóða og gildatexta úr .csv skrá. Vinsamlegast athugaðu hvort þú hefur valið rétta skiptingu." />
+  <!--Save valueset skrá-->
+  <sentence name="toolValueSetSaveFileCaption" value="Villa við vistun" />
+  <sentence name="toolValueSetSaveFileMessage" value="Villa við vistun á gildasett (.vs) skrá." />
+  <!-- Delimiter dialog-->
+  <sentence name="formDelimiterCaption" value="Skipting í .csv skrá" />
+  <sentence name="formDelimiterQuestion" value="Hvaða skipting er notuð í skránni?" />
+  <sentence name="formDelimiterTabulator" value="Tabulator" />
+  <sentence name="formDelimiterComma" value="Komma" />
+  <sentence name="formDelimiterSpace" value="Bil" />
+  <!--Import from .px dialog -->
+  <sentence name="formPxFileValuesCaption" value="Flytja inn gildakóða" />
+  <sentence name="formPxFileValuesQuestion" value="Á hvaða tungumáli og hvaða breytu viltu flytja inn?" />
+  <sentence name="formPxFileValuesLanguage" value="Tungumál" />
+  <sentence name="formPxFileValuesVariables" value="Breytur" />            
+</language>
