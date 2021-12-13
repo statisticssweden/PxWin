@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language xmlns="PC-Axis" name="sl">
+  <sentence name="and" value="in" />
+  <sentence name="by" value="po" />
+  <sentence name="Ok" value="V redu" />
+  <sentence name="Cancel" value="Prekliči" />
+  <sentence name="MainTitle" value="PX-Win" />
+  <sentence name="Run" value="Zaženi" />
+  <sentence name="Open" value="Odpri" />
+  <sentence name="Change" value="Spremeni" />
+  <sentence name="PxFile" value="PX-datoteka" />
+  <sentence name="FooterColumns" value="Stolpci:" />
+  <sentence name="FooterRows" value="Vrstice:" />
+  <sentence name="FooterCells" value="Polja:" />
+  <sentence name="TabTable" value="Podatki" />
+  <sentence name="TabFootnote" value="Opombe" />
+  <sentence name="TabInformation" value="Informacije" />
+  <sentence name="MenuAbout" value="Informacije" />
+  <sentence name="MenuCalculate" value="Preračuni" />
+  <sentence name="MenuEdit" value="Urejanje" />
+  <sentence name="MenuExit" value="Izhod" />
+  <sentence name="MenuFile" value="Datoteka" />
+  <sentence name="MenuHelp" value="Pomoč" />
+  <sentence name="MenuLanguage" value="Jezik" />
+  <sentence name="MenuOpenTable" value="Odpri tabelo" />
+  <sentence name="MenuSave" value="Shrani" />
+  <sentence name="MenuSaveAs" value="Shrani kot..." />
+  <sentence name="MenuTools" value="Orodja" />
+  <sentence name="MenuOpen" value="Odpri" />
+  <sentence name="MenuUndo" value="Razveljavi" />
+  <sentence name="MenuEditPivot" value="Zavrti..." />
+  <sentence name="MenuEditPivotCW" value="Zavrti v smeri urinega kazalca" />
+  <sentence name="MenuEditPivotCCW" value="Zavrti v nasprotni smeri urinega kazalca" />
+  <sentence name="MenuEditDeleteVariable" value="Izbriši dimenzijo..." />
+  <sentence name="MenuEditDeleteValue" value="Izbriši kategorijo..." />
+  <sentence name="MenuEditChangeValueOrder" value="Spremeni vrstni red vrednosti..." />
+  <sentence name="MenuCalculateSum" value="Vsota..." />
+  <sentence name="MenuCalculatePerMille" value="Promil..." />
+  <sentence name="MenuCalculateAdd" value="Seštej..." />
+  <sentence name="MenuCalculateSubstract" value="Odštej..." />
+  <sentence name="MenuCalculateMultiply" value="Zmnoži..." />
+  <sentence name="MenuCalculateDivide" value="Deli..." />
+  <sentence name="MenuCalculatePercent" value="Odstotek..." />
+  <sentence name="MenuStopRecording" value="Prenehaj snemati..." />
+  <sentence name="MenuRunSavedQuery" value="Zaženi shranjeno poizvedbo..." />
+  <sentence name="MenuRunSavedQueryDialog" value="Shranjena poizvedba" />
+  <sentence name="MenuBatch" value="Batch" />
+  <sentence name="AboutPXWin" value="O programu PX-Win" />
+  <sentence name="VersionText" value="Verzija" />
+  <sentence name="MandatoryFootnotes" value="Opombe" />
+  <sentence name="OpenTableFileSystem" value="Odpri px datoteko" />
+  <sentence name="OpenTableRefrehDatabaseCache" value="Osveži" />
+  <sentence name="SelectValuesTitle" value="Izberi kategorije" />
+  <sentence name="SelectValuesCount" value="od" />
+  <sentence name="SelectValuesAtLeastOneValueTitle" value="Izberi kategorije" />
+  <sentence name="SelectValuesAtLeastOneValue" value="Izbrati morate najmanj eno vrednost za dimenzijo:" />
+  <sentence name="SelectClassificationTitle" value="Select classification" />
+
+  <sentence name="FilterDialogTitle" value="Filtriraj" />
+  <sentence name="FilterDialogCancel" value="Prekliči" />
+  <sentence name="FilterDialogTabSelect" value="Izberi filter" />
+  <sentence name="FilterDialogTabSelectDescription" value="Izberi filter iz spodnjega seznama" />
+  <sentence name="FilterDialogTabSelectFilternameColumn" value="Filter" />
+  <sentence name="FilterDialogTabSelectFiltertypeColumn" value="Tip" />
+  <sentence name="FilterDialogTabSelectSharedFilter" value="Deljeno" />
+  <sentence name="FilterDialogTabSelectPersonalFilter" value="Osebni" />
+  <sentence name="FilterDialogTabSelectDeleteFilter" value="Izbriši filter" />
+  <sentence name="FilterDialogTabSelectDeleteFilterCaption" value="Izbriši filter" />
+  <sentence name="FilterDialogTabSelectDeleteFilterText" value="Ali želiš izbrisati izbrani filter?" />
+  <sentence name="FilterDialogTabSelectUseFilter" value="Uporabi filter" />
+  <sentence name="FilterDialogTabCreate" value="Ustvari filter" />
+  <sentence name="FilterDialogTabCreateValues" value="Kategorije:" />
+  <sentence name="FilterDialogTabCreateDescription" value="Izberi kategorije za filter. Kategorije za filter lahko uvoziš iz datoteke ((tekstovna datoteka ločena s podpičjem)." />
+  <sentence name="FilterDialogTabCreateSave" value="Shrani filter" />
+  <sentence name="FilterDialogTabCreateImport" value="Uvozi" />
+  <sentence name="FilterDialogTabCreateName" value="Ime filtra:" />
+  <sentence name="FilterDialogTabCreateErrorNoValues" value="Izberi kategorije. Filter mora vsebovati vsaj eno kategorijo." />
+  <sentence name="FilterDialogTabCreateErrorNoName" value="Vpiši ime filtra" />
+  <sentence name="FilterDialogTabCreateFilterExistsCaption" value="Filter že obstaja" />
+  <sentence name="FilterDialogTabCreateFilterExistsText" value="Ali želiš prepisati obstoječi filter?" />
+
+  <sentence name="SelectValuesCtrlGroupTooltip" value="Izberi klasifikacijo" />
+  <sentence name="SelectValuesCtrlFilterTooltip" value="Uporabi filter" />
+  <sentence name="SelectValuesCtrlSelectAllTooltip" value="Izberi vse kategorije" />
+  <sentence name="SelectValuesCtrlUnselectTooltip" value="Počisti izbor" />
+  <sentence name="SelectValuesCtrlAscendingTooltip" value="Sortiraj naraščajoče" />
+  <sentence name="SelectValuesCtrlDescendingTooltip" value="Sortiraj padajoče" />
+  <sentence name="SelectValuesCtrlSearchTooltip" value="Išči kategorije" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCells" value="Število izbranih polj: {0}" />
+  <sentence name="SelectValuesCtrlNumberOfSelectedCellsMaximum" value="število izbranih polj: {0} (največja dovoljena vrednost je {1})" />
+  <sentence name="SelectValuesCtrlSelectAllButton" value="Izberi vse kategorije" />  
+  <sentence name="AccessDeniedHeading" value="Dostop zavrnjen" />
+  <sentence name="AccessDeniedText" value="Nimaš pravic za dostop do tabele" />
+  <sentence name="Name" value="Ime" />
+  <sentence name="OpenTablePeriodColumn" value="Obdobje" />
+  <sentence name="Category" value="Category" />
+  <sentence name="CategoryInternal" value=" I " />
+  <sentence name="CategoryPrivate" value=" P " />
+  <sentence name="CategoryOfficial" value=" O " />
+
+  <!--Footnote -->
+  <sentence name="FootnoteNote" value="Informacija" />
+  <sentence name="FootnoteLatestUpdate" value="Zadnja objava" />
+  <sentence name="FootnoteSorce" value="Vir" />
+  <sentence name="FootnoteContact" value="Kontaktna oseba" />
+  <sentence name="FootnoteUnits" value="Enota" />
+  <sentence name="FootnoteDataType" value="Tip podatkov" />
+  <sentence name="FootnoteReferencePeriod" value="Referenčno obdobje" />
+  <sentence name="FootnoteDatabase" value="Podatkovna baza" />
+  <sentence name="FootnoteInternalReferenceCode" value="ID tabele" />
+
+  
+
+  <!--Save -->
+  <sentence name="SaveText" value="Datoteka je bila shranjena." />
+  <sentence name="SaveCaption" value="Datoteka shranjena" />
+  <sentence name="SaveAsXlsx" value="Shrani kot xlsx" />
+  <sentence name="SaveAsXlsxWithCodeAndText" value="Ločena stolpca s šiframi in besedilom" />
+  <sentence name="SaveAsComplete" value="{0} je bila shranjena" />
+  <sentence name="SaveAs" value="Shrani kot" />
+  <sentence name="SaveAsFileFormats" value="
+PX-datoteka (*.px)|*.px|
+Excel preglednica (*.xml)|*.xml|
+Excel preglednica, ločeno s šiframi in besedilom (*.xml)|*.xml|
+CSV (ločeno s tabulatorji) z glavo (*.csv)|*.csv|
+CSV (ločeno s tabulatorji) brez glave (*.csv)|*.csv|
+CSV (ločeno z vejico) z glavo (*.csv)|*.csv|
+CSV (ločeno z vejico) brez glave (*.csv)|*.csv|
+CSV (ločeno s presledkom) z glavo (*.csv)|*.csv|
+CSV (ločeno s presledkom) brez glave (*.csv)|*.csv|
+CSV (ločeno s podpičjem) z glavo (*.csv)|*.csv|
+CSV (ločeno s podpičjem) brez glave (*.csv)|*.csv|
+Html datoteka (*.html)|*.html|
+Relacijska datoteka (*.txt)|*.txt|
+Excel datoteka (*.xlsx)|*.xlsx|
+Excel datoteka, ločena stolpca s šiframi in besedilom (*.xlsx)|*.xlsx|
+Relacijska kodna datoteka z glavo (*.txt)|*.txt|
+Relacijska kodna datoteka brez glave (*.txt)|*.txt" />
+  
+  <!--<sentence name="FileTypePX" value="PC-Axis file" />
+  <sentence name="FileTypeExcel" value="Excel workbook (xml)" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel workbook (xml) with code and text" />
+  <sentence name="FileTypeExcelCompleteInfoFile" value="Excel file from screen" />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="Tab delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="Tab delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="Comma delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="Comma delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="Space delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="Space delimited without heading" />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="Semicolon delimited with heading" />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="Semicolon delimited without heading" />
+  <sentence name="FileTypeHtml" value="Html file (htm)" />
+  <sentence name="FileTypeRelational" value="Relational file (scb)" />
+  <sentence name="FileTypeExcelX" value="Excel (xlsx)" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel (xlsx) with code and text column" />-->
+  
+<!-- Batch-->
+  <sentence name="Batch" value="Batch" />
+  <sentence name="BatchMissingDestination" value="Manjkajoča vrednost" />
+  <sentence name="BatchMissingDestinationText" value="Izbrati morate ciljno mapo" />
+  <sentence name="BatchSaveToPxtButton" value="Shrani .pxt" />
+  <sentence name="BatchSaveToBatButton" value="Shrani .bat" />
+  <sentence name="BatchSaveToBatHeading" value="Shrani kot .bat" />
+  <sentence name="BatchSaveToBatLabel" value="Poišči .pxt datoteko in jo shrani kot .bat" />
+  <sentence name="BatchOpen" value="1. Odpri datoteko s shranjeno poizvedbo (.pxsq) ali datoteko s seznamom (.pxt)" />
+  <sentence name="BatchFileFormat" value="2. Izberi format datoteke" />
+  <sentence name="BatchDestinationFolder" value="3. Izberi ciljno mapo" />
+  <sentence name="BatchAction" value="4. Izvedi" />
+  <sentence name="BatchRun" value="Zaženi" />
+  <sentence name="BatchClose" value="Zapri" />
+  <sentence name="BatchSavedQueries" value="Shranjene poizvedbe" />
+  <sentence name="BatchStatus" value="Status" />
+  <sentence name="BatchNotRun" value="Ne deluje" />
+  <sentence name="BatchWorking" value="Deluje..." />
+  <sentence name="BatchNotOk" value="Ni v redu" />
+  <sentence name="BatchRemove" value="Odstrani izbrane vrstice s seznama" />
+  <sentence name="BatchSavedQueryList" value="Seznam shranjenih poizvedb" />
+  <sentence name="BatchBatFile" value="Bat datoteka" />
+  <sentence name="BatchTabCreateBatFile" value="Izdelaj BAT datoteko" />
+  <sentence name="BatchTabBatch" value="Batch" />
+  <sentence name="BatchSavedQueryDialog" value="Shranjene poizvedbe" />
+
+  <!--Saved Query-->
+  <sentence name="Step" value="Korak" />
+  <sentence name="Operation" value="Operacija" />
+  <sentence name="PIVOT" value="Zavrti" />
+  <sentence name="PIVOT_CW" value="Zavrti v smeri urinega kazalca" />
+  <sentence name="PIVOT_CCW" value="Zavrti v nasprotni smeri urinega kazalca" />
+  <sentence name="CHANGE_VALUE_ORDER" value="Spremeni vrstni red kategorij" />
+  <sentence name="DELETE_VALUE" value="Izbriši kategorijo" />
+  <sentence name="DELETE_VARIABLE" value="Izbriši dimenzijo" />
+  <sentence name="SUM" value="Vsota" />
+  <sentence name="CHANGE_DECIMALS" value="Spremeni prikaz decimalnih mest" />
+  <sentence name="CHANGE_TEXT_CODE_PRESENTATION" value="Spremeni prikaz šifer in/ali besedila" />
+  <sentence name="Multiplication" value="Množenje" />
+  <sentence name="Addition" value="Seštevanje" />
+  <sentence name="PerCent" value="Odstotek" />
+
+
+  <sentence name="FileTypePX" value="PX datoteka " />
+  <sentence name="Filetypejsonstat" value="JSON-stat datoteka" />
+  <sentence name="FileTypeExcel" value="Excel preglednica" />
+  <sentence name="FileTypeExcelDoubleColumn" value="Excel preglednica, ločeno s šiframi in besedilom " />
+  <sentence name="FileTypeCsvWithHeadingAndTabulator" value="CSV (ločeno s tabulatorji) z glavo " />
+  <sentence name="FileTypeCsvWithoutHeadingAndTabulator" value="CSV (ločeno s tabulatorji) brez glave " />
+  <sentence name="FileTypeCsvWithHeadingAndComma" value="CSV (ločeno z vejico) z glavo " />
+  <sentence name="FileTypeCsvWithoutHeadingAndComma" value="CSV (ločeno z vejico) brez glave " />
+  <sentence name="FileTypeCsvWithHeadingAndSpace" value="CSV (ločeno s presledkom) z glavo " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSpace" value="CSV (ločeno s presledkom) brez glave " />
+  <sentence name="FileTypeCsvWithHeadingAndSemiColon" value="CSV (ločeno s podpičjem) z glavo " />
+  <sentence name="FileTypeCsvWithoutHeadingAndSemiColon" value="CSV (ločeno s podpičjem) brez glave " />
+  <sentence name="FileTypeHtml" value="Html datoteka " />
+  <sentence name="FileTypeRelational" value="Relacijska datoteka " />
+  <sentence name="FileTypeExcelX" value="Excel datoteka" />
+  <sentence name="FileTypeExcelXDoubleColumn" value="Excel datoteka, ločena stolpca s šiframi in besedilom" />
+  <sentence name="FileTypeRelationalCodeWithHeading" value="Relacijska kodna datoteka z glavo " />
+  <sentence name="FileTypeRelationalCodeWithoutHeading" value="Relacijska kodna datoteka brez glave " />
+
+  <!--<sentence name="FileFormats" value="
+PX-file (*.px);
+Excel workbook (*.xml);
+Excel workbook with code and text (*.xml);
+Tab delimited with heading (*.csv);
+Tab delimited without heading (*.csv);
+Comma delimited with heading (*.csv);
+Comma delimited without heading (*.csv);
+Space delimited with heading (*.csv);
+Space delimited without heading (*.csv);
+Semicolon delimited with heading (*.csv);
+Semicolon delimited without heading (*.csv);
+Html-file (*.html);
+Relational file (*.txt);
+Excel (*.xlsx);
+Excel with code and text column (*.xlsx);
+Relational code file with heading (*.txt);
+Relational code file without heading (*.txt)" /-->>
+  <sentence name="SavedQueryStop" value="Shrani poizvedbo" />
+  <sentence name="SavedQueryIntervalFixed" value="Stalni začetni in drseči zaključni časovni presek (podaljševanje serije)." />
+  <sentence name="SavedQueryIntervalRolling" value="Drseča časovna vrsta (vedno enako število časovnih točk)." />
+  <sentence name="SavedQueryIntervalSame" value="Vedno uporabi izbrano obdobje (ne posodobi z novo časovno točko)." />
+  <sentence name="SavedQueryTimeDependentAlert" value="Ni mogoče izbrati posodobitve iskanja, ker so bile izvedene operacije na časovni dimenziji" />
+  <sentence name="SavedQuerySaveBat" value="Dodaj .bat datoteko" />
+  <sentence name="SavedQueryBrowse" value="Izberi" />
+  <sentence name="SavedQueryOutputDir" value="Izhodna mapa" />
+  <sentence name="SavedQueryOutputFormat" value="Izhodni format" />
+  <sentence name="SavedQueryFilename" value="Ime datoteke" />
+ 
+  <sentence name="SaveChangesTitle" value="Shrani spremembe" />
+  <sentence name="SaveChangesQuestion" value="Tabela {0} je bila spremenjena. Želiš shraniti spremembe?" />
+  <sentence name="SaveChangesYes" value="Shrani" />
+  <sentence name="SaveChangesNo" value="Ne shrani" />
+  <sentence name="SaveChangesCancel" value="Prekliči" />
+
+  <!--Operation dialogs-->
+  <sentence name="OperationColumnHeaderStub" value="Vrstice" />
+  <sentence name="OperationColumnHeaderHeading" value="Stolpci" />
+  <sentence name="OperationPivot" value="Zavrti" />
+
+  <sentence name="OperationSum" value="Vsota" />
+  <sentence name="OperationSumSelectVariable" value="Izberi dimenzijo" />
+  <sentence name="OperationSumInitialValue" value="Začetna vrednost" />
+  <sentence name="OperationSumInclude" value="Vključi" />
+  <sentence name="OperationSumExclude" value="Izključi" />
+  <sentence name="OperationSumNewValue" value="Nova kategorija" />
+  <sentence name="OperationSumName" value="Besedilo" />
+  <sentence name="OperationSumCode" value="Šifra" />
+  <sentence name="OperationSumSelectValueMessage" value="Izbrati moraš najmanj eno kategorijo" />
+
+  <sentence name="OverlayTableText" value="Overlay with table..." />
+  <sentence name="OverlayTableDialogText" value="Overlay with table" />
+  <sentence name="OverlayTableHelpText" value="Enter name of new variable (dimension), value texts and codes (table before and after edit)" />
+  <sentence name="OverlayTableEnterVariable" value="Enter text for the variable" />
+  <sentence name="OverlayTableEnterValue1" value="Enter text for Value(1)" />
+  <sentence name="OverlayTableEnterValue2" value="Enter text for Value(2)" />
+
+  <sentence name="ChangeTextCodeMenu" value="Spremeni prikaz šifer in/ali besedila..." />
+  <sentence name="ChangeTextCode" value="Spremeni prikaz šifer in/ali besedila" />
+  <sentence name="ChangeTextCodeHelpText" value="Izberi možnost za vsako dimenzijo za spremembo prikaza." />
+  <sentence name="ChangeText" value="Besedilo" />
+  <sentence name="ChangeCode" value="Šifra" />
+  <sentence name="ChangeTextAndCode" value="Besedilo in šifra" />
+
+  <sentence name="LinkTableText" value="Link with table..." />
+  <sentence name="LinkTableChooseTable" value="Link with table" />
+
+  <sentence name="SelectFolderOVERLAY" value="Select folder for overlay with table" />
+  <sentence name="SelectFolderLINK" value="Select folder for link with table" />
+  <sentence name="SelectPxFile" value="Select PX-file" />
+
+  <sentence name="OperationPercent" value="Deleži" />
+  <sentence name="OperationPercentBaseHeading" value="Izberi osnovo za izračun" />
+  <sentence name="OperationPercentBaseVariable" value="Dimenzija" />
+  <sentence name="OperationPercentBaseVariableValue" value="Kategorija" />
+  <sentence name="OperationPercentBaseCellValue" value="Podatkovna celica" />
+  <sentence name="OperationPercentBaseSelectionHeading" value="Izbrana osnova:" />
+  <sentence name="OperationPercentBaseInstructionVariable" value="Izberi vse kategorije dimenzije" />
+  <sentence name="OperationPercentBaseInstructionVariableValue" value="Izberi eno kategorije za dimenzijo" />
+  <sentence name="OperationPercentBaseInstructionCellValue" value="Izberi eno kategorijo za vsako dimenzijo" />
+  <sentence name="OperationPercentRequiredValue" value="Zahtevana vrednost" />
+  <sentence name="OperationPercentValueNeededText" value="Vpiši besedilo in šifro nove kategorije." />
+  <sentence name="OperationPercentInitialValue" value="Začetna vrednost" />
+  <sentence name="OperationPercentInclude" value="Vključi" />
+  <sentence name="OperationPercentExclude" value="Izključi" />
+  <sentence name="OperationPercentNewValue" value="Ime nove kategorije" />
+  <sentence name="OperationPercentNewValueDefault" value="Odstotek" />
+
+  <sentence name="OperationPercentAllowText" value="Dovoljen je en izmed naslednjih izborov:                      Izbereš lahko eno od naslednjih možnosti  ??
+              
+Ena kategorija
+Ena kategorija iz vsake dimenzije
+Vse kategorije ene dimenzije" />
+
+  <sentence name="OperationCalculate" value="Preračuni" />
+  <sentence name="OperationCalculateInitialValues" value="Začetna vrednost" />
+  <sentence name="OperationCalculateInclusive" value="Vključi" />
+  <sentence name="OperationCalculateExclusive" value="Izključi" />
+  <sentence name="OperationCalculateNewValue" value="Nova kategorija" />
+  <sentence name="OperationCalculateName" value="Besedilo" />
+  <sentence name="OperationCalculateCode" value="Šifra" />
+  <sentence name="OperationCalculateConstant" value="Konstanta:" />
+  <sentence name="OperationCalculateSelectValueMessage" value="Preračun je dovoljen samo med dvema kategorijama ali eno kategorijo in konstanto." />
+  <sentence name="OperationCalculateSelectErrorMessage" value="Napaka pri izboru" />
+  <sentence name="OperationCalculateNewValueMessage" value="Nova kategorija mora vsebovati besedilo in šifro." />
+  <sentence name="OperationCalculateNewValueErrorMessage" value="Zahtevana vrednost" />
+  <sentence name="OperationCalculateTooManyValues" value="Izbereš lahko največ dve kategoriji" />
+  <sentence name="OperationCalculateAddition" value="Seštej" />
+  <sentence name="OperationCalculateDivision" value="Deli" />
+  <sentence name="OperationCalculateMultiplication" value="Zmnoži" />
+  <sentence name="OperationCalculateSubtraction" value="Odštej" />
+
+  <sentence name="OperationDeleteVariable" value="Izbriši dimenzijo" />
+  <sentence name="OperationDeleteSelectValue" value="Izberi kategorijo" />
+  <sentence name="OperationDeleteSelectValueMessage" value="Izberi kategorijo za izbris" />
+  <sentence name="OperationDeleteSelectValueHelpText" value="Izberi kategorijo za tabelo" />
+  <sentence name="OperationDeleteVariableAddToContents" value="Dodaj kategorijo v čelo tabele" />
+  <sentence name="OperationDeleteSelectVariableMessage" value="Izberi dimenzijo za izbris" />
+  <sentence name="OperationDeleteSelectVariableErrorMessage" value="Izberi dimenzijo" />
+  <sentence name="OperationDeleteSelectValueErrorMessage" value="Izberi kategorijo" />
+  <sentence name="OperationDeleteValue" value="Izbriši kategorijo" />
+  <sentence name="OperationDeleteValueErrorMessage" value="Napaka pri preračunu" />
+  <sentence name="OperationDeleteValueError" value="Napaka" />
+  <sentence name="OperationDeleteValueHelpText" value="Zapomni si, da mora vsaka dimenzija imeti vsaj eno kategorijo" />
+
+  <sentence name="OperationChangeValueOrder" value="Spremeni vrstni red kategorij" />
+  <sentence name="OperationChangeValueOrderFromOrder" value="Začetni vrstni red" />
+  <sentence name="OperationChangeValueOrderToOrder" value="Novi vrstni red" />
+  <sentence name="OperationChangeValueOrderSortAsce" value="Sortiraj naraščajoče" />
+  <sentence name="OperationChangeValueOrderSortDesc" value="Sortiraj padajoče" />
+  <sentence name="OperationChangeValueOrderMoveRest" value="Premakni ostale" />
+
+  <sentence name="ValueSelectSelectAll" value="Izberi vse" />
+  <sentence name="ValueSelectDeselectAll" value="Prekliči vse" />
+
+  <sentence name="ChangeDecimal" value="Spremeni prikaz decimalnih mest" />
+  <sentence name="ChangeDecimalMenu" value="Spremeni prikaz decimalnih mest..." />
+  <sentence name="ChangeDecimalInfo" value="Število decimalnih mest (0-6)" />
+  <sentence name="ChangeDecimalErrorText" value="Samo številski znaki (0-6) so dovoljeni" />
+  <sentence name="ChangeDecimalErrorHead" value="Nepravilen vnos" />
+
+  <sentence name="ExitApplicationMessage" value="Ali želiš zapreti PX-Win?" />
+  <sentence name="ExitApplicationWithoutSaveMessage" value="Tabela je bila spremenjena. Ali resnično želiš zapreti PX-Win?" />
+  <sentence name="ExitTableWithoutSaveMessage" value="Tabela je bila spremenjena. Ali jo resnično želiš zapreti?" />
+  
+  <!--<sentence name="PxcKeywordError" value="{0} error"/>
+  <sentence name="PxcKeywordLastUpdated" value="Latest update"/>
+  <sentence name="PxcKeywordSource" value="Source"/>
+  <sentence name="PxcKeywordContact" value="Contact"/>
+  <sentence name="PxcKeywordCopyright" value="Copyright"/>
+  <sentence name="PxcKeywordUnits" value="Units"/>
+  <sentence name="PxcKeywordStockfa" value="Data type"/>
+  <sentence name="PxcKeywordStockfaValueStock" value="Stock"/>
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flow"/>
+  <sentence name="PxcKeywordStockfaValueAverage" value="Average"/>
+  <sentence name="PxcKeywordRefPeriod" value="Reference period"/>
+  <sentence name="PxcKeywordBasePeriod" value="Base period"/>
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Current prices"/>
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Fixed prices"/>
+  <sentence name="PxcKeywordDayAdj" value="Day adjusted"/>
+  <sentence name="PxcKeywordSeasAdj" value="Seasonal adjusted"/>
+  <sentence name="PxcKeywordDatabase" value="Database"/>
+  <sentence name="PxcKeywordMatrix" value="Internal reference code"/>-->
+
+  <sentence name="ConfigurartionChangeExit" value="Sprememba v konfiguraciji. Prosim ponovno zaženi aplikacijo." />
+  
+  
+
+  <!-- Error Test -->
+  <sentence name="PxcYear" value="leto" />
+  <sentence name="PxcHalfyear" value="polletje" />
+  <sentence name="PxcQuarter" value="četrtletje" />
+  <sentence name="PxcMonth" value="mesec" />
+  <sentence name="PxcWeek" value="teden" />
+  <sentence name="PxcMetaTitleBy" value="po" />
+  <sentence name="PxcMetaTitleAnd" value="in" />
+  <sentence name="PxcOpSplitTimeVarYear" value="leto" />
+  <sentence name="PxcOpSplitTimeVarQuarter" value="četrtletje" />
+  <sentence name="PxcOpSplitTimeVarMonth" value="mesec" />
+  <sentence name="PxcOpSplitTimeVarJanuary" value="januar" />
+  <sentence name="PxcOpSplitTimeVarFebruary" value="februar" />
+  <sentence name="PxcOpSplitTimeVarMarch" value="marec" />
+  <sentence name="PxcOpSplitTimeVarApril" value="april" />
+  <sentence name="PxcOpSplitTimeVarMay" value="maj" />
+  <sentence name="PxcOpSplitTimeVarJune" value="junij" />
+  <sentence name="PxcOpSplitTimeVarJuly" value="julij" />
+  <sentence name="PxcOpSplitTimeVarAugust" value="avgust" />
+  <sentence name="PxcOpSplitTimeVarSeptember" value="september" />
+  <sentence name="PxcOpSplitTimeVarOctober" value="oktober" />
+  <sentence name="PxcOpSplitTimeVarNovember" value="november" />
+  <sentence name="PxcOpSplitTimeVarDecember" value="december" />
+  <sentence name="PxcOpSplitTimeVarQuarter1" value="1. četrtletje" />
+  <sentence name="PxcOpSplitTimeVarQuarter2" value="2. četrtletje" />
+  <sentence name="PxcOpSplitTimeVarQuarter3" value="3. četrtletje" />
+  <sentence name="PxcOpSplitTimeVarQuarter4" value="4. četrtletje" />
+  <sentence name="ERROR_MISSING_TIMEVALUE" value="TIMEVALUE manjka" />
+  <sentence name="PxcErrCellNoteValueMissing" value="Vrednost={0} ni veljavna"/>
+  <sentence name="PxcErrToManyCodes" value="{0} ima definiranih preveč šifer"/>
+  <sentence name="PxcGroupedValuesMissing" value="{0} grupirane kategorije manjkajo"/>
+  <sentence name="PxcGroupingVariableWithNoValues" value="Grupirana dimenzija {0} nima kategorij"/>
+  <sentence name="PxcSortVariable" value="merska dimenzija"/>
+  <sentence name="SqlErr" value=""/>
+  <sentence name="SqlWarn" value=""/>
+  <sentence name="PxcContactPhone" value="Telefon"/>
+  <sentence name="PxcContactFax" value="Faks"/>
+  <sentence name="PxcContactEMail" value="E-mail"/>
+  <sentence name="PxcContactWebAddress" value="Spletna stran"/>
+  <sentence name="PxcPercent" value="Odstotek"/>
+  <sentence name="PxcPermil" value="Promil"/>
+  <sentence name="PxcPercentUnitVarExists" value="Ne morem izračunati odstotkov, če merska dimenzija že obstaja"/>
+  <sentence name="PxcPermilUnitVarExists" value="Ne morem izračunati promilov, če merska dimenzija že obstaja"/>
+  <sentence name="PxcErr103" value="Napaka v ključni besedi UNITS"/>
+  <sentence name="PxcErr106" value="Napaka v ključni besedi STUB"/>
+  <sentence name="PxcErr107" value="Napaka v ključni besedi HEADING"/>
+  <sentence name="PxcErr108" value="Napaka v ključni besedi VALUES"/>
+  <sentence name="PxcErr109" value="Napaka v ključni besedi CODES"/>
+  <sentence name="PxcErr111" value="Napaka v ključni besedi NOTE ali NOTEX za dimenzijo"/>
+  <sentence name="PxcErr112" value="Napaka v ključni besedi VALUENOTE ali VALUENOTEX"/>
+  <sentence name="PxcErr113" value="Napaka v ključni besedi CELLNOTE ali CELLNOTEX"/>
+  <sentence name="PxcErr115" value="ELIMINATION yes/no napaka"/>
+  <sentence name="PxcErr117" value="Napaka v ključni besedi PARTITION"/>
+  <sentence name="PxcErr121" value="Napaka v ključni besedi KEYS"/>
+  <sentence name="PxcErr123" value="Napaka v ključni besedi PRECISION"/>
+  <sentence name="PxcErr124" value="Napaka v ključni besedi DOMAIN"/>
+  <sentence name="PxcErr130" value="Ključna beseda TITLE ali DESCRIPTION manjka"/>
+  <sentence name="PxcErr131" value="Ključna beseda MATRIX manjka"/>
+  <sentence name="PxcErr132" value="Ključna beseda SUBJECT-AREA manjka"/>
+  <sentence name="PxcErr133" value="Ključna beseda SUBJECT-CODE manjka"/>
+  <sentence name="PxcErr134" value="Ključni besedi STUB in HEADING manjkata"/>
+  <sentence name="PxcErr135" value="Ključna beseda UNITS manjka"/>
+  <sentence name="PxcErr136" value="Ključna beseda CONTENTS manjka"/>
+  <sentence name="PxcErr137" value="Ključna beseda DECIMALS manjka"/>
+  <sentence name="PxcErr138" value="Napaka v ključni besedi SHOWDECIMALS"/>
+  <sentence name="PxcErr142" value="COPYRIGHT je napačen"/>
+  <sentence name="PxcErr143" value="DAYADJ je napačen"/>
+  <sentence name="PxcErr144" value="SEASADJ je napačen"/>
+  <sentence name="PxcErr146" value="CONTACT je napačen"/>
+  <sentence name="PxcErr147" value="REFPERIOD je napačen"/>
+  <sentence name="PxcErr149" value="LAST-UPDATED je napačen"/>
+  <sentence name="PxcErr151" value="STOCKFA je napačen"/>
+  <sentence name="PxcErr152" value="CFPRICES je napačen"/>
+  <sentence name="PxcErr153" value="TIMEVAL je napačen"/>
+  <sentence name="PxcErr154" value="BASEPERIOD je napačen"/>
+  <sentence name="PxcErr160" value="Keyword dependent on CONTVARIABLE found but no contents variable"/>
+  <sentence name="PxcErr161" value="Dimenzija nastavljena kot CONTVARIABLE ne obstaja"/>
+  <sentence name="PxcErr162" value="Napaka v ključni besedi PRESTEXT"/>
+  <sentence name="PxcErr164" value="Napaka v ključni besedi MAP"/>
+  <sentence name="PxcErr166" value="Napaka v ključni besedi AGGREGALLOWED"/>
+  <sentence name="PxcErr167" value="Napaka v ključni besedi AUTOPEN"/>
+  <sentence name="PxcErr168" value="Napaka v ključni besedi DOUBLECOLUMN"/>
+  <sentence name="PxcErr169" value="Napaka v ključni besedi DESCRIPTIONDEFAULT"/>
+  <sentence name="PxcErr176" value="Napaka v ključni besedi DATANOTE"/>
+  <sentence name="PxcErr180" value="Ključna beseda DATA manjka"/>
+  <sentence name="PxcErr201" value="Napaka v ključni besedi HIERARCHYLEVELSOPEN "/>
+  <sentence name="PxcErr202" value="Napaka v ključni besedi HIERARCHYLEVELS "/>
+  <sentence name="PxcErr203" value="Napaka v ključni besedi HIERARCHYNAMES"/>
+  <sentence name="PxcErr204" value="Napaka v ključni besedi HIERARCHIES"/>
+  <sentence name="PxcErr205" value="Napaka v ključni besedi OFFICIAL-STATISTICS"/>
+  <sentence name="PxcErr300" value="Napaka v ključni besedi VALUE-TEXT-OPTION"/>
+  <sentence name="PxcKeywordError" value="Napaka v ključni besedi {0}"/>
+  <sentence name="PxcKeywordLastUpdated" value="Zadnja objava"/>
+  <sentence name="PxcKeywordSource" value="Vir"/>
+  <sentence name="PxcKeywordContact" value="Kontaktna oseba"/>
+  <sentence name="PxcKeywordCopyright" value="Avtorske pravice"/>
+  <sentence name="PxcKeywordUnits" value="Enota"/>
+  <sentence name="PxcKeywordStockfa" value="Tip podatkov"/>
+  <sentence name="PxcKeywordStockfaValueStock" value="Stock"/>
+  <sentence name="PxcKeywordStockfaValueFlow" value="Flow"/>
+  <sentence name="PxcKeywordStockfaValueAverage" value="Povprečje"/>
+  <sentence name="PxcKeywordRefPeriod" value="Referenčno obdobje"/>
+  <sentence name="PxcKeywordBasePeriod" value="Bazno obdobje"/>
+  <sentence name="PxcKeywordCFPricesValueCurrent" value="Current prices"/>
+  <sentence name="PxcKeywordCFPricesValueFixed" value="Fixed prices"/>
+  <sentence name="PxcKeywordDayAdj" value="Day adjusted"/>
+  <sentence name="PxcKeywordSeasAdj" value="Seasonal adjusted"/>
+  <sentence name="PxcKeywordDatabase" value="Podatkovna baza"/>
+  <sentence name="PxcKeywordMatrix" value="ID tabele"/>
+  <sentence name="PxcKeywordOfficialStatistics" value="Uradna statistika" />
+  
+  <sentence name="ErrorNoAvailableFiles" value="Ni veljavnih datotek na" />
+  <sentence name="ErrorActionIsMissing" value="Akcija manjka ali ni prepoznana" />
+  <sentence name="OperationError" value="Napaka v operaciji" />
+  <sentence name="Error" value="Napaka" />
+  <sentence name="Protected" value="Zaščiteno" />
+  <sentence name="ErrorInAuthorization" value="Napaka pri avtorizaciji" />
+  <sentence name="FatalErrors" value="Usodna napaka" />
+  <sentence name="Warnings" value="Opozorila" />
+
+
+  <sentence name="toolAggMenuRoot" value="Classifications (BETA)" />
+  <sentence name="toolAggMenuOpenValueset" value="Open valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewValueset" value="New valueset (.vs) (BETA)" />
+  <sentence name="toolAggMenuNewAggregation" value="New aggregation (.agg) (BETA)" />
+
+  <sentence name="toolAggNewAggregation" value="New aggregation (.agg)" />
+  <sentence name="toolAggNewValueset" value="New valueset (.vs)" />
+
+  <sentence name="toolAggAggregationBox" value="Aggregation" />
+  <sentence name="toolAggAggregationName" value="Name:" />
+  <sentence name="toolAggAggregationMap" value="Map:" />
+  <sentence name="toolAggAllowOverlappingValues" value="Allow overlapping values" />
+  
+  <sentence name="toolAggGroupsBox" value="Groups" />
+  <sentence name="toolAggGroupsListCode" value="Code" />
+  <sentence name="toolAggGroupsListText" value="Text" />
+  <sentence name="toolAggGroupsListIncludedValues" value="Included values" />
+  <sentence name="toolAggGroupUp" value="Move up" />
+  <sentence name="toolAggGroupDown" value="Move down" />
+  <sentence name="toolAggGroupDelete" value="Delete" />
+  <sentence name="toolAggGroupNew" value="New group" />
+  
+  <sentence name="toolAggGroupInfoBox" value="Group information" />
+  <sentence name="toolAggGroupSave" value="Save group" />
+  <sentence name="toolAggGroupCancelEdit" value="Cancel" />
+  <sentence name="toolAggGroupEdit" value="Edit group" />
+  <sentence name="toolAggGroupCode" value="Code:" />
+  <sentence name="toolAggGroupText" value="Text:" />
+  <sentence name="toolAggGroupValueListCode" value="Code" />
+  <sentence name="toolAggGroupValueListText" value="Text" />
+
+  <sentence name="toolAggAggregationValuesetBox" value="Valueset" />
+  <sentence name="toolAggAggregationValuesetName" value="Name:" />
+  <sentence name="toolAggAggregationValuesetDomain" value="Domain:" />
+  <sentence name="toolAggAggregationValuesetFile" value="Valuset file:" />
+  <sentence name="toolAggAggregationValuesetFileBrowse" value="Browse" />
+
+  <sentence name="toolAggAggregationAvailableBox" value="Available values" />
+  <sentence name="toolAggAggregationAvailableCode" value="Code" />
+  <sentence name="toolAggAggregationAvailableText" value="Text" />
+
+  <sentence name="toolAggAggregationSaveFile" value="Save aggregation file (.agg)" />
+
+  <sentence name="toolAggDeleteGroupQuestion" value="Do you want to delete the selected group?" />
+  <sentence name="toolAggDeleteGroupCaption" value="Delete group" />
+  <sentence name="toolAggIllegalFileMessage" value="The file has illegal file format:" />
+  <sentence name="toolAggIllegalFileCaption" value="Error reading file" />
+  <sentence name="toolAggEnterGroupCodeMessage" value="You must enter the group code" />
+  <sentence name="toolAggEnterGroupCodeCaption" value="Enter value" />
+  <sentence name="toolAggEnterGroupNameMessage" value="You must enter the group text" />
+  <sentence name="toolAggEnterGroupNameCaption" value="Enter value" />
+  <sentence name="toolAggExistingGroupMessage" value="A group with this code already exists, please enter another code" />
+  <sentence name="toolAggExistingGroupCaption" value="Existing group" />
+  <sentence name="toolAggEnterAggregationNameMessage" value="You must enter the name of the aggregation" />
+  <sentence name="toolAggEnterAggregationNameCaption" value="Enter value" />
+  <sentence name="toolAggIllegalVsAssociationMessage" value="The aggregation (.agg) file is not associated with the valueset (.vs) file. The value of 'Valueset' in the .agg file must be the same as the value of 'Name' in the .vs file. Do you want to remove this aggregation file from the list of aggregations in the valueset (.vs) file?" />
+  <sentence name="toolAggIllegalVsAssociationCaption" value="Illegal valueset association" />
+  <sentence name="toolAggFileChangedMessage" value="The file '{0}' has been changed. Do you want to reload the file in PX-Win?" />
+  <sentence name="toolAggAggFileChangedMessage" value="The file '{0}' or its .vs file has been changed. Do you want to reload the file in PX-Win?" />
+  <sentence name="toolAggFileChangedCaption" value="File has been changed" />
+
+  <sentence name="toolAggIllegalValue" value="Illegal value. This value is not part of the valueset." />
+  <sentence name="toolAggMessOverlappingOrIllegalValues" value="Contains overlapping or illegal values." />
+
+  <sentence name="toolAggSaveChangesTitle" value="Save changes" />
+  <sentence name="toolAggSaveChangesQuestion" value="The file {0} has been changed. Do you want to save changes?" />
+  <sentence name="toolAggSaveChangesYes" value="Save" />
+  <sentence name="toolAggSaveChangesNo" value="Do not save" />
+  <sentence name="toolAggSaveChangesCancel" value="Cancel" />
+
+  <!--Valuset .vs fil-->
+  <sentence name="toolValueSetImportFile" value="Uvozi v valueset datoteko (.vs)" />
+  <sentence name="toolValueSetSaveFile" value="Shrani valueset datoteko (.vs)" />
+  <sentence name="toolValueSetName" value="Name" />
+  <sentence name="toolValueSetPrestext" value="Prestext" />
+  <sentence name="toolValueSetDomain" value="Domain" />
+  <sentence name="toolValueSetType" value="Type" />
+  <sentence name="toolValueSetTabValues" value="Values" />
+  <sentence name="toolValueSetTabAggFiles" value="Aggregation files" />
+  <sentence name="toolValueSetColumnCode" value="Code" />
+  <sentence name="toolValueSetColumnText" value="Text" />
+  <sentence name="toolValueSetCreateNewAggregationFile" value="Create new aggregation file" />
+  <!-- Warning and error meddage Valuset -->
+  <sentence name="toolValueSetMessDublicateCodes" value="The valuset contains duplicates" />
+  <sentence name="toolValueSetDublicateCodesMessage" value="The file contains duplicates." />
+  <sentence name="toolValueSetDublicateCodesCaption" value="Duplicates" />
+  <sentence name="toolValueSetFileNameAndNameMessage" value="File name and name in valuset file do not match. The name of the valueset should be the sam as the file name. Would you still save the value set file?" />
+  <sentence name="toolValueSetFileNameCaption" value="File name" />
+  <sentence name="toolValueSetEnterValueSetNameMessage" value="Enter the name for the value set" />
+  <sentence name="toolValueSetEnterValueSetCaption" value="Enter value" />
+  <sentence name="toolValueSetEnterValueSetPrestextMessage" value="Enter the prestext for the value set" />
+  <sentence name="toolValueSetEnterValueSetDomainMessage" value="Enter the domain for the value set" />
+  <sentence name="toolValueSetErrorCaption" value="Error" />
+  <sentence name="toolValueSetErrorDublicateCodesMessage" value="An error occurred when checking for dublicates" />
+  <sentence name="toolValueSetCodesMissingMessage" value="The section Value code [Valuecode] is missing in the .vs file" />
+
+  <!--Error message import code and text-->
+  <sentence name="toolValueSetIllegalFileCaption" value="Error reading file" />
+  <sentence name="toolValueSetIllegalFileMessage" value="The file has illegal file format" />
+  <sentence name="toolValueSetErrorReadingCSVfileMessage" value="Error while reading value code and value text from .csv file. Please check if you choosed the right delimiter." />
+  <!--Save valueset file-->
+  <sentence name="toolValueSetSaveFileCaption" value="Error saving" />
+  <sentence name="toolValueSetSaveFileMessage" value="Error when saving value set (.vs) file." />
+  <!-- Delimiter dialog-->
+  <sentence name="formDelimiterCaption" value="Delimiter in .csv file" />
+  <sentence name="formDelimiterQuestion" value="Which delimiter is use in the file?" />
+  <sentence name="formDelimiterTabulator" value="Tabulator" />
+  <sentence name="formDelimiterComma" value="Comma" />
+  <sentence name="formDelimiterSpace" value="Space" />
+  <!--Import from .px dialog -->
+  <sentence name="formPxFileValuesCaption" value="Import values codes" />
+  <sentence name="formPxFileValuesQuestion" value="On which language and which variable do you want to import from?" />
+  <sentence name="formPxFileValuesLanguage" value="Language" />
+  <sentence name="formPxFileValuesVariables" value="Variables" />             
+</language>
