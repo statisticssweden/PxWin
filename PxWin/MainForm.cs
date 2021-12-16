@@ -67,6 +67,7 @@ namespace PCAxis.Desktop
 
             DatabaseRepository.Current.GetDatabase("");
 
+            SetRoundingRule();
             PCAxis.Paxiom.GroupRegistry.GetRegistry().Strict = UseStrictAggregationCheck();
             PCAxis.Paxiom.GroupRegistry.GetRegistry().LoadGroupingsAsync();
 
@@ -74,6 +75,24 @@ namespace PCAxis.Desktop
             DragDrop += MainForm_DragDrop;
         }
 
+
+        /// <summary>
+        /// Sets the rounding rule that should be used by PxWin
+        /// </summary>
+        private void SetRoundingRule()
+        {
+            string roundingRule = string.IsNullOrEmpty(ConfigurationManager.AppSettings.Get("roundingRule")) ? "RoundUp" : ConfigurationManager.AppSettings.Get("roundingRule");
+
+            if (roundingRule.ToLower().Equals("bankersrounding"))
+            {
+                PCAxis.Paxiom.Settings.Numbers.RoundingRule = MidpointRounding.ToEven;
+            }
+            else
+            {
+                PCAxis.Paxiom.Settings.Numbers.RoundingRule = MidpointRounding.AwayFromZero;
+            }
+        }
+        
         /// <summary>
         /// Checks if strict aggregation check shall be used or not
         /// </summary>
