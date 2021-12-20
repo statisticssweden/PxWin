@@ -93,6 +93,7 @@
   <sentence name="AccessDeniedText" value="You do not have access rights to the table" />
   <sentence name="Name" value="Name" />
   <sentence name="OpenTablePeriodColumn" value="Time period" />
+  <sentence name="OpenTablePublishedColumn" value="Published" />
   <sentence name="Category" value="Category" />
   <sentence name="CategoryInternal" value=" I " />
   <sentence name="CategoryPrivate" value=" P " />

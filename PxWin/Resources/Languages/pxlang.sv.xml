@@ -93,6 +93,7 @@
   <sentence name="AccessDeniedText" value="Du saknar behörighet att se tabellen" />
   <sentence name="Name" value="Namn" />
   <sentence name="OpenTablePeriodColumn" value="Tidsperiod" />
+  <sentence name="OpenTablePublishedColumn" value="Publicerad" />
   <sentence name="Category" value="Kategori" />
   <sentence name="CategoryInternal" value=" I " />
   <sentence name="CategoryPrivate" value=" P " />
