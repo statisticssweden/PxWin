@@ -63,6 +63,7 @@ namespace PCAxis.Desktop.Grid
             for (int c = 0; c < tableMeta.Columns; c++)
             {
                 DataGridViewTextBoxColumnEx col = new DataGridViewTextBoxColumnEx();
+                col.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
                 col.FillWeight = 0.1f;
                 dgvc[c] = col;
                 col.AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
@@ -440,6 +441,7 @@ namespace PCAxis.Desktop.Grid
                     grid.Columns[i].Frozen = true;
                     grid.Columns[i].DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(232, 232, 232);
                     grid.Columns[i].DefaultCellStyle.WrapMode = DataGridViewTriState.False;
+                    grid.Columns[i].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
                 }
             }
             // Freeze heading rows
@@ -449,6 +451,7 @@ namespace PCAxis.Desktop.Grid
                 {
                     grid.Rows[i].Frozen = true;
                     grid.Rows[i].DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(232, 232, 232);
+                    grid.Rows[i].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
                 }
             }
         }
