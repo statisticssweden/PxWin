@@ -126,6 +126,10 @@ namespace PCAxis.Desktop
         private void ChangeLanguageOnColumns()
         {
             this.chName.Text = Lang.GetLocalizedString("Name");
+            if (lstTables.Columns.ContainsKey("colPublished"))
+            {
+                lstTables.Columns[lstTables.Columns.IndexOfKey("colPublished")].Text = Lang.GetLocalizedString("OpenTablePublishedColumn");
+            }
             if (lstTables.Columns.ContainsKey("colPeriod"))
             {
                 lstTables.Columns[lstTables.Columns.IndexOfKey("colPeriod")].Text = Lang.GetLocalizedString("OpenTablePeriodColumn");
@@ -439,13 +443,16 @@ namespace PCAxis.Desktop
                     TableLink lnk = (TableLink)item;
                     StringBuilder categoryText = new StringBuilder();
                     StringBuilder periodText = new StringBuilder();
-                   
+                    StringBuilder publishedText = new StringBuilder();
+
                     ListViewItem lItem ;
 
-                    //Fetch table category
-                    AddTableCategory(lnk, categoryText);
+                    //Fetch published date
+                    AddTablePublishedDate(lnk, publishedText);
                     //Fetch table category
                     AddTablePeriod(lnk, periodText);
+                    //Fetch table category
+                    AddTableCategory(lnk, categoryText);
 
                     //Link text
                     lItem = lstTables.Items.Add(lnk.Text);
@@ -455,6 +462,7 @@ namespace PCAxis.Desktop
                         lItem.Selected = true;
                         first = false;
                     }
+                    lItem.SubItems.Add(publishedText.ToString());
                     lItem.SubItems.Add(periodText.ToString());
                     lItem.SubItems.Add(categoryText.ToString());
 
@@ -522,6 +530,12 @@ namespace PCAxis.Desktop
  
         private void ShowAndHideColumn()
         {
+            if (!lstTables.Columns.ContainsKey("colPublished"))
+            {
+                ColumnHeader publishedHeader = lstTables.Columns.Add("colPublished", Lang.GetLocalizedString("OpenTablePublishedColumn"));
+                publishedHeader.Width = 100;
+            }
+
             if (_selectedDatabase != null && _selectedDatabase.Type.Equals("CNMM"))
             {
                 if (!lstTables.Columns.ContainsKey("colPeriod"))
@@ -535,7 +549,6 @@ namespace PCAxis.Desktop
                     ColumnHeader categoryHeader = lstTables.Columns.Add("colCategory", Lang.GetLocalizedString("Category"));
                     categoryHeader.Width = 70;
                 }
-
             }
             else
             {
@@ -584,6 +597,15 @@ namespace PCAxis.Desktop
                 {
                     periodText.Append(tableLink.EndTime);
                 }
+            }
+        }
+
+        private void AddTablePublishedDate(PCAxis.Menu.TableLink tableLink, StringBuilder publishedText)
+        {
+            if (tableLink.Published != null)
+            {
+                DateTime published = (DateTime)tableLink.Published;
+                publishedText.Append(published.ToShortDateString());
             }
         }
 
@@ -841,6 +863,11 @@ namespace PCAxis.Desktop
         private void ResizeTableList()
         {
             int width = lstTables.Width;
+
+            if (lstTables.Columns.ContainsKey("colPublished"))
+            {
+                width = width - lstTables.Columns["colPublished"].Width;
+            }
 
             if (lstTables.Columns.ContainsKey("colPeriod"))
             {
