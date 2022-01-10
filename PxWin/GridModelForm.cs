@@ -1075,6 +1075,11 @@ namespace PCAxis.Desktop
             SaveQuery();
         }
 
+        private void tsbChangeSelection_Click(object sender, EventArgs e)
+        {
+
+        }
+
         #endregion
 
         public ToolStrip Toolstrip { get { return toolStrip1; } }
@@ -1158,7 +1163,7 @@ namespace PCAxis.Desktop
             return true;
             
         }
-        
+
     }
 
     class MyDataGridView : DataGridView

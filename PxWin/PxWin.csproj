@@ -560,6 +560,7 @@
     <None Include="Resources\import.png" />
     <None Include="Resources\API-cloud.png" />
     <Content Include="Resources\api.png" />
+    <Content Include="Resources\change.png" />
     <Content Include="Resources\filter.png" />
     <Content Include="Resources\Languages\pxlang.da.xml">
       <SubType>Designer</SubType>
