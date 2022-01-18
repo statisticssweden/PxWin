@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using PCAxis.Paxiom;
 using System.Diagnostics;
+using PCAxis.Query;
 
 namespace PCAxis.Desktop.UserControls
 {
@@ -516,6 +517,55 @@ namespace PCAxis.Desktop.UserControls
                 if (changed)
                 {
                     OnControlResized(new ControlResizedEventArgs(this.Width, this.Height));
+                }
+            }
+        }
+
+        /// <summary>
+        /// Apply the previous selection
+        /// </summary>
+        /// <param name="previousTableQuery"></param>
+        public void ApplyPreviousSelection(TableQuery previousTableQuery)
+        {
+            PCAxis.Query.Query query = previousTableQuery.Query.FirstOrDefault(q => q.Code.Equals(_variable.Code));
+
+            if (query != null)
+            {
+                if (query.Selection.Filter.StartsWith("vs:"))
+                {
+                    // Valueset is selected
+                    if (query.Selection.Filter.Length > 3)
+                    {
+                        string vsId = query.Selection.Filter.Substring(3);
+                        PCAxis.Paxiom.ValueSetInfo vsInfo = _variable.ValueSets.FirstOrDefault(v => v.ID.Equals(vsId));
+                        if (vsInfo != null)
+                        {
+                            OnValuesetSelected(new ValuesetSelectEventArgs(_variable, vsInfo));
+                        }
+                    }
+                }
+                else if (query.Selection.Filter.StartsWith("agg:"))
+                {
+                    // Aggregeation is selected
+                    if (query.Selection.Filter.Length > 4)
+                    {
+                        string groupId = query.Selection.Filter.Substring(4);
+                        PCAxis.Paxiom.GroupingInfo grpInfo = _variable.Groupings.FirstOrDefault(g => g.ID.Equals(groupId));
+                        if (grpInfo != null)
+                        {
+                            OnGroupingSelected(new GroupingSelectEventArgs(_variable, grpInfo, GroupingIncludesType.AggregatedValues));
+                        }
+                    }
+                }
+
+                // Preselect the prevoiusly selected values
+                for (int i=0; i < lstValues.Items.Count; i++)
+                {
+                    ListboxItem itm = (ListboxItem)lstValues.Items[i];
+                    if (query.Selection.Values.Contains(itm.Value))
+                    {
+                        lstValues.SetSelected(i, true);
+                    }
                 }
             }
         }

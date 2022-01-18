@@ -210,6 +210,7 @@
     <Compile Include="Configuration\DatabaseRepository.cs" />
     <Compile Include="DataSources\CnmmDataSource.cs" />
     <Compile Include="DataSources\PxFileDataSource.cs" />
+    <Compile Include="Events\OpenPXTableEvent.cs" />
     <Compile Include="FilterDialog.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using PCAxis.Paxiom;
 using PCAxis.Desktop.UserControls;
+using PCAxis.Query;
 
 namespace PCAxis.Desktop
 {
@@ -17,11 +18,14 @@ namespace PCAxis.Desktop
         private IPXModelBuilder _builder;
         private SelectVariableValuesControl[] _controls;
         private long maxCells;
+        private TableQuery _previousTableQuery;
         
-        public SelectValuesDialog()
+        public SelectValuesDialog(TableQuery previousTableQuery)
         {
             InitializeComponent();
             SetLanguage();
+
+            _previousTableQuery = previousTableQuery;
             this.Text = Lang.GetLocalizedString("SelectValuesTitle");
             lblSelectedCells.Text = string.Format(Lang.GetLocalizedString("SelectValuesCtrlNumberOfSelectedCells"), 0);
             if (System.Configuration.ConfigurationManager.AppSettings.Get("maxCells") == null)
@@ -105,6 +109,12 @@ namespace PCAxis.Desktop
                 _controls[i].GroupingSelected += SelectValuesDialog_GroupingSelected;
                 _controls[i].ValuesetSelected += SelectValuesDialog_ValuesetSelected;
                 _controls[i].ControlResized += SelectValuesDialog_ControlResized;
+
+                if (_previousTableQuery != null)
+                {
+                    _controls[i].ApplyPreviousSelection(_previousTableQuery);
+                }
+
                 _controls[i].SelectionChanged += SelectValuesDialog_SelectionChanged;
             }
 

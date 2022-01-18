@@ -22,6 +22,7 @@ using PX.Plugin.Interfaces.Attributes;
 using PX.Desktop.Interfaces;
 using PX.Desktop.Interfaces.Attributes;
 using PX.Plugin.Interfaces;
+using PCAxis.Desktop.Events;
 
 namespace PCAxis.Desktop
 {
@@ -175,16 +176,16 @@ namespace PCAxis.Desktop
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void OpenPXTable(object sender, OpenTableForm.OpenPXTableEventArgs e)
+        private void OpenPXTable(object sender, OpenPXTableEventArgs e)
         {
-            SelectValues(e.DbInfo, e.Builder);
+            SelectValues(e.DbInfo, e.Builder, e.PreviousTableQuery);
         }
 
         /// <summary>
         /// Select variables and values
         /// </summary>
         /// <param name="builder"></param>
-        private void SelectValues(DatabaseInfo dbInfo, IPXModelBuilder builder)
+        private void SelectValues(DatabaseInfo dbInfo, IPXModelBuilder builder, TableQuery previousTableQuery = null)
         {
             if (!HasAccessRights(dbInfo, builder))
             {
@@ -222,7 +223,7 @@ namespace PCAxis.Desktop
             }
             else
             {
-                SelectValuesDialog dlg = new SelectValuesDialog();
+                SelectValuesDialog dlg = new SelectValuesDialog(previousTableQuery);
                 dlg.Builder = builder;
 
                 if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
@@ -250,10 +251,13 @@ namespace PCAxis.Desktop
         public GridModelForm OpenTableForm(PXModel model, TableQuery query, DatabaseInfo dbInfo, string caption)
         {
             GridModelForm frm = CreateGridModelForm();//new GridModelForm();
+
             frm.DbInfo = dbInfo;
             frm.Text = caption;
             frm.SetModel(model);
             frm.TableQuery = query;
+
+            frm.OpenPXTable += OpenPXTable;
 
             //DockContent content = new DockContent();
             //content.DockAreas = DockAreas.Document | DockAreas.Float;
