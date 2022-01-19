@@ -198,6 +198,7 @@ namespace PCAxis.Desktop
             miChangeTextCode.Text = Lang.GetLocalizedString("ChangeTextCodeMenu");
 
             tsbSave.Text = Lang.GetLocalizedString("MenuSave");
+            tsbChangeSelection.Text = Lang.GetLocalizedString("MenuChangeSelection");
             tsbUndo.Text = Lang.GetLocalizedString("MenuUndo");
             tsbStopRecording.Text = Lang.GetLocalizedString("MenuStopRecording");
             tsbPivot.Text = Lang.GetLocalizedString("MenuEditPivot");

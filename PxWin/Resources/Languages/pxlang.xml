@@ -27,6 +27,7 @@
   <sentence name="MenuSaveAs" value="Save as..." />
   <sentence name="MenuTools" value="Tools" />
   <sentence name="MenuOpen" value="Open" />
+  <sentence name="MenuChangeSelection" value="Change selection" />
   <sentence name="MenuUndo" value="Undo" />
   <sentence name="MenuEditPivot" value="Pivot..." />
   <sentence name="MenuEditPivotCW" value="Pivot clockwise" />
