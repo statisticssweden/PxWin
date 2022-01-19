@@ -532,6 +532,8 @@ namespace PCAxis.Desktop.UserControls
                 return;
             }
 
+            lstValues.BeginUpdate();
+
             // Try to get previous selction from the TableQuery
             PCAxis.Query.Query query = previousTableQuery.Query.FirstOrDefault(q => q.Code.Equals(_variable.Code));
 
@@ -591,6 +593,8 @@ namespace PCAxis.Desktop.UserControls
                     }
                 }
             }
+
+            lstValues.EndUpdate();
         }
 
         public void SelectAllValues()
