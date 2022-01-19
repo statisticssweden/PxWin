@@ -1095,9 +1095,7 @@ namespace PCAxis.Desktop
                 var ds = dsc.Value;
                 builder = (IPXModelBuilder)ds.CreateBuilder(DbInfo, null, ds.GetSource(DbInfo, mModel,mModel.Meta.Language), mModel.Meta.Language);
 
-                // TODO: Skjut event OpenPXTable som finns i OpenTableForm, skicka med nytt optional argument oldModel för att kunna markera tidigare värden
-
-                OnOpenPXTable(new OpenPXTableEventArgs(DbInfo, builder, TableQuery));
+                OnOpenPXTable(new OpenPXTableEventArgs(DbInfo, builder, TableQuery, mModel));
             }
         }
 

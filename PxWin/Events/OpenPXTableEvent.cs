@@ -24,19 +24,25 @@ namespace PCAxis.Desktop.Events
         public IPXModelBuilder Builder;
 
         /// <summary>
-        /// PXModel object representing the old model
+        /// Previous table query
         /// </summary>
         public TableQuery PreviousTableQuery;
+
+        /// <summary>
+        /// Previous PXModel
+        /// </summary>
+        public PXModel PreviousModel;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="builder"></param>
-        public OpenPXTableEventArgs(DatabaseInfo dbInfo, IPXModelBuilder builder, TableQuery previousTableQuery = null)
+        public OpenPXTableEventArgs(DatabaseInfo dbInfo, IPXModelBuilder builder, TableQuery previousTableQuery = null, PXModel previousModel = null)
         {
             DbInfo = dbInfo;
             Builder = builder;
             PreviousTableQuery = previousTableQuery;
+            PreviousModel = previousModel;
         }
     }
 

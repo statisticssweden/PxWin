@@ -525,8 +525,14 @@ namespace PCAxis.Desktop.UserControls
         /// Apply the previous selection
         /// </summary>
         /// <param name="previousTableQuery"></param>
-        public void ApplyPreviousSelection(TableQuery previousTableQuery)
+        public void ApplyPreviousSelection(TableQuery previousTableQuery, PXModel previousModel)
         {
+            if (previousTableQuery == null)
+            {
+                return;
+            }
+
+            // Try to get previous selction from the TableQuery
             PCAxis.Query.Query query = previousTableQuery.Query.FirstOrDefault(q => q.Code.Equals(_variable.Code));
 
             if (query != null)
@@ -565,6 +571,23 @@ namespace PCAxis.Desktop.UserControls
                     if (query.Selection.Values.Contains(itm.Value))
                     {
                         lstValues.SetSelected(i, true);
+                    }
+                }
+            }
+            else if (previousModel != null)
+            {
+                // query can be null if all values was selected for the variable. If so try to get the values from the model instead.
+                Variable var = previousModel.Meta.Variables.GetByCode(_variable.Code);
+                if (var != null)
+                {
+                    // Preselect the prevoiusly selected values
+                    for (int i = 0; i < lstValues.Items.Count; i++)
+                    {
+                        ListboxItem itm = (ListboxItem)lstValues.Items[i];
+                        if (var.Values.GetByCode(itm.Value) != null)
+                        {
+                            lstValues.SetSelected(i, true);
+                        }
                     }
                 }
             }

@@ -19,13 +19,16 @@ namespace PCAxis.Desktop
         private SelectVariableValuesControl[] _controls;
         private long maxCells;
         private TableQuery _previousTableQuery;
+        private PXModel _previousModel;
         
-        public SelectValuesDialog(TableQuery previousTableQuery)
+        public SelectValuesDialog(TableQuery previousTableQuery, PXModel previousModel)
         {
             InitializeComponent();
             SetLanguage();
 
             _previousTableQuery = previousTableQuery;
+            _previousModel = previousModel;
+
             this.Text = Lang.GetLocalizedString("SelectValuesTitle");
             lblSelectedCells.Text = string.Format(Lang.GetLocalizedString("SelectValuesCtrlNumberOfSelectedCells"), 0);
             if (System.Configuration.ConfigurationManager.AppSettings.Get("maxCells") == null)
@@ -112,7 +115,7 @@ namespace PCAxis.Desktop
 
                 if (_previousTableQuery != null)
                 {
-                    _controls[i].ApplyPreviousSelection(_previousTableQuery);
+                    _controls[i].ApplyPreviousSelection(_previousTableQuery, _previousModel);
                 }
 
                 _controls[i].SelectionChanged += SelectValuesDialog_SelectionChanged;

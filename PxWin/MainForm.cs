@@ -178,14 +178,14 @@ namespace PCAxis.Desktop
         /// <param name="e"></param>
         private void OpenPXTable(object sender, OpenPXTableEventArgs e)
         {
-            SelectValues(e.DbInfo, e.Builder, e.PreviousTableQuery);
+            SelectValues(e.DbInfo, e.Builder, e.PreviousTableQuery, e.PreviousModel);
         }
 
         /// <summary>
         /// Select variables and values
         /// </summary>
         /// <param name="builder"></param>
-        private void SelectValues(DatabaseInfo dbInfo, IPXModelBuilder builder, TableQuery previousTableQuery = null)
+        private void SelectValues(DatabaseInfo dbInfo, IPXModelBuilder builder, TableQuery previousTableQuery = null, PXModel previousModel = null)
         {
             if (!HasAccessRights(dbInfo, builder))
             {
@@ -223,7 +223,7 @@ namespace PCAxis.Desktop
             }
             else
             {
-                SelectValuesDialog dlg = new SelectValuesDialog(previousTableQuery);
+                SelectValuesDialog dlg = new SelectValuesDialog(previousTableQuery, previousModel);
                 dlg.Builder = builder;
 
                 if (dlg.ShowDialog() == System.Windows.Forms.DialogResult.OK)
