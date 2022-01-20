@@ -42,34 +42,6 @@ namespace PCAxis.Desktop
             }
         }
 
-        ///// <summary>
-        ///// Argument class for the OpenPXTable event
-        ///// </summary>
-        //public class OpenPXTableEventArgs : System.EventArgs
-        //{
-        //    /// <summary>
-        //    /// Selected database
-        //    /// </summary>
-        //    public DatabaseInfo DbInfo;
-
-        //    /// <summary>
-        //    /// Builder object
-        //    /// </summary>
-        //    public IPXModelBuilder Builder;
-
-        //    /// <summary>
-        //    /// Constructor
-        //    /// </summary>
-        //    /// <param name="builder"></param>
-        //    public OpenPXTableEventArgs(DatabaseInfo dbInfo, IPXModelBuilder builder)
-        //    {
-        //        DbInfo = dbInfo;
-        //        Builder = builder;
-        //    }
-        //}
-
-        //public delegate void OpenPXTableEventHandler(object sender, OpenPXTableEventArgs e);
-
         /// <summary>
         /// Event that is fired when a table shall be opened
         /// </summary>
