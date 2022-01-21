@@ -12,6 +12,8 @@ using PCAxis.Paxiom.Operations;
 using System.Linq;
 using PX.Plugin.Interfaces.Attributes;
 using PX.Desktop.Interfaces;
+using PX.Plugin.Interfaces;
+using PCAxis.Desktop.Events;
 
 namespace PCAxis.Desktop
 {
@@ -21,6 +23,12 @@ namespace PCAxis.Desktop
     {
         [Import]
         private IHost _host;
+
+        /// <summary>
+        /// Imports all plugins that implements IDataSource
+        /// </summary>
+        [ImportMany(AllowRecomposition = true)]
+        private IEnumerable<Lazy<IDataSource, IDataSourceMetadata>> _dataSources;
         
         private string _id;
         
@@ -29,6 +37,7 @@ namespace PCAxis.Desktop
         /// </summary>
         [ImportMany(AllowRecomposition = true)]
         private IEnumerable<Lazy<Func<IPXModelStreamSerializer>, ISerializerMetadata>> _saveAsFormats;
+
         /// <summary>
         /// Paxiom model for the table to display
         /// </summary>
@@ -189,6 +198,7 @@ namespace PCAxis.Desktop
             miChangeTextCode.Text = Lang.GetLocalizedString("ChangeTextCodeMenu");
 
             tsbSave.Text = Lang.GetLocalizedString("MenuSave");
+            tsbChangeSelection.Text = Lang.GetLocalizedString("MenuChangeSelection");
             tsbUndo.Text = Lang.GetLocalizedString("MenuUndo");
             tsbStopRecording.Text = Lang.GetLocalizedString("MenuStopRecording");
             tsbPivot.Text = Lang.GetLocalizedString("MenuEditPivot");
@@ -1075,7 +1085,35 @@ namespace PCAxis.Desktop
             SaveQuery();
         }
 
+        private void tsbChangeSelection_Click(object sender, EventArgs e)
+        {
+            IPXModelBuilder builder;
+            var dsc = _dataSources.FirstOrDefault(s => s.Metadata.SourceType == DbInfo.Type);
+
+            if (dsc != null)
+            {
+                var ds = dsc.Value;
+                builder = (IPXModelBuilder)ds.CreateBuilder(DbInfo, null, ds.GetSource(DbInfo, mModel,mModel.Meta.Language), mModel.Meta.Language);
+
+                OnOpenPXTable(new OpenPXTableEventArgs(DbInfo, builder, TableQuery, mModel));
+            }
+        }
+
         #endregion
+
+        /// <summary>
+        /// Event that is fired when a table shall be opened
+        /// </summary>
+        public event OpenPXTableEventHandler OpenPXTable;
+
+        protected virtual void OnOpenPXTable(OpenPXTableEventArgs e)
+        {
+            OpenPXTableEventHandler handler = OpenPXTable;
+            if (handler != null)
+            {
+                handler(this, e);
+            }
+        }
 
         public ToolStrip Toolstrip { get { return toolStrip1; } }
         public StatusStrip Statusstrip { get { return statusStrip1; } }
@@ -1158,7 +1196,7 @@ namespace PCAxis.Desktop
             return true;
             
         }
-        
+
     }
 
     class MyDataGridView : DataGridView

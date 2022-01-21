@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using PCAxis.Paxiom;
 using System.Diagnostics;
+using PCAxis.Query;
 
 namespace PCAxis.Desktop.UserControls
 {
@@ -518,6 +519,82 @@ namespace PCAxis.Desktop.UserControls
                     OnControlResized(new ControlResizedEventArgs(this.Width, this.Height));
                 }
             }
+        }
+
+        /// <summary>
+        /// Apply the previous selection
+        /// </summary>
+        /// <param name="previousTableQuery"></param>
+        public void ApplyPreviousSelection(TableQuery previousTableQuery, PXModel previousModel)
+        {
+            if (previousTableQuery == null)
+            {
+                return;
+            }
+
+            lstValues.BeginUpdate();
+
+            // Try to get previous selction from the TableQuery
+            PCAxis.Query.Query query = previousTableQuery.Query.FirstOrDefault(q => q.Code.Equals(_variable.Code));
+
+            if (query != null)
+            {
+                if (query.Selection.Filter.StartsWith("vs:"))
+                {
+                    // Valueset is selected
+                    if (query.Selection.Filter.Length > 3)
+                    {
+                        string vsId = query.Selection.Filter.Substring(3);
+                        PCAxis.Paxiom.ValueSetInfo vsInfo = _variable.ValueSets.FirstOrDefault(v => v.ID.Equals(vsId));
+                        if (vsInfo != null)
+                        {
+                            OnValuesetSelected(new ValuesetSelectEventArgs(_variable, vsInfo));
+                        }
+                    }
+                }
+                else if (query.Selection.Filter.StartsWith("agg:"))
+                {
+                    // Aggregeation is selected
+                    if (query.Selection.Filter.Length > 4)
+                    {
+                        string groupId = query.Selection.Filter.Substring(4);
+                        PCAxis.Paxiom.GroupingInfo grpInfo = _variable.Groupings.FirstOrDefault(g => g.ID.Equals(groupId));
+                        if (grpInfo != null)
+                        {
+                            OnGroupingSelected(new GroupingSelectEventArgs(_variable, grpInfo, GroupingIncludesType.AggregatedValues));
+                        }
+                    }
+                }
+
+                // Preselect the prevoiusly selected values
+                for (int i=0; i < lstValues.Items.Count; i++)
+                {
+                    ListboxItem itm = (ListboxItem)lstValues.Items[i];
+                    if (query.Selection.Values.Contains(itm.Value))
+                    {
+                        lstValues.SetSelected(i, true);
+                    }
+                }
+            }
+            else if (previousModel != null)
+            {
+                // query can be null if all values was selected for the variable. If so try to get the values from the model instead.
+                Variable var = previousModel.Meta.Variables.GetByCode(_variable.Code);
+                if (var != null)
+                {
+                    // Preselect the prevoiusly selected values
+                    for (int i = 0; i < lstValues.Items.Count; i++)
+                    {
+                        ListboxItem itm = (ListboxItem)lstValues.Items[i];
+                        if (var.Values.GetByCode(itm.Value) != null)
+                        {
+                            lstValues.SetSelected(i, true);
+                        }
+                    }
+                }
+            }
+
+            lstValues.EndUpdate();
         }
 
         public void SelectAllValues()

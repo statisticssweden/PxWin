@@ -90,6 +90,7 @@
             this.miDivide = new System.Windows.Forms.ToolStripMenuItem();
             this.miPercent = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.tsbChangeSelection = new System.Windows.Forms.ToolStripButton();
             this.tsbSave = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbUndo = new System.Windows.Forms.ToolStripButton();
@@ -138,6 +139,7 @@
             this.grid.Location = new System.Drawing.Point(-1, -1);
             this.grid.Margin = new System.Windows.Forms.Padding(4);
             this.grid.Name = "grid";
+            this.grid.RowHeadersWidth = 51;
             this.grid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.grid.Size = new System.Drawing.Size(1150, 546);
             this.grid.TabIndex = 0;
@@ -150,7 +152,7 @@
             this.lblTableTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTableTitle.Name = "lblTableTitle";
             this.lblTableTitle.Padding = new System.Windows.Forms.Padding(11, 7, 0, 7);
-            this.lblTableTitle.Size = new System.Drawing.Size(95, 30);
+            this.lblTableTitle.Size = new System.Drawing.Size(103, 34);
             this.lblTableTitle.TabIndex = 1;
             this.lblTableTitle.Text = "lblTableTitle";
             // 
@@ -171,11 +173,11 @@
             // tabTable
             // 
             this.tabTable.Controls.Add(this.grid);
-            this.tabTable.Location = new System.Drawing.Point(4, 24);
+            this.tabTable.Location = new System.Drawing.Point(4, 27);
             this.tabTable.Margin = new System.Windows.Forms.Padding(4);
             this.tabTable.Name = "tabTable";
             this.tabTable.Padding = new System.Windows.Forms.Padding(4);
-            this.tabTable.Size = new System.Drawing.Size(1149, 545);
+            this.tabTable.Size = new System.Drawing.Size(1149, 542);
             this.tabTable.TabIndex = 0;
             this.tabTable.Text = "tabTable";
             this.tabTable.UseVisualStyleBackColor = true;
@@ -185,11 +187,11 @@
             this.tabFootnote.BackColor = System.Drawing.Color.Transparent;
             this.tabFootnote.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.tabFootnote.Controls.Add(this.txtFootnote);
-            this.tabFootnote.Location = new System.Drawing.Point(4, 24);
+            this.tabFootnote.Location = new System.Drawing.Point(4, 27);
             this.tabFootnote.Margin = new System.Windows.Forms.Padding(4);
             this.tabFootnote.Name = "tabFootnote";
             this.tabFootnote.Padding = new System.Windows.Forms.Padding(4);
-            this.tabFootnote.Size = new System.Drawing.Size(1149, 545);
+            this.tabFootnote.Size = new System.Drawing.Size(1149, 542);
             this.tabFootnote.TabIndex = 1;
             this.tabFootnote.Text = "tabFootnote";
             this.tabFootnote.Enter += new System.EventHandler(this.EnterFootnoteTab);
@@ -205,16 +207,16 @@
             this.txtFootnote.Name = "txtFootnote";
             this.txtFootnote.ReadOnly = true;
             this.txtFootnote.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtFootnote.Size = new System.Drawing.Size(1141, 537);
+            this.txtFootnote.Size = new System.Drawing.Size(1141, 534);
             this.txtFootnote.TabIndex = 1;
             // 
             // tabInformation
             // 
             this.tabInformation.Controls.Add(this.gridFootnote);
-            this.tabInformation.Location = new System.Drawing.Point(4, 24);
+            this.tabInformation.Location = new System.Drawing.Point(4, 27);
             this.tabInformation.Margin = new System.Windows.Forms.Padding(4);
             this.tabInformation.Name = "tabInformation";
-            this.tabInformation.Size = new System.Drawing.Size(1149, 545);
+            this.tabInformation.Size = new System.Drawing.Size(1149, 542);
             this.tabInformation.TabIndex = 2;
             this.tabInformation.Text = "tabInformation";
             this.tabInformation.UseVisualStyleBackColor = true;
@@ -242,6 +244,7 @@
             this.gridFootnote.Name = "gridFootnote";
             this.gridFootnote.ReadOnly = true;
             this.gridFootnote.RowHeadersVisible = false;
+            this.gridFootnote.RowHeadersWidth = 51;
             this.gridFootnote.Size = new System.Drawing.Size(1142, 462);
             this.gridFootnote.TabIndex = 1;
             // 
@@ -250,6 +253,7 @@
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
             this.Column1.DefaultCellStyle = dataGridViewCellStyle1;
             this.Column1.HeaderText = "";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.ReadOnly = true;
             this.Column1.Width = 120;
@@ -259,20 +263,21 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.Column2.DefaultCellStyle = dataGridViewCellStyle2;
             this.Column2.HeaderText = "";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             this.Column2.Width = 320;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.miEdit,
             this.miCalculate});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 34);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 68);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1157, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1157, 28);
             this.menuStrip1.TabIndex = 10;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.Visible = false;
@@ -286,20 +291,20 @@
             this.miSaveQuery});
             this.fileToolStripMenuItem.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 26);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(128, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(161, 6);
             // 
             // miSave
             // 
             this.miSave.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.miSave.MergeIndex = 1;
             this.miSave.Name = "miSave";
-            this.miSave.Size = new System.Drawing.Size(131, 22);
+            this.miSave.Size = new System.Drawing.Size(164, 26);
             this.miSave.Text = "Save";
             this.miSave.Click += new System.EventHandler(this.miSave_Click);
             // 
@@ -308,7 +313,7 @@
             this.miSaveAs.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.miSaveAs.MergeIndex = 2;
             this.miSaveAs.Name = "miSaveAs";
-            this.miSaveAs.Size = new System.Drawing.Size(131, 22);
+            this.miSaveAs.Size = new System.Drawing.Size(164, 26);
             this.miSaveAs.Text = "Save as";
             this.miSaveAs.Click += new System.EventHandler(this.miSaveAs_Click);
             // 
@@ -317,7 +322,7 @@
             this.miSaveQuery.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.miSaveQuery.MergeIndex = 5;
             this.miSaveQuery.Name = "miSaveQuery";
-            this.miSaveQuery.Size = new System.Drawing.Size(131, 22);
+            this.miSaveQuery.Size = new System.Drawing.Size(164, 26);
             this.miSaveQuery.Text = "Save query";
             this.miSaveQuery.Click += new System.EventHandler(this.miSaveQuery_Click);
             // 
@@ -338,81 +343,81 @@
             this.miEdit.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.miEdit.MergeIndex = 1;
             this.miEdit.Name = "miEdit";
-            this.miEdit.Size = new System.Drawing.Size(39, 26);
+            this.miEdit.Size = new System.Drawing.Size(49, 24);
             this.miEdit.Text = "Edit";
             // 
             // miPivot
             // 
             this.miPivot.Name = "miPivot";
-            this.miPivot.Size = new System.Drawing.Size(237, 22);
+            this.miPivot.Size = new System.Drawing.Size(297, 26);
             this.miPivot.Text = "Pivot...";
             this.miPivot.Click += new System.EventHandler(this.miPivot_Click);
             // 
             // miPivotCW
             // 
             this.miPivotCW.Name = "miPivotCW";
-            this.miPivotCW.Size = new System.Drawing.Size(237, 22);
+            this.miPivotCW.Size = new System.Drawing.Size(297, 26);
             this.miPivotCW.Text = "Pivot clockwise";
             this.miPivotCW.Click += new System.EventHandler(this.miPivotCW_Click);
             // 
             // miPivotCCW
             // 
             this.miPivotCCW.Name = "miPivotCCW";
-            this.miPivotCCW.Size = new System.Drawing.Size(237, 22);
+            this.miPivotCCW.Size = new System.Drawing.Size(297, 26);
             this.miPivotCCW.Text = "Pivot counter clockwise";
             this.miPivotCCW.Click += new System.EventHandler(this.miPivotCCW_Click);
             // 
             // miDeleteVariable
             // 
             this.miDeleteVariable.Name = "miDeleteVariable";
-            this.miDeleteVariable.Size = new System.Drawing.Size(237, 22);
+            this.miDeleteVariable.Size = new System.Drawing.Size(297, 26);
             this.miDeleteVariable.Text = "Delete variable...";
             this.miDeleteVariable.Click += new System.EventHandler(this.miDeleteVariable_Click);
             // 
             // miDeleteValue
             // 
             this.miDeleteValue.Name = "miDeleteValue";
-            this.miDeleteValue.Size = new System.Drawing.Size(237, 22);
+            this.miDeleteValue.Size = new System.Drawing.Size(297, 26);
             this.miDeleteValue.Text = "Delete value...";
             this.miDeleteValue.Click += new System.EventHandler(this.miDeleteValue_Click);
             // 
             // miChangeValueOrder
             // 
             this.miChangeValueOrder.Name = "miChangeValueOrder";
-            this.miChangeValueOrder.Size = new System.Drawing.Size(237, 22);
+            this.miChangeValueOrder.Size = new System.Drawing.Size(297, 26);
             this.miChangeValueOrder.Text = "Change value order...";
             this.miChangeValueOrder.Click += new System.EventHandler(this.miChangeValueOrder_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(234, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(294, 6);
             // 
             // miOverlayTable
             // 
             this.miOverlayTable.Name = "miOverlayTable";
-            this.miOverlayTable.Size = new System.Drawing.Size(237, 22);
+            this.miOverlayTable.Size = new System.Drawing.Size(297, 26);
             this.miOverlayTable.Text = "Overlay with table...";
             this.miOverlayTable.Click += new System.EventHandler(this.miOverlayTable_Click);
             // 
             // miLinkTable
             // 
             this.miLinkTable.Name = "miLinkTable";
-            this.miLinkTable.Size = new System.Drawing.Size(237, 22);
+            this.miLinkTable.Size = new System.Drawing.Size(297, 26);
             this.miLinkTable.Text = "Link with table...";
             this.miLinkTable.Click += new System.EventHandler(this.miLinkTable_Click);
             // 
             // miChangeDecimals
             // 
             this.miChangeDecimals.Name = "miChangeDecimals";
-            this.miChangeDecimals.Size = new System.Drawing.Size(237, 22);
+            this.miChangeDecimals.Size = new System.Drawing.Size(297, 26);
             this.miChangeDecimals.Text = "Change decimals...";
             this.miChangeDecimals.Click += new System.EventHandler(this.miChangeDecimals_Click);
             // 
             // miChangeTextCode
             // 
             this.miChangeTextCode.Name = "miChangeTextCode";
-            this.miChangeTextCode.Size = new System.Drawing.Size(237, 22);
+            this.miChangeTextCode.Size = new System.Drawing.Size(297, 26);
             this.miChangeTextCode.Text = "Change text/code presentation";
             this.miChangeTextCode.Click += new System.EventHandler(this.miChangeTextCode_Click);
             // 
@@ -428,48 +433,48 @@
             this.miCalculate.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.miCalculate.MergeIndex = 2;
             this.miCalculate.Name = "miCalculate";
-            this.miCalculate.Size = new System.Drawing.Size(68, 26);
+            this.miCalculate.Size = new System.Drawing.Size(84, 24);
             this.miCalculate.Text = "Calculate";
             // 
             // miSum
             // 
             this.miSum.Name = "miSum";
-            this.miSum.Size = new System.Drawing.Size(149, 22);
+            this.miSum.Size = new System.Drawing.Size(183, 26);
             this.miSum.Text = "Sum...";
             this.miSum.Click += new System.EventHandler(this.miSum_Click);
             // 
             // miAdd
             // 
             this.miAdd.Name = "miAdd";
-            this.miAdd.Size = new System.Drawing.Size(149, 22);
+            this.miAdd.Size = new System.Drawing.Size(183, 26);
             this.miAdd.Text = "Add...";
             this.miAdd.Click += new System.EventHandler(this.miAdd_Click);
             // 
             // miSubstract
             // 
             this.miSubstract.Name = "miSubstract";
-            this.miSubstract.Size = new System.Drawing.Size(149, 22);
+            this.miSubstract.Size = new System.Drawing.Size(183, 26);
             this.miSubstract.Text = "Substraction...";
             this.miSubstract.Click += new System.EventHandler(this.miSubstract_Click);
             // 
             // miMultiply
             // 
             this.miMultiply.Name = "miMultiply";
-            this.miMultiply.Size = new System.Drawing.Size(149, 22);
+            this.miMultiply.Size = new System.Drawing.Size(183, 26);
             this.miMultiply.Text = "Multiply...";
             this.miMultiply.Click += new System.EventHandler(this.miMultiply_Click);
             // 
             // miDivide
             // 
             this.miDivide.Name = "miDivide";
-            this.miDivide.Size = new System.Drawing.Size(149, 22);
+            this.miDivide.Size = new System.Drawing.Size(183, 26);
             this.miDivide.Text = "Divide...";
             this.miDivide.Click += new System.EventHandler(this.miDivide_Click);
             // 
             // miPercent
             // 
             this.miPercent.Name = "miPercent";
-            this.miPercent.Size = new System.Drawing.Size(149, 22);
+            this.miPercent.Size = new System.Drawing.Size(183, 26);
             this.miPercent.Text = "Percent...";
             this.miPercent.Click += new System.EventHandler(this.miPercent_Click);
             // 
@@ -478,6 +483,7 @@
             this.toolStrip1.BackColor = System.Drawing.SystemColors.Window;
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsbChangeSelection,
             this.tsbSave,
             this.toolStripSeparator3,
             this.tsbUndo,
@@ -494,12 +500,23 @@
             this.tsbDivide,
             this.toolStripSeparator6,
             this.tsbStopRecording});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 34);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 68);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1157, 33);
+            this.toolStrip1.Size = new System.Drawing.Size(1446, 39);
             this.toolStrip1.TabIndex = 11;
             this.toolStrip1.Text = "toolStrip1";
             this.toolStrip1.Visible = false;
+            // 
+            // tsbChangeSelection
+            // 
+            this.tsbChangeSelection.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbChangeSelection.ForeColor = System.Drawing.SystemColors.Control;
+            this.tsbChangeSelection.Image = global::PCAxis.Desktop.Properties.Resources.change;
+            this.tsbChangeSelection.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbChangeSelection.Name = "tsbChangeSelection";
+            this.tsbChangeSelection.Size = new System.Drawing.Size(29, 36);
+            this.tsbChangeSelection.Text = "Change selection";
+            this.tsbChangeSelection.Click += new System.EventHandler(this.tsbChangeSelection_Click);
             // 
             // tsbSave
             // 
@@ -508,14 +525,14 @@
             this.tsbSave.Image = ((System.Drawing.Image)(resources.GetObject("tsbSave.Image")));
             this.tsbSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSave.Name = "tsbSave";
-            this.tsbSave.Size = new System.Drawing.Size(24, 30);
+            this.tsbSave.Size = new System.Drawing.Size(29, 36);
             this.tsbSave.Text = "Save";
             this.tsbSave.Click += new System.EventHandler(this.tsbSave_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 39);
             // 
             // tsbUndo
             // 
@@ -525,14 +542,14 @@
             this.tsbUndo.Image = ((System.Drawing.Image)(resources.GetObject("tsbUndo.Image")));
             this.tsbUndo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbUndo.Name = "tsbUndo";
-            this.tsbUndo.Size = new System.Drawing.Size(24, 30);
+            this.tsbUndo.Size = new System.Drawing.Size(29, 36);
             this.tsbUndo.Text = "Undo";
             this.tsbUndo.Click += new System.EventHandler(this.tsbUndo_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 39);
             // 
             // tsbPivotCW
             // 
@@ -541,7 +558,7 @@
             this.tsbPivotCW.Image = global::PCAxis.Desktop.Properties.Resources.pivot_clockwise;
             this.tsbPivotCW.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPivotCW.Name = "tsbPivotCW";
-            this.tsbPivotCW.Size = new System.Drawing.Size(24, 30);
+            this.tsbPivotCW.Size = new System.Drawing.Size(29, 36);
             this.tsbPivotCW.Text = "Pivot clockwise";
             this.tsbPivotCW.Click += new System.EventHandler(this.tsbPivotCW_Click);
             // 
@@ -552,7 +569,7 @@
             this.tsbPivot.Image = ((System.Drawing.Image)(resources.GetObject("tsbPivot.Image")));
             this.tsbPivot.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPivot.Name = "tsbPivot";
-            this.tsbPivot.Size = new System.Drawing.Size(24, 30);
+            this.tsbPivot.Size = new System.Drawing.Size(29, 36);
             this.tsbPivot.Text = "Pivot...";
             this.tsbPivot.Click += new System.EventHandler(this.tsbPivot_Click);
             // 
@@ -563,14 +580,14 @@
             this.tsbPivotCCW.Image = global::PCAxis.Desktop.Properties.Resources.pivot_counterclockwise;
             this.tsbPivotCCW.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPivotCCW.Name = "tsbPivotCCW";
-            this.tsbPivotCCW.Size = new System.Drawing.Size(24, 30);
+            this.tsbPivotCCW.Size = new System.Drawing.Size(29, 36);
             this.tsbPivotCCW.Text = "Pivot counter-clockwise";
             this.tsbPivotCCW.Click += new System.EventHandler(this.tsbPivotCCW_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 39);
             // 
             // tsbSum
             // 
@@ -579,7 +596,7 @@
             this.tsbSum.Image = global::PCAxis.Desktop.Properties.Resources.sum;
             this.tsbSum.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSum.Name = "tsbSum";
-            this.tsbSum.Size = new System.Drawing.Size(24, 30);
+            this.tsbSum.Size = new System.Drawing.Size(29, 36);
             this.tsbSum.Text = "Sum...";
             this.tsbSum.Click += new System.EventHandler(this.tsbSum_Click);
             // 
@@ -590,7 +607,7 @@
             this.tsbPercent.Image = global::PCAxis.Desktop.Properties.Resources.percentage;
             this.tsbPercent.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbPercent.Name = "tsbPercent";
-            this.tsbPercent.Size = new System.Drawing.Size(24, 30);
+            this.tsbPercent.Size = new System.Drawing.Size(29, 36);
             this.tsbPercent.Text = "Percent";
             this.tsbPercent.Click += new System.EventHandler(this.tsbPercent_Click);
             // 
@@ -601,7 +618,7 @@
             this.tsbAdd.Image = global::PCAxis.Desktop.Properties.Resources.plus;
             this.tsbAdd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbAdd.Name = "tsbAdd";
-            this.tsbAdd.Size = new System.Drawing.Size(24, 30);
+            this.tsbAdd.Size = new System.Drawing.Size(29, 36);
             this.tsbAdd.Text = "Add";
             this.tsbAdd.Click += new System.EventHandler(this.tsbAdd_Click);
             // 
@@ -612,7 +629,7 @@
             this.tsbSubstract.Image = global::PCAxis.Desktop.Properties.Resources.subtract;
             this.tsbSubstract.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSubstract.Name = "tsbSubstract";
-            this.tsbSubstract.Size = new System.Drawing.Size(24, 30);
+            this.tsbSubstract.Size = new System.Drawing.Size(29, 36);
             this.tsbSubstract.Text = "Substract";
             this.tsbSubstract.Click += new System.EventHandler(this.tsbSubstract_Click);
             // 
@@ -623,7 +640,7 @@
             this.tsbMultiply.Image = global::PCAxis.Desktop.Properties.Resources.multiply;
             this.tsbMultiply.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbMultiply.Name = "tsbMultiply";
-            this.tsbMultiply.Size = new System.Drawing.Size(24, 30);
+            this.tsbMultiply.Size = new System.Drawing.Size(29, 36);
             this.tsbMultiply.Text = "Multiply";
             this.tsbMultiply.Click += new System.EventHandler(this.tsbMultiply_Click);
             // 
@@ -634,14 +651,14 @@
             this.tsbDivide.Image = global::PCAxis.Desktop.Properties.Resources.divide;
             this.tsbDivide.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbDivide.Name = "tsbDivide";
-            this.tsbDivide.Size = new System.Drawing.Size(24, 30);
+            this.tsbDivide.Size = new System.Drawing.Size(29, 36);
             this.tsbDivide.Text = "Divide";
             this.tsbDivide.Click += new System.EventHandler(this.tsbDivide_Click);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 39);
             // 
             // tsbStopRecording
             // 
@@ -649,12 +666,13 @@
             this.tsbStopRecording.Image = global::PCAxis.Desktop.Properties.Resources.save_query;
             this.tsbStopRecording.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbStopRecording.Name = "tsbStopRecording";
-            this.tsbStopRecording.Size = new System.Drawing.Size(24, 30);
+            this.tsbStopRecording.Size = new System.Drawing.Size(29, 36);
             this.tsbStopRecording.Text = "toolStripButton2";
             this.tsbStopRecording.Click += new System.EventHandler(this.tsbStopRecording_Click);
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sslTableName,
             this.tbColumns,
@@ -674,7 +692,7 @@
             this.sslTableName.MergeAction = System.Windows.Forms.MergeAction.Replace;
             this.sslTableName.MergeIndex = 0;
             this.sslTableName.Name = "sslTableName";
-            this.sslTableName.Size = new System.Drawing.Size(1011, 25);
+            this.sslTableName.Size = new System.Drawing.Size(983, 24);
             this.sslTableName.Spring = true;
             this.sslTableName.Text = "Name";
             this.sslTableName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -684,7 +702,7 @@
             this.tbColumns.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tbColumns.MergeIndex = 1;
             this.tbColumns.Name = "tbColumns";
-            this.tbColumns.Size = new System.Drawing.Size(55, 25);
+            this.tbColumns.Size = new System.Drawing.Size(66, 24);
             this.tbColumns.Text = "Columns";
             // 
             // tbRows
@@ -692,7 +710,7 @@
             this.tbRows.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tbRows.MergeIndex = 2;
             this.tbRows.Name = "tbRows";
-            this.tbRows.Size = new System.Drawing.Size(35, 25);
+            this.tbRows.Size = new System.Drawing.Size(44, 24);
             this.tbRows.Text = "Rows";
             // 
             // tbCells
@@ -701,7 +719,7 @@
             this.tbCells.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.tbCells.MergeIndex = 3;
             this.tbCells.Name = "tbCells";
-            this.tbCells.Size = new System.Drawing.Size(36, 25);
+            this.tbCells.Size = new System.Drawing.Size(44, 24);
             this.tbCells.Text = "Cells";
             // 
             // dataGridViewTextBoxColumn1
@@ -709,6 +727,7 @@
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
             this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewTextBoxColumn1.HeaderText = "";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
             this.dataGridViewTextBoxColumn1.Width = 120;
@@ -718,6 +737,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewTextBoxColumn2.HeaderText = "";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.ReadOnly = true;
             this.dataGridViewTextBoxColumn2.Width = 320;
@@ -741,18 +761,18 @@
             this.lblDatabase.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatabase.Name = "lblDatabase";
             this.lblDatabase.Padding = new System.Windows.Forms.Padding(11, 7, 0, 7);
-            this.lblDatabase.Size = new System.Drawing.Size(104, 30);
+            this.lblDatabase.Size = new System.Drawing.Size(116, 34);
             this.lblDatabase.TabIndex = 2;
             this.lblDatabase.Text = "lblDatabase";
             // 
             // GridModelForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1157, 641);
-            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.tabControl);
             this.Controls.Add(this.panel1);
@@ -843,5 +863,6 @@
         private System.Windows.Forms.ToolStripMenuItem miSaveQuery;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblDatabase;
+        private System.Windows.Forms.ToolStripButton tsbChangeSelection;
     }
 }

@@ -27,6 +27,7 @@
   <sentence name="MenuSaveAs" value="Spara som..." />
   <sentence name="MenuTools" value="Verktyg" />
   <sentence name="MenuOpen" value="Öppna" />
+  <sentence name="MenuChangeSelection" value="Ändra urval" />
   <sentence name="MenuUndo" value="Ångra" />
   <sentence name="MenuEditPivot" value="Pivotera..." />
   <sentence name="MenuEditPivotCW" value="Pivotera medurs" />
