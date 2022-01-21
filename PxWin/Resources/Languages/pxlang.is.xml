@@ -468,10 +468,10 @@ Eitt gildi fyrir hverja breytu
   <sentence name="Warnings" value="Viðvaranir" />
 
 
-  <sentence name="toolAggMenuRoot" value="Flokkanir (BETA)" />
-  <sentence name="toolAggMenuOpenValueset" value="Opna valueset (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewValueset" value="Nýtt valueset (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewAggregation" value="Ný samloðun (.agg) (BETA)" />
+  <sentence name="toolAggMenuRoot" value="Flokkanir" />
+  <sentence name="toolAggMenuOpenValueset" value="Opna valueset (.vs)" />
+  <sentence name="toolAggMenuNewValueset" value="Nýtt valueset (.vs)" />
+  <sentence name="toolAggMenuNewAggregation" value="Ný samloðun (.agg)" />
 
   <sentence name="toolAggNewAggregation" value="Ný samloðun (.agg)" />
   <sentence name="toolAggNewValueset" value="Nýtt valueset (.vs)" />

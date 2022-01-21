@@ -482,10 +482,10 @@ Alle verdier fra en variabel" />
   <sentence name="Warnings" value="Advarsler" />
 
 
-  <sentence name="toolAggMenuRoot" value="Klassifikasjoner (BETA)" />
-  <sentence name="toolAggMenuOpenValueset" value="Åpne verdimengde (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewValueset" value="Ny verdimengde (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewAggregation" value="Ny aggregering (.agg) (BETA)" />
+  <sentence name="toolAggMenuRoot" value="Klassifikasjoner" />
+  <sentence name="toolAggMenuOpenValueset" value="Åpne verdimengde (.vs)" />
+  <sentence name="toolAggMenuNewValueset" value="Ny verdimengde (.vs)" />
+  <sentence name="toolAggMenuNewAggregation" value="Ny aggregering (.agg)" />
 
   <sentence name="toolAggNewAggregation" value="Ny aggregering (.agg)" />
   <sentence name="toolAggNewValueset" value="Ny verdimengde (.vs)" />

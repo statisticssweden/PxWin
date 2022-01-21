@@ -453,10 +453,10 @@ Alle værdier fra en variabel" />
   <sentence name="Warnings" value="Warnings" />
 
 
-  <sentence name="toolAggMenuRoot" value="Classifications (BETA)" />
-  <sentence name="toolAggMenuOpenValueset" value="Open valueset (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewValueset" value="New valueset (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewAggregation" value="New aggregation (.agg) (BETA)" />
+  <sentence name="toolAggMenuRoot" value="Classifications" />
+  <sentence name="toolAggMenuOpenValueset" value="Open valueset (.vs)" />
+  <sentence name="toolAggMenuNewValueset" value="New valueset (.vs)" />
+  <sentence name="toolAggMenuNewAggregation" value="New aggregation (.agg)" />
 
   <sentence name="toolAggNewAggregation" value="New aggregation (.agg)" />
   <sentence name="toolAggNewValueset" value="New valueset (.vs)" />
