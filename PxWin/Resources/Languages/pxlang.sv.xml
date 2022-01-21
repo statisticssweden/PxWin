@@ -488,10 +488,10 @@ Alla värden från en variabel" />
   <sentence name="FatalErrors" value="Allvarliga fel" />
   <sentence name="Warnings" value="Varningar" />
 
-  <sentence name="toolAggMenuRoot" value="Indelningar (BETA)" />
-  <sentence name="toolAggMenuOpenValueset" value="Öppna värdemängd (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewValueset" value="Ny värdemängd (.vs) (BETA)" />
-  <sentence name="toolAggMenuNewAggregation" value="Ny aggregering (.agg) (BETA)" />
+  <sentence name="toolAggMenuRoot" value="Indelningar" />
+  <sentence name="toolAggMenuOpenValueset" value="Öppna värdemängd (.vs)" />
+  <sentence name="toolAggMenuNewValueset" value="Ny värdemängd (.vs)" />
+  <sentence name="toolAggMenuNewAggregation" value="Ny aggregering (.agg)" />
   
   <sentence name="toolAggNewAggregation" value="Ny aggregering (.agg)" />
   <sentence name="toolAggNewValueset" value="Ny värdemängd (.vs)" />
